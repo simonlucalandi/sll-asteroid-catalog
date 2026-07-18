@@ -17,7 +17,7 @@ Bulletin paper(s). The processing code is not distributed; the method is fully s
 | `lightcurves_alcdef/` | light curves in ALCDEF v2.3 format, one file per object |
 | `objects/<number>.md` | per-object reasoning (one file per asteroid needing a judgment call: doublings, comb-vs-real, contamination, instrument conflicts); index in `objects/README.md` |
 | `methodology/METHODOLOGY.md` | how the periods are derived: gates, thresholds, systematics handling |
-| `plots/` | phase-fold montage(s) |
+| `plots/<number>.png` | per-object phase-fold at the adopted period (sectors phase-aligned); `plots/MONTAGE_<family>.png` are per-family contact sheets |
 
 ## Current contents
 See `catalog/catalog.csv`. Status breakdown and per-object reasoning are versioned; consult
