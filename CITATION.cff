@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "TESS-FFI Asteroid Rotation Catalog"
+message: "If you use this catalog, please cite it and the accompanying paper(s)."
+type: dataset
+authors:
+  - family-names: Landi
+    given-names: Simonluca
+abstract: >-
+  Rotation periods of numbered main-belt asteroids derived from TESS Full-Frame Image
+  moving-target photometry, with per-object reasoning and ALCDEF light curves. Targets are
+  objects lacking a reliable prior period (LCDB U <= 1).
+keywords:
+  - asteroids
+  - rotation periods
+  - TESS
+  - photometry
+  - light curves
+license: CC-BY-4.0

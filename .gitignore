@@ -1,0 +1,4 @@
+# scratch / OS
+.DS_Store
+*.tmp
+__pycache__/
