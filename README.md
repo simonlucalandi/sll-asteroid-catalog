@@ -15,7 +15,7 @@ Bulletin paper(s). The processing code is not distributed; the method is fully s
 | `catalog/rejected.csv` | detections rejected as instrumental (e.g. momentum-dump comb aliases), with reasons |
 | `catalog/data_dictionary.md` | column definitions |
 | `lightcurves_alcdef/` | light curves in ALCDEF v2.3 format, one file per object |
-| `reasoning/PERIOD_DECISIONS.md` | per-object reasoning for every non-trivial call (doublings, comb-vs-real, contamination, instrument conflicts) |
+| `objects/<number>.md` | per-object reasoning (one file per asteroid needing a judgment call: doublings, comb-vs-real, contamination, instrument conflicts); index in `objects/README.md` |
 | `methodology/METHODOLOGY.md` | how the periods are derived: gates, thresholds, systematics handling |
 | `plots/` | phase-fold montage(s) |
 

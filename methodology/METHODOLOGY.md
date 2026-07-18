@@ -64,7 +64,7 @@ Every confirmed/candidate period passes an independent, refutation-first re-anal
 (re-derive the period from the raw light curves; apply the alias, comb, and contamination
 checks; enforce the shape conventions above; single-sector periods above 100 h are treated
 as dead-on-arrival). Adopted values, shapes, and per-object reasoning for every non-trivial
-call are recorded in `reasoning/PERIOD_DECISIONS.md`.
+call are recorded per object in `objects/` (one file each).
 
 ## Quality flags in the catalog
 - `quality_U = 2` -- secure (CONFIRMED): multi-sector, systematics-checked.
