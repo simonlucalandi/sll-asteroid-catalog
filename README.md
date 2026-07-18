@@ -45,5 +45,11 @@ See `CITATION.cff`. Please also cite the accompanying paper(s) and the upstream 
 (TESS: NASA/MIT; ZTF: Palomar/IPAC via the Fink broker) and tools (`tess-asteroids`,
 `lightkurve`).
 
+## Integrity check
+`python3 validate_repo.py` verifies that every `objects/<n>.md` matches `catalog.csv` /
+`rejected.csv` on period, shape, and status (and that there are no orphan or missing
+files). Exit 0 = consistent. The catalog and the per-object reasoning cannot silently
+diverge.
+
 ## License
 Data and documentation: CC BY 4.0 (see `LICENSE`).
