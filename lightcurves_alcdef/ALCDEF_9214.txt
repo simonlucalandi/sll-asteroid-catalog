@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 2.391 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 2.391 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=None. Sectors 44 and 83 independently detect P=2.391h as the dominant LS peak (power 0.50/0.54, FAP~0), a genuine fundamental match not harmonic-only, satisfying the >=2
@@ -2440,7 +2440,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 2.391 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 2.391 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=None. Sectors 44 and 83 independently detect P=2.391h as the dominant LS peak (power 0.50/0.54, FAP~0), a genuine fundamental match not harmonic-only, satisfying the >=2
@@ -5113,7 +5113,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 2.391 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 2.391 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=None. Sectors 44 and 83 independently detect P=2.391h as the dominant LS peak (power 0.50/0.54, FAP~0), a genuine fundamental match not harmonic-only, satisfying the >=2

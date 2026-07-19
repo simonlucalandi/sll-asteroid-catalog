@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 305.594 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 305.594 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SUPER-SLOW #3 (3-sector S18/36/89, comb-free, 2P). Error-weighted LS and PDM independently recover the same ~152-154h base period in all 3 sectors: LS gives S18=; P_sid=307.0h Thet
@@ -649,7 +649,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 305.594 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 305.594 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SUPER-SLOW #3 (3-sector S18/36/89, comb-free, 2P). Error-weighted LS and PDM independently recover the same ~152-154h base period in all 3 sectors: LS gives S18=; P_sid=307.0h Thet
@@ -3349,7 +3349,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 305.594 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 305.594 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SUPER-SLOW #3 (3-sector S18/36/89, comb-free, 2P). Error-weighted LS and PDM independently recover the same ~152-154h base period in all 3 sectors: LS gives S18=; P_sid=307.0h Thet

@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide8. Adopted rotation period 2.304 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 2.304 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.24. s42 (FAP~9e-206, folded amp 0.26) and s60 (FAP~0, folded amp 0.26, robust to 1%-tail clipping of the range>3mag contamination) independently converge on P=2.3037h 
@@ -798,7 +798,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide8. Adopted rotation period 2.304 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 2.304 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.24. s42 (FAP~9e-206, folded amp 0.26) and s60 (FAP~0, folded amp 0.26, robust to 1%-tail clipping of the range>3mag contamination) independently converge on P=2.3037h 

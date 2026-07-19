@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide7. Adopted rotation period 4.996 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 4.996 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: LS finds P=2.497-2.499h all 4 sectors (FAP=0; pow 0.90/0.84/0.61/0.21). Doubled median P_rot=4.996h matches queue. Folded amp 1.0-1.2mag>>0.
@@ -1903,7 +1903,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide7. Adopted rotation period 4.996 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 4.996 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: LS finds P=2.497-2.499h all 4 sectors (FAP=0; pow 0.90/0.84/0.61/0.21). Doubled median P_rot=4.996h matches queue. Folded amp 1.0-1.2mag>>0.
@@ -3650,7 +3650,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide7. Adopted rotation period 4.996 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 4.996 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: LS finds P=2.497-2.499h all 4 sectors (FAP=0; pow 0.90/0.84/0.61/0.21). Doubled median P_rot=4.996h matches queue. Folded amp 1.0-1.2mag>>0.
@@ -9837,7 +9837,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide7. Adopted rotation period 4.996 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 4.996 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: LS finds P=2.497-2.499h all 4 sectors (FAP=0; pow 0.90/0.84/0.61/0.21). Doubled median P_rot=4.996h matches queue. Folded amp 1.0-1.2mag>>0.

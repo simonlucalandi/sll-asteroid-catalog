@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide5. Adopted rotation period 26.711 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 26.711 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG 1P/2P: folded amp 0.55>0.40 (house rule->2P) BUT agent kept 1P (2P-fundamental FAP=1.0, single asymmetric hump). 2 sec agree 26.71h. User decides 1P/2P. s42 P=26.685h p
@@ -2621,7 +2621,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide5. Adopted rotation period 26.711 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 26.711 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG 1P/2P: folded amp 0.55>0.40 (house rule->2P) BUT agent kept 1P (2P-fundamental FAP=1.0, single asymmetric hump). 2 sec agree 26.71h. User decides 1P/2P. s42 P=26.685h p

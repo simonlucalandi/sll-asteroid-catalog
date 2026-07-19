@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide7. Adopted rotation period 34.468 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 34.468 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: s43 P=17.195h(pw.638,FAP~0,34.5cyc,sharp,offset18% from comb-n19); s44 P=17.273h(pw.881,FAP5e-207,4.6cyc,broad,peak=comb-n19 power, comb-deg
@@ -2724,7 +2724,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide7. Adopted rotation period 34.468 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 34.468 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: s43 P=17.195h(pw.638,FAP~0,34.5cyc,sharp,offset18% from comb-n19); s44 P=17.273h(pw.881,FAP5e-207,4.6cyc,broad,peak=comb-n19 power, comb-deg

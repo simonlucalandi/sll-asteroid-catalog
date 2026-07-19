@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide5. Adopted rotation period 13.952 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 13.952 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: s28 13.948h + s44 13.957h agree <0.1%; folded amp 0.16<0.40=1P; no comb. Clean (re-verify after classifier block)
@@ -2979,7 +2979,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide5. Adopted rotation period 13.952 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 13.952 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: s28 13.948h + s44 13.957h agree <0.1%; folded amp 0.16<0.40=1P; no comb. Clean (re-verify after classifier block)

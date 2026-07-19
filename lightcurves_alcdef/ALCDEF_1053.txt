@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 1.832 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 1.832 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 3 sectors independently converge on P_base=1.8320h (LS power 0.73/0.41/0.42, FAP effectively 0 for all; PDM theta 0.37-0.73), with cross-sector sc
@@ -775,7 +775,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 1.832 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 1.832 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 3 sectors independently converge on P_base=1.8320h (LS power 0.73/0.41/0.42, FAP effectively 0 for all; PDM theta 0.37-0.73), with cross-sector sc
@@ -8871,7 +8871,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 1.832 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 1.832 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 3 sectors independently converge on P_base=1.8320h (LS power 0.73/0.41/0.42, FAP effectively 0 for all; PDM theta 0.37-0.73), with cross-sector sc

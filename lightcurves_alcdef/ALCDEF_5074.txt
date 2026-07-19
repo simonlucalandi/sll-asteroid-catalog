@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide8. Adopted rotation period 6.331 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 6.331 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.24. Both sectors independently detect P_phot=6.331h with Baluev FAP~0 (6.3308h in s57, 6.3303h in s72, agree to 0.1%), meeting the >=2-sector CONFIRMED ba
@@ -6552,7 +6552,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide8. Adopted rotation period 6.331 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 6.331 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.24. Both sectors independently detect P_phot=6.331h with Baluev FAP~0 (6.3308h in s57, 6.3303h in s72, agree to 0.1%), meeting the >=2-sector CONFIRMED ba

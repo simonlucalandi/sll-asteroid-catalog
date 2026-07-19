@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 7.088 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 7.088 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.405. Both sectors independently nail the same photometric period to 4 sig figs (s20: P=3.5445h, pow=0.745, FAP=8e-119; s37: P=3.5441h, pow=0.786, FAP~0) w
@@ -490,7 +490,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 7.088 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 7.088 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.405. Both sectors independently nail the same photometric period to 4 sig figs (s20: P=3.5445h, pow=0.745, FAP=8e-119; s37: P=3.5441h, pow=0.786, FAP~0) w

@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide. Adopted rotation period 312.07 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 312.07 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: ultra-slow; confirms Hanus+2021 sidereal 311.3h; P_sid=310.43h Theta=0.437 super-slow (near bar,short baseline)
@@ -8890,7 +8890,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide. Adopted rotation period 312.07 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 312.07 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: ultra-slow; confirms Hanus+2021 sidereal 311.3h; P_sid=310.43h Theta=0.437 super-slow (near bar,short baseline)

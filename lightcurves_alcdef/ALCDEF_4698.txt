@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 158.302 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 158.302 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.7. All 3 sectors independently find the same fundamental P≈79.14-79.99h (spread &lt;1.1%, well within harmonic tolerance) despite s71/s91 being flagged se
@@ -5091,7 +5091,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 158.302 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 158.302 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.7. All 3 sectors independently find the same fundamental P≈79.14-79.99h (spread &lt;1.1%, well within harmonic tolerance) despite s71/s91 being flagged se
@@ -12832,7 +12832,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 158.302 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 158.302 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.7. All 3 sectors independently find the same fundamental P≈79.14-79.99h (spread &lt;1.1%, well within harmonic tolerance) despite s71/s91 being flagged se

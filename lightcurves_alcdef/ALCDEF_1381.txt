@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 5.258 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli
@@ -2730,7 +2730,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 5.258 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli
@@ -3903,7 +3903,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 5.258 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli
@@ -6421,7 +6421,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 5.258 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli
@@ -9636,7 +9636,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 5.258 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli

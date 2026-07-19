@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide8. Adopted rotation period 7.2598 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 7.2598 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.065. 3 independent sectors (s18/s35/s91) all recover the same ~7.25-7.27h period with extreme Baluev FAP (1e-29 to 1e-55 per-sector, 2e-94 combined), sati
@@ -811,7 +811,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide8. Adopted rotation period 7.2598 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 7.2598 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.065. 3 independent sectors (s18/s35/s91) all recover the same ~7.25-7.27h period with extreme Baluev FAP (1e-29 to 1e-55 per-sector, 2e-94 combined), sati
@@ -3050,7 +3050,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide8. Adopted rotation period 7.2598 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 7.2598 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.065. 3 independent sectors (s18/s35/s91) all recover the same ~7.25-7.27h period with extreme Baluev FAP (1e-29 to 1e-55 per-sector, 2e-94 combined), sati

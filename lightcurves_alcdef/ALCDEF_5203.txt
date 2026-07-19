@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 6.934 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 6.934 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.48. Sectors 42 and 44 independently nail P_phot=3.4669-3.4670h (FAP~0, power 0.70/0.86, agreement to 0.003%), a tight cross-sector match that satisfies the >=2-sector 
@@ -1827,7 +1827,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 6.934 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 6.934 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.48. Sectors 42 and 44 independently nail P_phot=3.4669-3.4670h (FAP~0, power 0.70/0.86, agreement to 0.003%), a tight cross-sector match that satisfies the >=2-sector 
@@ -1931,7 +1931,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide6. Adopted rotation period 6.934 h (2P),
+COMMENT=Family: main belt. Adopted rotation period 6.934 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.48. Sectors 42 and 44 independently nail P_phot=3.4669-3.4670h (FAP~0, power 0.70/0.86, agreement to 0.003%), a tight cross-sector match that satisfies the >=2-sector 

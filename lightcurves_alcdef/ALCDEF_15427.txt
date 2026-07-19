@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide3. Adopted rotation period 39.45 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 39.45 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 78.9->39.45 1P: amp 0.17<<0.40, the 78.9 re-derivation was inter-sector alias smear; ZTF blind-recovers 39.2/78.6 harmonic pair FAP 4.8e-21
@@ -2454,7 +2454,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide3. Adopted rotation period 39.45 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 39.45 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 78.9->39.45 1P: amp 0.17<<0.40, the 78.9 re-derivation was inter-sector alias smear; ZTF blind-recovers 39.2/78.6 harmonic pair FAP 4.8e-21
@@ -2928,7 +2928,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide3. Adopted rotation period 39.45 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 39.45 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 78.9->39.45 1P: amp 0.17<<0.40, the 78.9 re-derivation was inter-sector alias smear; ZTF blind-recovers 39.2/78.6 harmonic pair FAP 4.8e-21
@@ -5524,7 +5524,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide3. Adopted rotation period 39.45 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 39.45 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 78.9->39.45 1P: amp 0.17<<0.40, the 78.9 re-derivation was inter-sector alias smear; ZTF blind-recovers 39.2/78.6 harmonic pair FAP 4.8e-21

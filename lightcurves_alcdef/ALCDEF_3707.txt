@@ -32,7 +32,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 15.295 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 15.295 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: Independent LS/PDM per sector agree tightly across a 3.8 yr apparition gap: S9 P=15.302h (power 0.767, FAP 3.4e-180) vs S61 P=15.288h (power 0.677, FA
@@ -663,7 +663,7 @@ COMMENT=Magnitudes are calibrated TESS-band (T) values on the TESS zero point;
 COMMENT=T is a broad red band closest to Cousins I, reported as MAGBAND=I.
 COMMENT=Quality cuts: mag err < 1.0 and iterated bright-side robust clip
 COMMENT=(reject mag < median - 4*MAD) to remove background-star crossings.
-COMMENT=Family: Beltwide4. Adopted rotation period 15.295 h (1P),
+COMMENT=Family: main belt. Adopted rotation period 15.295 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: Independent LS/PDM per sector agree tightly across a 3.8 yr apparition gap: S9 P=15.302h (power 0.767, FAP 3.4e-180) vs S61 P=15.288h (power 0.677, FA
