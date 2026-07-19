@@ -25,7 +25,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (2352) Beltwide3 | 41.181 | 2P | CANDIDATE | [2352.md](2352.md) |
 | (2451) Beltwide | 138.364 | 2P | CONFIRMED | [2451.md](2451.md) |
 | (2465) Beltwide8 | 16.4918 | 1P | CANDIDATE | [2465.md](2465.md) |
-| (2521) Beltwide4 | 20.79 | 1P | CANDIDATE | [2521.md](2521.md) |
+| (2521) Beltwide4 | 41.58 | 2P | CANDIDATE | [2521.md](2521.md) |
 | (2538) Beltwide5 | 26.711 | 1P | CONFIRMED | [2538.md](2538.md) |
 | (2553) Beltwide4 | 5.374 | 1P | CONFIRMED | [2553.md](2553.md) |
 | (2601) Beltwide3 | 191.52 | ambiguous | CANDIDATE | [2601.md](2601.md) |
