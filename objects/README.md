@@ -26,7 +26,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (2451) Beltwide | 138.364 | 2P | CONFIRMED | [2451.md](2451.md) |
 | (2465) Beltwide8 | 16.4918 | 1P | CANDIDATE | [2465.md](2465.md) |
 | (2521) Beltwide4 | 41.58 | 2P | CANDIDATE | [2521.md](2521.md) |
-| (2538) Beltwide5 | 26.711 | 1P | CONFIRMED | [2538.md](2538.md) |
+| (2538) Beltwide5 | 53.422 | 2P | CONFIRMED | [2538.md](2538.md) |
 | (2553) Beltwide4 | 5.374 | 1P | CONFIRMED | [2553.md](2553.md) |
 | (2601) Beltwide3 | 191.52 | ambiguous | CANDIDATE | [2601.md](2601.md) |
 | (2690) Beltwide4 | 2.66 | 1P | CONFIRMED | [2690.md](2690.md) |
@@ -82,7 +82,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (4062) Beltwide6 | 34.221 | 1P | CONFIRMED | [4062.md](4062.md) |
 | (4088) Beltwide4 | 6.454 | 2P | CONFIRMED | [4088.md](4088.md) |
 | (4118) Beltwide10 | 4.367 | 1P | CONFIRMED | [4118.md](4118.md) |
-| (4164) Beltwide4 | 54.734 | 1P | CANDIDATE | [4164.md](4164.md) |
+| (4164) Beltwide4 | 109.468 | 2P | CANDIDATE | [4164.md](4164.md) |
 | (4203) Beltwide5 | 3.3831 | 1P | CANDIDATE | [4203.md](4203.md) |
 | (4208) Beltwide6 | 14.2839 | 1P | CANDIDATE | [4208.md](4208.md) |
 | (4253) Beltwide9 | 2.296 | 1P | CONFIRMED | [4253.md](4253.md) |
@@ -94,7 +94,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (4617) Beltwide5 | 14.9178 | 2P | CANDIDATE | [4617.md](4617.md) |
 | (4671) Beltwide7 | 3.833 | 2P | CANDIDATE | [4671.md](4671.md) |
 | (4698) Beltwide6 | 158.302 | 2P | CONFIRMED | [4698.md](4698.md) |
-| (4725) Beltwide6 |  | - | KILLED | [4725.md](4725.md) |
+| (4725) Beltwide6 | 137.363 | 2P | CANDIDATE | [4725.md](4725.md) |
 | (4763) Beltwide4 | 45.7 | 1P | CONFIRMED | [4763.md](4763.md) |
 | (4869) Beltwide4 |  | - | KILLED | [4869.md](4869.md) |
 | (4876) Koronis |  | - | KILLED | [4876.md](4876.md) |

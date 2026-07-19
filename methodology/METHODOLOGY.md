@@ -62,8 +62,7 @@ Two families of instrumental signal are addressed explicitly:
 ## 6. Verification and catalog
 Every confirmed/candidate period passes an independent, refutation-first re-analysis
 (re-derive the period from the raw light curves; apply the alias, comb, and contamination
-checks; enforce the shape conventions above; single-sector periods above 100 h are treated
-as dead-on-arrival). Adopted values, shapes, and per-object reasoning for every non-trivial
+checks; enforce the shape conventions above; single-sector photometric detections above 100 h are treated as dead-on-arrival (trend-indistinguishable); an amplitude-forced doubling of a well-sampled fundamental across the 100 h line is retained as a provisional candidate with the doubling explicitly marked unconfirmed). Adopted values, shapes, and per-object reasoning for every non-trivial
 call are recorded per object in `objects/` (one file each).
 
 ## Quality flags in the catalog
