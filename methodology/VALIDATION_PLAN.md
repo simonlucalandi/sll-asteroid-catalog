@@ -6,7 +6,7 @@ measured one, and publish the method's completeness, reliability, and validity d
 Current published evidence (RNAAS-scope): injection recovery 91-97% of synthetic 90 h
 signals, <=1% power loss on a validated real rotator, real kill/save case studies.
 
-## V1. Data-driven K (holdout cross-validation) -- QUEUED, next compute job after the 2026-07 freeze
+## V1. Data-driven K (holdout cross-validation) -- **DONE 2026-07-19**
 Every cached sector ensemble stores 20 holdout field stars never used in the SVD basis.
 For each sector: sweep K=1..8, project the basis out of each holdout star, and pick K*
 minimizing the holdout residual RMS (penalizing variance absorption). Deliverables:
@@ -14,8 +14,13 @@ minimizing the holdout residual RMS (penalizing variance absorption). Deliverabl
 - K* vs galactic latitude / field crowding.
 - Verdict-stability check: re-run the catalog decomb verdicts at K in {3,4,5,6,7};
   report the fraction of verdicts that flip.
-Outcome: either K=5 becomes a derived constant, or the method becomes adaptive
-(per-sector K*) with a one-line data-driven rule. Cheap: cached data only, no downloads.
+**RESULT (2026-07-19, 71 sectors, 224 verdict re-runs):** holdout residual plateau spans
+K~2-8 (no overfit through rank 8); 84% of catalog verdicts identical for K in [3,7], the
+rest almost all benign survived<->inconclusive crossings; ground-truth bracket: K=3 fails
+to kill a known artifact (4942), K>=6 kills an independently ZTF-confirmed real signal
+(3477). **K=5 is the conservative top of the data-bracketed range [4,5]: a derived
+operating point, no longer an assumption.** Files: v1_holdout_k_sectors.csv,
+v1_verdict_stability.csv, V1_RESULTS.md (working dir).
 
 ## V2. Injection campaign at scale
 Substrates: several hundred NONE-tier real moving-target light curves (real noise, no
