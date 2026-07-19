@@ -39,14 +39,27 @@ ensemble-SHARED comb only. **Asymmetry: high-confidence killer, conservative cle
 survival alone never certifies an on-tooth period.** Files: v2_injections.csv,
 v3_null_test.csv, V2_RESULTS.md.
 
-## V4. Threshold calibration
+## V4. Threshold calibration -- **DONE 2026-07-19**
 Using V2+V3 distributions, place the survive (<=15% drop) and kill (>=50% drop, R2>=0.3)
 thresholds on an ROC curve with quantified error rates; recalibrate if warranted.
+**RESULT (2026-07-19):** kill operating point (0.50) sits near the ROC knee: 1.13%
+false-kill on real signals vs 6.5% artifact recall; tightening to 0.70 halves false-kills
+but costs a third of the recall; retained. NO survive threshold separates real from null
+(gap ~15pp at every X): quantifies the killer-strong/clearer-weak asymmetry across the
+full sweep. Table: V4_V5_RESULTS.md.
 
-## V5. Ensemble robustness
+## V5. Ensemble robustness -- **DONE 2026-07-19** (bootstrap + disjoint halves; local-vs-track variant deferred to PASP)
 Bootstrap the 200-star ensembles (resampling, reseeding): verdict stability fraction.
 One targeted local-vs-global ensemble comparison in a crowded field (scattered light is
 position-dependent; test whether track-local star selection changes verdicts).
+**RESULT (2026-07-19; 384 object-sector tests, B=6):** 77.3% of verdicts identical across
+all 6 bootstrap-resampled bases; 88.5% agreement between two DISJOINT ~110-star half
+ensembles. Of 87 unstable cases, 81 are benign survived<->inconclusive crossings; all 6
+KILLED-involved cases are already-rejected artifacts wobbling killed<->inconclusive.
+ZERO confirmed catalog objects flip under ensemble resampling. (Note: run with a
+simplified single-period verdict reimplementation; production harmonic-aware verdicts
+differ in detail, robustness statistics are the point. Track-local ensembles deferred.)
+Files: v5_bootstrap.csv, V4_V5_RESULTS.md.
 
 ## V6. Validity domain
 From V2: signal-loss curve vs P/baseline. Publish the domain statement (e.g. "reliable
