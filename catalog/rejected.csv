@@ -13,3 +13,5 @@ number,family,reason
 6164,Beltwide7,"Independent decomb rerun reproduces queue exactly: s44 dPW=+89%,R2=0.63->KILLED, same sector flagged phase-curve-risk (n_cyc~1.2-2.3, P~184h"
 20084,Beltwide7,LS Pbase=57.09h pow=0.52 FAP=4.6e-191 (independently reproduced). Folded amp=0.60-0.74>0.40 & alternating minima depths (16.04/16.39/16.14/1
 4725,Beltwide6,"REVIEW-FLAG: folded_amp=0.625. Only one sector (S70, baseline 25.0d) exists for 4725 — no cross-sector confirmation possible. LS on the detrended S70 curve gives a strong fundamental at P=68.68h (powe"
+5526,Beltwide10,EXTRAORDINARY 288h/2P REFUTED at verify 2026-07-19: 4 census sectors but fails folded-amplitude rule AND cross-sector phase-coherence (the slow-rotator decisive test); DIA inconclusive +24%. Would hav
+19495,Beltwide10,"KILLED at verify 2026-07-19: 91.8h claim carried incoherent-sectors + period-spread 59% + phase-curve-risk; AND JPL SBDB lists published rot_per=2.33h (Terentyeva, D=5.96km) - known-period object leak"

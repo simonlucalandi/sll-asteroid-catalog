@@ -8,6 +8,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (1053) Beltwide4 | 1.832 | 1P | CONFIRMED | [1053.md](1053.md) |
 | (1285) Beltwide | 15.24 | 1P | CONFIRMED | [1285.md](1285.md) |
 | (1381) Beltwide4 | 5.258 | 2P | CONFIRMED | [1381.md](1381.md) |
+| (1395) Beltwide9 | 22.2611 | 1P | CANDIDATE | [1395.md](1395.md) |
 | (1485) Beltwide8 | 17.8756 | 1P | CANDIDATE | [1485.md](1485.md) |
 | (1519) Beltwide7 | 27.35 | 1P | CONFIRMED | [1519.md](1519.md) |
 | (1588) Beltwide4 | 4.606 | 2P | CONFIRMED | [1588.md](1588.md) |
@@ -69,7 +70,9 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (3768) Beltwide5 | 28.1551 | 1P | CANDIDATE | [3768.md](3768.md) |
 | (3774) Beltwide | 3.5724 | 2P | CONFIRMED | [3774.md](3774.md) |
 | (3810) Beltwide4 | 3.857 | 1P | CONFIRMED | [3810.md](3810.md) |
+| (3828) Beltwide9 | 3.3204 | 2P | CONFIRMED | [3828.md](3828.md) |
 | (3840) Beltwide4 | 22.549 | 1P | CONFIRMED | [3840.md](3840.md) |
+| (3846) Beltwide9 | 5.1719 | 1P | CANDIDATE | [3846.md](3846.md) |
 | (3852) Themis | 5.798 | 2P | CONFIRMED | [3852.md](3852.md) |
 | (3858) Beltwide6 | 7.088 | 2P | CONFIRMED | [3858.md](3858.md) |
 | (3949) Beltwide3 | 3.622 | 2P | CONFIRMED | [3949.md](3949.md) |
@@ -78,9 +81,11 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (4001) Beltwide8 | 5.009 | 2P | CANDIDATE | [4001.md](4001.md) |
 | (4062) Beltwide6 | 34.221 | 1P | CONFIRMED | [4062.md](4062.md) |
 | (4088) Beltwide4 | 6.454 | 2P | CONFIRMED | [4088.md](4088.md) |
+| (4118) Beltwide10 | 4.367 | 1P | CONFIRMED | [4118.md](4118.md) |
 | (4164) Beltwide4 | 54.734 | 1P | CANDIDATE | [4164.md](4164.md) |
 | (4203) Beltwide5 | 3.3831 | 1P | CANDIDATE | [4203.md](4203.md) |
 | (4208) Beltwide6 | 14.2839 | 1P | CANDIDATE | [4208.md](4208.md) |
+| (4253) Beltwide9 | 2.296 | 1P | CONFIRMED | [4253.md](4253.md) |
 | (4260) Koronis | 29.24 | 1P | CONFIRMED | [4260.md](4260.md) |
 | (4331) Beltwide4 | 73.68 | 1P | CANDIDATE | [4331.md](4331.md) |
 | (4482) Phocaea | 53.1 | 1P | MARGINAL | [4482.md](4482.md) |
@@ -96,6 +101,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (5051) Beltwide8 | 7.2598 | 1P | CONFIRMED | [5051.md](5051.md) |
 | (5074) Beltwide8 | 6.331 | 1P | CONFIRMED | [5074.md](5074.md) |
 | (5091) Hoffmeister | 13.914 | 2P | CONFIRMED | [5091.md](5091.md) |
+| (5109) Beltwide10 | 45.3887 | 1P | CANDIDATE | [5109.md](5109.md) |
 | (5113) Beltwide5 | 2.3786 | 1P | CANDIDATE | [5113.md](5113.md) |
 | (5162) Beltwide5 | 12.756 | 2P | CONFIRMED | [5162.md](5162.md) |
 | (5167) Beltwide2 | 2.6597 | 1P | CONFIRMED | [5167.md](5167.md) |
@@ -108,6 +114,8 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (5465) Koronis | 3.218 | 2P | CONFIRMED | [5465.md](5465.md) |
 | (5480) Beltwide5 | 23.11 | 2P | CONFIRMED | [5480.md](5480.md) |
 | (5504) Beltwide5 | 13.952 | 1P | CONFIRMED | [5504.md](5504.md) |
+| (5526) Beltwide10 |  | - | KILLED | [5526.md](5526.md) |
+| (5576) Beltwide10 | 12.094 | 1P | CONFIRMED | [5576.md](5576.md) |
 | (5593) Baptistina |  | - | KILLED | [5593.md](5593.md) |
 | (5600) Beltwide5 | 3.5056 | 1P | CANDIDATE | [5600.md](5600.md) |
 | (5768) Beltwide5 | 8.14 | 2P | CONFIRMED | [5768.md](5768.md) |
@@ -126,6 +134,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (6137) Beltwide6 | 6.9303 | 2P | CANDIDATE | [6137.md](6137.md) |
 | (6164) Beltwide7 |  | - | KILLED | [6164.md](6164.md) |
 | (6286) Beltwide5 | 13.2124 | 1P | CANDIDATE | [6286.md](6286.md) |
+| (6336) Beltwide9 | 2.5932 | 1P | CANDIDATE | [6336.md](6336.md) |
 | (6343) Veritas | 14.117 | 1P | CONFIRMED | [6343.md](6343.md) |
 | (6658) Beltwide6 | 2.665 | 1P | CONFIRMED | [6658.md](6658.md) |
 | (6782) Hoffmeister | 3.927 | 1P | CONFIRMED | [6782.md](6782.md) |
@@ -143,13 +152,19 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (7887) Beltwide2 | 55.856 | 1P | CONFIRMED | [7887.md](7887.md) |
 | (8049) Koronis | 3.214 | 2P | CONFIRMED | [8049.md](8049.md) |
 | (8265) Beltwide6 | 89.552 | 2P | CONFIRMED | [8265.md](8265.md) |
+| (8294) Beltwide10 | 3.2408 | 2P | CANDIDATE | [8294.md](8294.md) |
 | (8450) Padua | 5.306 | 2P | CONFIRMED | [8450.md](8450.md) |
+| (8602) Beltwide9 | 5.259 | 1P | CONFIRMED | [8602.md](8602.md) |
+| (9092) Beltwide10 | 7.226 | 1P | CONFIRMED | [9092.md](9092.md) |
+| (9171) Beltwide10 | 7.013 | 1P | CONFIRMED | [9171.md](9171.md) |
 | (9214) Beltwide6 | 2.391 | 1P | CONFIRMED | [9214.md](9214.md) |
 | (9594) Beltwide6 | 2.8866 | 1P | CANDIDATE | [9594.md](9594.md) |
 | (10017) Beltwide7 | 12.05 | 1P | CONFIRMED | [10017.md](10017.md) |
+| (10031) Beltwide10 | 2.5017 | 1P | CANDIDATE | [10031.md](10031.md) |
 | (10164) Beltwide5 | 3.3126 | 2P | CANDIDATE | [10164.md](10164.md) |
 | (10226) Beltwide7 | 5.06 | 1P | CONFIRMED | [10226.md](10226.md) |
 | (10292) Baptistina | 2.419 | 1P | CONFIRMED | [10292.md](10292.md) |
+| (10451) Beltwide10 | 5.089 | 1P | CONFIRMED | [10451.md](10451.md) |
 | (10667) Hungaria | 20.2932 | Sq | CONFIRMED | [10667.md](10667.md) |
 | (10708) Koronis | 3.098 | 2P | CANDIDATE | [10708.md](10708.md) |
 | (11861) Beltwide4 | 4.897 | 2P | CANDIDATE | [11861.md](11861.md) |
@@ -157,6 +172,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (12315) Padua | 2.781 | 1P | CONFIRMED | [12315.md](12315.md) |
 | (12537) Baptistina | 11.0125 | 1P | CANDIDATE | [12537.md](12537.md) |
 | (13081) Beltwide5 | 2.719 | 1P | CANDIDATE | [13081.md](13081.md) |
+| (13163) Beltwide9 | 7.2636 | 2P | CANDIDATE | [13163.md](13163.md) |
 | (13382) Koronis | 1.868 | 1P | CONFIRMED | [13382.md](13382.md) |
 | (13388) Beltwide4 | 305.594 | 2P | CONFIRMED | [13388.md](13388.md) |
 | (14039) Ursula | 2.641 | 1P | CONFIRMED | [14039.md](14039.md) |
@@ -164,14 +180,17 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (15315) Phocaea | 12.942 | 2P | CONFIRMED | [15315.md](15315.md) |
 | (15427) Beltwide3 | 39.45 | 1P | CONFIRMED | [15427.md](15427.md) |
 | (15991) Beltwide8 | 61.02 | 2P | CONFIRMED | [15991.md](15991.md) |
+| (16513) Beltwide9 | 12.52 | 1P | CONFIRMED | [16513.md](16513.md) |
 | (16549) Dora | 10.217 | 2P | CANDIDATE | [16549.md](16549.md) |
 | (16785) Beltwide5 | 139.885 | 1P | CANDIDATE | [16785.md](16785.md) |
+| (17569) Beltwide10 | 89.1748 | 2P | CANDIDATE | [17569.md](17569.md) |
 | (18067) Beltwide6 | 4.773 | 1P | CONFIRMED | [18067.md](18067.md) |
 | (18070) Phocaea | 111.7 | 2P | CONFIRMED | [18070.md](18070.md) |
 | (19013) Cameron | 4.437 | 1P | CONFIRMED | [19013.md](19013.md) |
 | (19144) Beltwide8 | 5.2896 | 1P | CONFIRMED | [19144.md](19144.md) |
 | (19169) Phocaea | 87.546 | 2P | CONFIRMED | [19169.md](19169.md) |
 | (19290) Phocaea | 65.015 | 2P | CONFIRMED | [19290.md](19290.md) |
+| (19495) Beltwide10 |  | - | KILLED | [19495.md](19495.md) |
 | (20084) Beltwide7 |  | - | KILLED | [20084.md](20084.md) |
 | (22719) Padua | 4.777 | 2P | CONFIRMED | [22719.md](22719.md) |
 | (22790) Beltwide2 | 19.262 | 2P | CONFIRMED | [22790.md](22790.md) |
@@ -179,11 +198,13 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (23452) Hungaria | 3.772 | Dd | CONFIRMED | [23452.md](23452.md) |
 | (24417) Beltwide8 | 3.783 | 1P | CONFIRMED | [24417.md](24417.md) |
 | (24687) Hungaria | 4.0981 | Dd | CONFIRMED | [24687.md](24687.md) |
+| (25316) Beltwide9 | 3.3269 | 2P | CANDIDATE | [25316.md](25316.md) |
 | (27708) Beltwide6 | 98.079 | 2P | CANDIDATE | [27708.md](27708.md) |
 | (29909) Phocaea | 14.38 | 2P | CONFIRMED | [29909.md](29909.md) |
 | (29931) Ursula | 2.2917 | 1P | CONFIRMED | [29931.md](29931.md) |
 | (30482) Ursula | 4.335 | 1P | CONFIRMED | [30482.md](30482.md) |
 | (30968) Phocaea | 4.151 | 1P | CONFIRMED | [30968.md](30968.md) |
+| (32253) Beltwide9 | 6.938 | 2P | CONFIRMED | [32253.md](32253.md) |
 | (33717) Beltwide4 | 50.31 | 2P | CONFIRMED | [33717.md](33717.md) |
 | (38042) Beltwide8 | 95.4625 | 1P | CANDIDATE | [38042.md](38042.md) |
 | (39866) Hungaria | 44.7738 | D | CONFIRMED | [39866.md](39866.md) |
