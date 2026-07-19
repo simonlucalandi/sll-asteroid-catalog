@@ -22,16 +22,22 @@ to kill a known artifact (4942), K>=6 kills an independently ZTF-confirmed real 
 operating point, no longer an assumption.** Files: v1_holdout_k_sectors.csv,
 v1_verdict_stability.csv, V1_RESULTS.md (working dir).
 
-## V2. Injection campaign at scale
+## V2. Injection campaign at scale -- **DONE 2026-07-19**
 Substrates: several hundred NONE-tier real moving-target light curves (real noise, no
 detection). Inject sinusoids on a grid: P in 2-300 h including points ON and BESIDE each
 momentum-dump comb tooth (328.8/n, n=2..15); amplitudes 0.05-1.0 mag; across sectors
 spanning crowding levels. Measure recovery fraction, amplitude bias, and false-kill rate
 vs (P, amplitude, crowding). Deliverable: completeness/reliability maps.
 
-## V3. Null test (false-survive rate)
+## V3. Null test (false-survive rate) -- **DONE 2026-07-19**
 Run the verdict machinery on pure comb power in NONE-tier tracks: how often does a known
 artifact SURVIVE? Publishes the method's false-save rate alongside its false-kill rate.
+**RESULT (2026-07-19; 120 tracks, 17372 injections, 46 null tests):** V2 false-kill <=3.0%
+at amp 0.05 falling to ~0% at amp 0.4 (on-tooth included); median recovery 94-98%.
+V3 false-survive ~61% (upper bound; impure ground truth): the projection removes the
+ensemble-SHARED comb only. **Asymmetry: high-confidence killer, conservative clearer;
+survival alone never certifies an on-tooth period.** Files: v2_injections.csv,
+v3_null_test.csv, V2_RESULTS.md.
 
 ## V4. Threshold calibration
 Using V2+V3 distributions, place the survive (<=15% drop) and kill (>=50% drop, R2>=0.3)
