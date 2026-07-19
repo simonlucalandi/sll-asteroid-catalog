@@ -65,6 +65,21 @@ Every confirmed/candidate period passes an independent, refutation-first re-anal
 checks; enforce the shape conventions above; single-sector photometric detections above 100 h are treated as dead-on-arrival (trend-indistinguishable); an amplitude-forced doubling of a well-sampled fundamental across the 100 h line is retained as a provisional candidate with the doubling explicitly marked unconfirmed). Adopted values, shapes, and per-object reasoning for every non-trivial
 call are recorded per object in `objects/` (one file each).
 
+## 7. Published fold displays
+The phase-fold plots in `plots/` show the photometry the periods were derived from, with
+two display-side contamination excisions (both disclosed here and in figure captions):
+- Error-gated dips: faint excursions > 0.75 mag below the sector median whose photometric
+  error exceeds 4x the sector median error (PRF failures and resolved field-star crossings);
+  this is the same rule applied in the period analysis.
+- Non-recurrent transients: brief (< 3 h) faint excursions deeper than max(0.5 mag, 1.5x the
+  folded amplitude) whose rotational phase is covered by at least three other observed cycles
+  and never recurs in the cycle-binned light curve. These are field-star crossings and
+  track-start scattered-light ramps that carry normal photometric errors. A real minimum or
+  eclipse recurs every cycle and is retained by the recurrence test; excision is capped at
+  1.5% of a sector's cadences. Sectors are phase-aligned by best circular shift (the relative
+  rotational phase between epochs separated by months is not measurable at catalog period
+  precision).
+
 ## Quality flags in the catalog
 - `quality_U = 2` -- secure (CONFIRMED): multi-sector, systematics-checked.
 - `quality_U = 1` -- provisional (CANDIDATE): single-sector or unresolved shape.
