@@ -61,16 +61,26 @@ simplified single-period verdict reimplementation; production harmonic-aware ver
 differ in detail, robustness statistics are the point. Track-local ensembles deferred.)
 Files: v5_bootstrap.csv, V4_V5_RESULTS.md.
 
-## V6. Validity domain
-From V2: signal-loss curve vs P/baseline. Publish the domain statement (e.g. "reliable
-for P below ~0.3x the sector baseline; beyond it, defer to multi-sector phase-fold
-coherence"), turning the known slow-rotator over-subtraction into a characterized limit.
+## V6. Validity domain -- **DONE 2026-07-19**
+From V2: signal-loss curve vs P/baseline. Publish the domain statement, turning the
+known slow-rotator over-subtraction into a characterized limit.
+**RESULT (2026-07-19; 17.7k injections + long-P extension to 0.85x baseline):** the
+domain is BETTER than the conservative guess: retention >= 88% and false-kill <= 3% out
+to P = 0.45x baseline (~290 h in a 27-d sector); beyond it retention drops to ~70% and
+false-kill to 6-8%. Curve: v6_validity_curve.png, v6_validity.csv.
 
-## V7. Joint-fit upgrade (methodological, optional)
+## V7. Joint-fit upgrade -- **PROTOTYPED 2026-07-19 (mixed result, architecture decided)**
 Replace sequential project-then-measure with simultaneous fitting of the eigen-basis and
-a Fourier series at the trial period, so the basis cannot absorb the signal. Expected to
-largely remove the slow-rotator over-subtraction. If it works, becomes the centerpiece
-of the full methods paper (PASP), with V1-V6 as its validation.
+a Fourier series at the trial period, so the basis cannot absorb the signal.
+**RESULT (2026-07-19, 376 comparisons + 46 nulls + real slow rotators):** the joint fit
+ELIMINATES the slow-rotator over-subtraction in-domain (recovery ~1.0-1.2 up to
+P/baseline ~0.7 where sequential degrades to 0.49) and decisively recovers the real
+over-subtracted cases (3396, 2869: dBIC 223-1298) -- but it is NOT an artifact
+discriminator (96% false-clear on comb nulls) and overshoots in the few-cycle limit.
+ARCHITECTURE DECISION: "sequential kills; joint measures" -- keep projection as the
+calibrated KILL test, add the joint fit as the slow-rotator amplitude/significance
+estimator. Centerpiece result for the PASP paper. Files: V7_RESULTS.md,
+v7_joint_injections.csv.
 
 ## Publication mapping
 - RNAAS note (now): method + current evidence, scoped claims.
