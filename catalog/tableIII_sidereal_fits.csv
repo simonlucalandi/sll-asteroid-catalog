@@ -1,0 +1,9 @@
+Number,Name,Psid_h,Theta,Baseline_yr,Status
+1887,Virton,70.11,0.366,3.73,confirmed
+2451,Dollfus,68.98,0.352,3.78,confirmed; fit at the photometric fundamental (P_rot = 138.364 h)
+2869,Nepryadva,309.98,0.178,3.95,confirmed
+2909,Hoshi-no-ie,310.43,0.437,1.5,supportive only (baseline below 3 yr)
+7056,Kierkegaard,61.8,0.18,5.16,confirmed
+13388,1999 AE6,307.0,0.404,5.35,confirmed
+18070,2000 AC205,111.7,0.47,5.44,confirmed (at the acceptance bar)
+19169,1991 FD,88.0,0.509,5.8,supportive only (Theta above the bar)
