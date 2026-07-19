@@ -5,6 +5,7 @@ type: dataset
 authors:
   - family-names: Landi
     given-names: Simonluca
+    orcid: "https://orcid.org/0009-0009-3410-8443"
 abstract: >-
   Rotation periods of numbered main-belt asteroids derived from TESS Full-Frame Image
   moving-target photometry, with per-object reasoning and ALCDEF light curves. Targets are
@@ -15,4 +16,6 @@ keywords:
   - TESS
   - photometry
   - light curves
+license: CC-BY-4.0
+repository-code: "https://github.com/simonlucalandi/sll-asteroid-catalog"
 license: CC-BY-4.0
