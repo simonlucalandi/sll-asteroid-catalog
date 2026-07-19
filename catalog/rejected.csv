@@ -4,13 +4,13 @@ number,family,reason
 4876,Koronis,"144h refuted: sectors disagree, fold single-humped; ~72h possible, not established"
 45502,Ursula,103.9h = 69.8h-gap artifact; single-sector >100h class
 5593,Baptistina,203h single-sector DOA class
-3127,Beltwide3,"KILLED 2026-07-18 (user decision, DIA review): adopted 15.6536h sits on the momentum-dump comb tooth n=21 (328.8/21=15.657h, 0.02% off); SysRem de-comb collapses the s17 peak 63% (R2=0.47) = the perio"
-2905,Beltwide3,"comb artifact 22.18h (census 44.35h); single-sector, comb-only"
-3328,Beltwide4,"KILL confirmed: S23 differs, contamination; s71/s72 do not salvage a clean non-comb period. Stays KILLED"
-3968,Beltwide4,"Only sector 9 clears any detection floor (LS power=0.508, clean sinusoidal fold, n=483 pts, baseline 270h); sectors 45, 46, 85 all show LS power below"
-4869,Beltwide4,"KILL confirmed: s91 single-sector dips=field-star crossings, no clean period. Stays KILLED"
-2917,Beltwide4,"single-sector 36.3h, verify KILL"
-6164,Beltwide7,"Independent decomb rerun reproduces queue exactly: s44 dPW=+89%,R2=0.63->KILLED, same sector flagged phase-curve-risk (n_cyc~1.2-2.3, P~184h"
-20084,Beltwide7,LS Pbase=57.09h pow=0.52 FAP=4.6e-191 (independently reproduced). Folded amp=0.60-0.74>0.40 & alternating minima depths (16.04/16.39/16.14/1
-5526,Beltwide10,EXTRAORDINARY 288h/2P REFUTED at verify 2026-07-19: 4 census sectors but fails folded-amplitude rule AND cross-sector phase-coherence (the slow-rotator decisive test); DIA inconclusive +24%. Would hav
-19495,Beltwide10,"KILLED at verify 2026-07-19: 91.8h claim carried incoherent-sectors + period-spread 59% + phase-curve-risk; AND JPL SBDB lists published rot_per=2.33h (Terentyeva, D=5.96km) - known-period object leak"
+3127,main belt,"KILLED 2026-07-18 (user decision, DIA review): adopted 15.6536h sits on the momentum-dump comb tooth n=21 (328.8/21=15.657h, 0.02% off); SysRem de-comb collapses the s17 peak 63% (R2=0.47) = the perio"
+2905,main belt,"comb artifact 22.18h (census 44.35h); single-sector, comb-only"
+3328,main belt,"KILL confirmed: S23 differs, contamination; s71/s72 do not salvage a clean non-comb period. Stays KILLED"
+3968,main belt,"Only sector 9 clears any detection floor (LS power=0.508, clean sinusoidal fold, n=483 pts, baseline 270h); sectors 45, 46, 85 all show LS power below"
+4869,main belt,"KILL confirmed: s91 single-sector dips=field-star crossings, no clean period. Stays KILLED"
+2917,main belt,"single-sector 36.3h, verify KILL"
+6164,main belt,"Independent decomb rerun reproduces queue exactly: s44 dPW=+89%,R2=0.63->KILLED, same sector flagged phase-curve-risk (n_cyc~1.2-2.3, P~184h"
+20084,main belt,LS Pbase=57.09h pow=0.52 FAP=4.6e-191 (independently reproduced). Folded amp=0.60-0.74>0.40 & alternating minima depths (16.04/16.39/16.14/1
+5526,main belt,EXTRAORDINARY 288h/2P REFUTED at verify 2026-07-19: 4 census sectors but fails folded-amplitude rule AND cross-sector phase-coherence (the slow-rotator decisive test); DIA inconclusive +24%. Would hav
+19495,main belt,"KILLED at verify 2026-07-19: 91.8h claim carried incoherent-sectors + period-spread 59% + phase-curve-risk; AND JPL SBDB lists published rot_per=2.33h (Terentyeva, D=5.96km) - known-period object leak"
