@@ -129,7 +129,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (5914) Beltwide7 | 99.0 | 1P | CANDIDATE | [5914.md](5914.md) |
 | (5975) Beltwide | 12.262 | 2P | CONFIRMED | [5975.md](5975.md) |
 | (5977) Beltwide | 42.44 | 2P | CONFIRMED | [5977.md](5977.md) |
-| (5990) Beltwide6 | 32.8 | 2P | CANDIDATE | [5990.md](5990.md) |
+| (5990) Beltwide6 | 8.298 | 1P | CANDIDATE | [5990.md](5990.md) |
 | (6079) Ursula | 15.696 | 1P | CONFIRMED | [6079.md](6079.md) |
 | (6137) Beltwide6 | 6.9303 | 2P | CANDIDATE | [6137.md](6137.md) |
 | (6164) Beltwide7 |  | - | KILLED | [6164.md](6164.md) |
