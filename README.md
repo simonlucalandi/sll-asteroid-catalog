@@ -1,5 +1,7 @@
 # TESS-FFI Asteroid Rotation Catalog
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21446077.svg)](https://doi.org/10.5281/zenodo.21446077)
+
 Rotation periods of numbered main-belt asteroids derived from TESS Full-Frame Image (FFI)
 moving-target photometry. The program targets objects with **no reliable prior rotation
 period** (LCDB quality U <= 1 or no entry), so most entries are first determinations.

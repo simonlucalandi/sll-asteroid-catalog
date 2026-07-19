@@ -17,5 +17,10 @@ keywords:
   - photometry
   - light curves
 license: CC-BY-4.0
+doi: 10.5281/zenodo.21446077
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21446076
+    description: "Concept DOI (all versions)"
 repository-code: "https://github.com/simonlucalandi/sll-asteroid-catalog"
 license: CC-BY-4.0
