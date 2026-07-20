@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=8450
-OBJECTNAME=8450
+OBJECTNAME=Egorov
+MPCDESIG=1977 QL1
 SESSIONDATE=2020-01-04
 SESSIONTIME=20:37:13
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Padua. Adopted rotation period 5.306 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 3 sectors; base 2.653h; amp 0.69>0.40 doubling
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458842.536126|+16.353|+0.076
 DATA=2458842.556939|+16.330|+0.072
@@ -680,8 +678,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=8450
-OBJECTNAME=8450
+OBJECTNAME=Egorov
+MPCDESIG=1977 QL1
 SESSIONDATE=2023-10-13
 SESSIONTIME=12:05:56
 CONTACTNAME=S. Landi
@@ -715,11 +715,7 @@ COMMENT=Family: Padua. Adopted rotation period 5.306 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 3 sectors; base 2.653h; amp 0.69>0.40 doubling
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460228.604730|+16.138|+0.104
 DATA=2460228.607045|+16.155|+0.104
@@ -2799,8 +2795,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=8450
-OBJECTNAME=8450
+OBJECTNAME=Egorov
+MPCDESIG=1977 QL1
 SESSIONDATE=2023-10-29
 SESSIONTIME=05:29:32
 CONTACTNAME=S. Landi
@@ -2834,11 +2832,7 @@ COMMENT=Family: Padua. Adopted rotation period 5.306 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 3 sectors; base 2.653h; amp 0.69>0.40 doubling
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460234.104736|+15.973|+0.407
 DATA=2460234.107051|+15.596|+0.295

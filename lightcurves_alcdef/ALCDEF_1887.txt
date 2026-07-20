@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1887
-OBJECTNAME=1887
+OBJECTNAME=Virton
+MPCDESIG=1950 TD
 SESSIONDATE=2020-02-04
 SESSIONTIME=00:37:10
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 70.18 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: arbitration: matches Durech 70.17h; doubling by multi-evidence; P_sid=70.11h Theta=0.366
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458870.452752|+14.942|+0.053
 DATA=2458870.473564|+14.905|+0.052
@@ -938,8 +936,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1887
-OBJECTNAME=1887
+OBJECTNAME=Virton
+MPCDESIG=1950 TD
 SESSIONDATE=2021-04-22
 SESSIONTIME=13:32:01
 CONTACTNAME=S. Landi
@@ -973,11 +973,7 @@ COMMENT=Family: main belt. Adopted rotation period 70.18 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: arbitration: matches Durech 70.17h; doubling by multi-evidence; P_sid=70.11h Theta=0.366
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459321.730685|+14.988|+0.057
 DATA=2459321.737629|+14.987|+0.057
@@ -2321,8 +2317,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1887
-OBJECTNAME=1887
+OBJECTNAME=Virton
+MPCDESIG=1950 TD
 SESSIONDATE=2023-10-03
 SESSIONTIME=09:04:43
 CONTACTNAME=S. Landi
@@ -2356,11 +2354,7 @@ COMMENT=Family: main belt. Adopted rotation period 70.18 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: arbitration: matches Durech 70.17h; doubling by multi-evidence; P_sid=70.11h Theta=0.366
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460208.359563|+14.303|+0.065
 DATA=2460208.361878|+14.272|+0.064

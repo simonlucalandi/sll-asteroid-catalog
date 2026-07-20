@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3396
-OBJECTNAME=3396
+OBJECTNAME=Muazzez
+MPCDESIG=A915 TE
 SESSIONDATE=2020-07-17
 SESSIONTIME=20:12:13
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 61.963 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.041. Independent LS reruns confirm s27 (P=61.963h, FAP=1.5e-120, 9.3 cyc, max_gap 24.8h) and s42 (P=61.61h, FAP=1.4e-118, 9.8 cyc) genuinely agree to <1% harmonic-awar
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459036.286149|+15.003|+0.055
 DATA=2459036.293094|+15.006|+0.055
@@ -2831,8 +2829,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3396
-OBJECTNAME=3396
+OBJECTNAME=Muazzez
+MPCDESIG=A915 TE
 SESSIONDATE=2021-09-02
 SESSIONTIME=21:05:53
 CONTACTNAME=S. Landi
@@ -2866,11 +2866,7 @@ COMMENT=Family: main belt. Adopted rotation period 61.963 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.041. Independent LS reruns confirm s27 (P=61.963h, FAP=1.5e-120, 9.3 cyc, max_gap 24.8h) and s42 (P=61.61h, FAP=1.4e-118, 9.8 cyc) genuinely agree to <1% harmonic-awar
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.697353|+15.838|+0.070
 DATA=2459447.704298|+15.776|+0.068
@@ -5348,8 +5344,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3396
-OBJECTNAME=3396
+OBJECTNAME=Muazzez
+MPCDESIG=A915 TE
 SESSIONDATE=2021-09-22
 SESSIONTIME=04:33:14
 CONTACTNAME=S. Landi
@@ -5383,11 +5381,7 @@ COMMENT=Family: main belt. Adopted rotation period 61.963 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.041. Independent LS reruns confirm s27 (P=61.963h, FAP=1.5e-120, 9.3 cyc, max_gap 24.8h) and s42 (P=61.61h, FAP=1.4e-118, 9.8 cyc) genuinely agree to <1% harmonic-awar
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.171935|+16.732|+0.187
 DATA=2459474.178880|+16.689|+0.177
@@ -6611,8 +6605,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3396
-OBJECTNAME=3396
+OBJECTNAME=Muazzez
+MPCDESIG=A915 TE
 SESSIONDATE=2021-10-24
 SESSIONTIME=14:16:38
 CONTACTNAME=S. Landi
@@ -6646,11 +6642,7 @@ COMMENT=Family: main belt. Adopted rotation period 61.963 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.041. Independent LS reruns confirm s27 (P=61.963h, FAP=1.5e-120, 9.3 cyc, max_gap 24.8h) and s42 (P=61.61h, FAP=1.4e-118, 9.8 cyc) genuinely agree to <1% harmonic-awar
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459500.410567|+15.356|+0.062
 DATA=2459500.417512|+15.383|+0.062

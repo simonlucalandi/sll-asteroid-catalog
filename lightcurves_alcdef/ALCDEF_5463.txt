@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5463
-OBJECTNAME=5463
+OBJECTNAME=Danwelcher
+MPCDESIG=1985 TO
 SESSIONDATE=2025-05-20
 SESSIONTIME=16:24:30
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 60.07 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp>0.40->2P default 60.07h but 1P/2P AMBIGUOUS (flagged); s92/94 2-method agree; comb 328.8/11 adjacent
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460802.975502|+15.623|+0.151
 DATA=2460802.977817|+15.905|+0.186
@@ -7881,8 +7879,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5463
-OBJECTNAME=5463
+OBJECTNAME=Danwelcher
+MPCDESIG=1985 TO
 SESSIONDATE=2025-07-07
 SESSIONTIME=17:47:34
 CONTACTNAME=S. Landi
@@ -7916,11 +7916,7 @@ COMMENT=Family: main belt. Adopted rotation period 60.07 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp>0.40->2P default 60.07h but 1P/2P AMBIGUOUS (flagged); s92/94 2-method agree; comb 328.8/11 adjacent
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460856.325881|+15.415|+0.549
 DATA=2460856.328196|+15.392|+0.516

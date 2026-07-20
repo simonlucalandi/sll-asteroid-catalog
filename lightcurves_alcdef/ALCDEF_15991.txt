@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=15991
-OBJECTNAME=15991
+OBJECTNAME=1998 YH3
+MPCDESIG=1998 YH3
 SESSIONDATE=2023-10-07
 SESSIONTIME=11:15:29
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 61.02 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.6. All 3 sectors independently find the same fundamental P~30.4-30.75h (harmonic-agree <1.5%, FAP~0, split-half-stable, not a 328.8/n comb tooth on re-tes
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460216.534664|+17.000|+0.198
 DATA=2460216.536979|+16.863|+0.177
@@ -3005,8 +3003,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=15991
-OBJECTNAME=15991
+OBJECTNAME=1998 YH3
+MPCDESIG=1998 YH3
 SESSIONDATE=2023-11-08
 SESSIONTIME=01:54:48
 CONTACTNAME=S. Landi
@@ -3040,11 +3040,7 @@ COMMENT=Family: main belt. Adopted rotation period 61.02 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.6. All 3 sectors independently find the same fundamental P~30.4-30.75h (harmonic-agree <1.5%, FAP~0, split-half-stable, not a 328.8/n comb tooth on re-tes
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460253.755712|+15.378|+0.071
 DATA=2460253.758027|+15.340|+0.069
@@ -4847,8 +4843,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=15991
-OBJECTNAME=15991
+OBJECTNAME=1998 YH3
+MPCDESIG=1998 YH3
 SESSIONDATE=2025-04-01
 SESSIONTIME=00:55:41
 CONTACTNAME=S. Landi
@@ -4882,11 +4880,7 @@ COMMENT=Family: main belt. Adopted rotation period 61.02 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.6. All 3 sectors independently find the same fundamental P~30.4-30.75h (harmonic-agree <1.5%, FAP~0, split-half-stable, not a 328.8/n comb tooth on re-tes
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460758.973990|+15.938|+0.105
 DATA=2460758.976305|+15.905|+0.102

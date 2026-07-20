@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=22790
-OBJECTNAME=22790
+OBJECTNAME=1999 KP4
+MPCDESIG=1999 KP4
 SESSIONDATE=2020-09-06
 SESSIONTIME=09:30:47
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 19.262 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: VIRGIN first det; clean 2/2 coherent, base 9.63h
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459088.299033|+15.633|+0.059
 DATA=2459088.305978|+15.671|+0.060
@@ -1987,8 +1985,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=22790
-OBJECTNAME=22790
+OBJECTNAME=1999 KP4
+MPCDESIG=1999 KP4
 SESSIONDATE=2022-04-30
 SESSIONTIME=13:14:25
 CONTACTNAME=S. Landi
@@ -2022,11 +2022,7 @@ COMMENT=Family: main belt. Adopted rotation period 19.262 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: VIRGIN first det; clean 2/2 coherent, base 9.63h
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459692.985750|+17.953|+0.372
 DATA=2459692.992694|+17.934|+0.388

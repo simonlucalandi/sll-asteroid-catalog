@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2810
-OBJECTNAME=2810
+OBJECTNAME=Lev
+MPCDESIG=1978 RU5
 SESSIONDATE=2024-09-12
 SESSIONTIME=04:59:18
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 1.525 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 2 apparitions s83/s99 agree 0.02%; no comb reach
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460559.443989|+15.971|+0.096
 DATA=2460559.446304|+15.992|+0.096
@@ -4285,8 +4283,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2810
-OBJECTNAME=2810
+OBJECTNAME=Lev
+MPCDESIG=1978 RU5
 SESSIONDATE=2026-01-30
 SESSIONTIME=05:46:37
 CONTACTNAME=S. Landi
@@ -4320,11 +4320,7 @@ COMMENT=Family: main belt. Adopted rotation period 1.525 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 2 apparitions s83/s99 agree 0.02%; no comb reach
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2461068.107596|+14.765|+0.057
 DATA=2461068.109911|+14.778|+0.057

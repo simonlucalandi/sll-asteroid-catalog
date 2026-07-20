@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=10226
-OBJECTNAME=10226
+OBJECTNAME=Seishika
+MPCDESIG=1997 VK5
 SESSIONDATE=2019-05-08
 SESSIONTIME=09:37:29
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 5.06 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 3/3 sectors LS-agree tight: s11=5.065h(pw.75,FAP4e-204) s46=5.062h(pw.60) s84=5.063h(pw.46,FAP~0). Folded amp 0.28<0.40->1P upheld. 2P-fold
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458599.932163|+15.230|+0.054
 DATA=2458600.078001|+15.171|+0.053
@@ -736,8 +734,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=10226
-OBJECTNAME=10226
+OBJECTNAME=Seishika
+MPCDESIG=1997 VK5
 SESSIONDATE=2021-12-26
 SESSIONTIME=19:06:40
 CONTACTNAME=S. Landi
@@ -771,11 +771,7 @@ COMMENT=Family: main belt. Adopted rotation period 5.06 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 3/3 sectors LS-agree tight: s11=5.065h(pw.75,FAP4e-204) s46=5.062h(pw.60) s84=5.063h(pw.46,FAP~0). Folded amp 0.28<0.40->1P upheld. 2P-fold
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459572.195512|+16.640|+0.106
 DATA=2459572.202457|+16.496|+0.094
@@ -1358,8 +1354,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=10226
-OBJECTNAME=10226
+OBJECTNAME=Seishika
+MPCDESIG=1997 VK5
 SESSIONDATE=2024-10-18
 SESSIONTIME=07:12:30
 CONTACTNAME=S. Landi
@@ -1393,11 +1391,7 @@ COMMENT=Family: main belt. Adopted rotation period 5.06 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 3/3 sectors LS-agree tight: s11=5.065h(pw.75,FAP4e-204) s46=5.062h(pw.60) s84=5.063h(pw.46,FAP~0). Folded amp 0.28<0.40->1P upheld. 2P-fold
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460594.203118|+16.221|+0.146
 DATA=2460594.205433|+15.983|+0.119

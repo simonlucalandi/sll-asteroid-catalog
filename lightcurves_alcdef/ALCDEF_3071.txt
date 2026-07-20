@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3071
-OBJECTNAME=3071
+OBJECTNAME=Nesterov
+MPCDESIG=1973 FT1
 SESSIONDATE=2021-08-30
 SESSIONTIME=09:17:04
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Themis. Adopted rotation period 5.14 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: (none)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.702730|+16.587|+0.113
 DATA=2459447.709675|+16.606|+0.116
@@ -1448,8 +1446,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3071
-OBJECTNAME=3071
+OBJECTNAME=Nesterov
+MPCDESIG=1973 FT1
 SESSIONDATE=2025-04-13
 SESSIONTIME=06:59:22
 CONTACTNAME=S. Landi
@@ -1483,11 +1483,7 @@ COMMENT=Family: Themis. Adopted rotation period 5.14 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: (none)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460775.298134|+15.995|+0.105
 DATA=2460775.300449|+15.924|+0.101

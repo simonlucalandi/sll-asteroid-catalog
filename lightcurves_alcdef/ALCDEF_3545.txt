@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3545
-OBJECTNAME=3545
+OBJECTNAME=Gaffey
+MPCDESIG=1981 WK2
 SESSIONDATE=2021-11-19
 SESSIONTIME=22:12:27
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Koronis. Adopted rotation period 2.416 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: above barrier
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459526.899990|+17.448|+0.235
 DATA=2459526.906935|+17.316|+0.218
@@ -2731,8 +2729,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3545
-OBJECTNAME=3545
+OBJECTNAME=Gaffey
+MPCDESIG=1981 WK2
 SESSIONDATE=2021-12-29
 SESSIONTIME=09:41:46
 CONTACTNAME=S. Landi
@@ -2766,11 +2766,7 @@ COMMENT=Family: Koronis. Adopted rotation period 2.416 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: above barrier
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459577.410943|+16.105|+0.075
 DATA=2459577.417888|+16.203|+0.083

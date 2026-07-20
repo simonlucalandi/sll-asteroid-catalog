@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5203
-OBJECTNAME=5203
+OBJECTNAME=Pavarotti
+MPCDESIG=1984 SF1
 SESSIONDATE=2021-09-06
 SESSIONTIME=04:36:20
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 6.934 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.48. Sectors 42 and 44 independently nail P_phot=3.4669-3.4670h (FAP~0, power 0.70/0.86, agreement to 0.003%), a tight cross-sector match that satisfies the >=2-sector 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459454.316047|+16.458|+0.094
 DATA=2459454.322992|+16.508|+0.099
@@ -1796,8 +1794,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5203
-OBJECTNAME=5203
+OBJECTNAME=Pavarotti
+MPCDESIG=1984 SF1
 SESSIONDATE=2021-10-11
 SESSIONTIME=04:31:10
 CONTACTNAME=S. Landi
@@ -1831,11 +1831,7 @@ COMMENT=Family: main belt. Adopted rotation period 6.934 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.48. Sectors 42 and 44 independently nail P_phot=3.4669-3.4670h (FAP~0, power 0.70/0.86, agreement to 0.003%), a tight cross-sector match that satisfies the >=2-sector 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459498.486922|+17.858|+0.557
 DATA=2459498.493867|+17.291|+0.328
@@ -1900,8 +1896,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5203
-OBJECTNAME=5203
+OBJECTNAME=Pavarotti
+MPCDESIG=1984 SF1
 SESSIONDATE=2021-10-24
 SESSIONTIME=03:26:38
 CONTACTNAME=S. Landi
@@ -1935,11 +1933,7 @@ COMMENT=Family: main belt. Adopted rotation period 6.934 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.48. Sectors 42 and 44 independently nail P_phot=3.4669-3.4670h (FAP~0, power 0.70/0.86, agreement to 0.003%), a tight cross-sector match that satisfies the >=2-sector 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459500.605021|+15.503|+0.062
 DATA=2459500.611966|+15.575|+0.063

@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=15427
-OBJECTNAME=15427
+OBJECTNAME=Shabas
+MPCDESIG=1998 SP61
 SESSIONDATE=2022-08-17
 SESSIONTIME=06:06:11
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 39.45 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 78.9->39.45 1P: amp 0.17<<0.40, the 78.9 re-derivation was inter-sector alias smear; ZTF blind-recovers 39.2/78.6 harmonic pair FAP 4.8e-21
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459797.112054|+16.606|+0.110
 DATA=2459797.118999|+16.672|+0.129
@@ -2423,8 +2421,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=15427
-OBJECTNAME=15427
+OBJECTNAME=Shabas
+MPCDESIG=1998 SP61
 SESSIONDATE=2023-10-08
 SESSIONTIME=04:37:15
 CONTACTNAME=S. Landi
@@ -2458,11 +2458,7 @@ COMMENT=Family: main belt. Adopted rotation period 39.45 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 78.9->39.45 1P: amp 0.17<<0.40, the 78.9 re-derivation was inter-sector alias smear; ZTF blind-recovers 39.2/78.6 harmonic pair FAP 4.8e-21
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460225.194835|+17.822|+0.501
 DATA=2460225.197150|+16.909|+0.221
@@ -2897,8 +2893,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=15427
-OBJECTNAME=15427
+OBJECTNAME=Shabas
+MPCDESIG=1998 SP61
 SESSIONDATE=2023-11-07
 SESSIONTIME=06:04:48
 CONTACTNAME=S. Landi
@@ -2932,11 +2930,7 @@ COMMENT=Family: main belt. Adopted rotation period 39.45 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 78.9->39.45 1P: amp 0.17<<0.40, the 78.9 re-derivation was inter-sector alias smear; ZTF blind-recovers 39.2/78.6 harmonic pair FAP 4.8e-21
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460252.102941|+15.566|+0.078
 DATA=2460252.105256|+15.579|+0.079
@@ -5493,8 +5487,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=15427
-OBJECTNAME=15427
+OBJECTNAME=Shabas
+MPCDESIG=1998 SP61
 SESSIONDATE=2025-04-12
 SESSIONTIME=02:56:06
 CONTACTNAME=S. Landi
@@ -5528,11 +5524,7 @@ COMMENT=Family: main belt. Adopted rotation period 39.45 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 78.9->39.45 1P: amp 0.17<<0.40, the 78.9 re-derivation was inter-sector alias smear; ZTF blind-recovers 39.2/78.6 harmonic pair FAP 4.8e-21
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460775.298235|+14.908|+0.061
 DATA=2460775.300550|+14.845|+0.060

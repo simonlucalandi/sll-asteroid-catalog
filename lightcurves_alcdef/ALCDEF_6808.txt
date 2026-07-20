@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6808
-OBJECTNAME=6808
+OBJECTNAME=Plantin
+MPCDESIG=1932 CP
 SESSIONDATE=2021-09-02
 SESSIONTIME=22:20:11
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 7.996 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: base 4.0h doubled; consec s42/43 agree 0.44%; Fourier fundamental
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.999387|+15.686|+0.199
 DATA=2459448.006332|+15.847|+0.205
@@ -2087,8 +2085,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6808
-OBJECTNAME=6808
+OBJECTNAME=Plantin
+MPCDESIG=1932 CP
 SESSIONDATE=2021-10-10
 SESSIONTIME=13:42:04
 CONTACTNAME=S. Landi
@@ -2122,11 +2122,7 @@ COMMENT=Family: main belt. Adopted rotation period 7.996 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: base 4.0h doubled; consec s42/43 agree 0.44%; Fourier fundamental
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459497.348673|+15.835|+0.078
 DATA=2459497.355617|+15.844|+0.074

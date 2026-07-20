@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1381
-OBJECTNAME=1381
+OBJECTNAME=Danubia
+MPCDESIG=1930 QJ
 SESSIONDATE=2020-07-17
 SESSIONTIME=20:12:13
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459036.286406|+15.046|+0.056
 DATA=2459036.293351|+15.035|+0.056
@@ -2699,8 +2697,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1381
-OBJECTNAME=1381
+OBJECTNAME=Danubia
+MPCDESIG=1930 QJ
 SESSIONDATE=2021-10-29
 SESSIONTIME=05:39:54
 CONTACTNAME=S. Landi
@@ -2734,11 +2734,7 @@ COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459509.079056|+16.191|+0.079
 DATA=2459509.086001|+16.167|+0.076
@@ -3872,8 +3868,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1381
-OBJECTNAME=1381
+OBJECTNAME=Danubia
+MPCDESIG=1930 QJ
 SESSIONDATE=2021-11-19
 SESSIONTIME=12:22:23
 CONTACTNAME=S. Landi
@@ -3907,11 +3905,7 @@ COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459525.747100|+14.942|+0.074
 DATA=2459525.754045|+15.080|+0.078
@@ -6390,8 +6384,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1381
-OBJECTNAME=1381
+OBJECTNAME=Danubia
+MPCDESIG=1930 QJ
 SESSIONDATE=2021-12-16
 SESSIONTIME=18:20:54
 CONTACTNAME=S. Landi
@@ -6425,11 +6421,7 @@ COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459552.131959|+15.431|+0.125
 DATA=2459552.152793|+15.549|+0.126
@@ -9605,8 +9597,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1381
-OBJECTNAME=1381
+OBJECTNAME=Danubia
+MPCDESIG=1930 QJ
 SESSIONDATE=2022-01-14
 SESSIONTIME=18:36:41
 CONTACTNAME=S. Landi
@@ -9640,11 +9634,7 @@ COMMENT=Family: main belt. Adopted rotation period 5.258 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 5 sectors independently recover the same base period P=2.6291 h via two independent methods (error-weighted LS, power 0.67-0.91, FAP~0; and Stelli
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459581.612441|+14.816|+0.054
 DATA=2459581.619385|+14.891|+0.054

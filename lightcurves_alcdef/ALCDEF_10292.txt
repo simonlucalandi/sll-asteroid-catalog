@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=10292
-OBJECTNAME=10292
+OBJECTNAME=1986 PM
+MPCDESIG=1986 PM
 SESSIONDATE=2021-10-28
 SESSIONTIME=03:16:49
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Baptistina. Adopted rotation period 2.419 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: daily-alias proximity rejected via cross-sector coherence
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459506.876104|+16.633|+0.116
 DATA=2459506.883049|+16.632|+0.117
@@ -1978,8 +1976,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=10292
-OBJECTNAME=10292
+OBJECTNAME=1986 PM
+MPCDESIG=1986 PM
 SESSIONDATE=2024-09-14
 SESSIONTIME=05:57:36
 CONTACTNAME=S. Landi
@@ -2013,11 +2013,7 @@ COMMENT=Family: Baptistina. Adopted rotation period 2.419 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: daily-alias proximity rejected via cross-sector coherence
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460559.784270|+15.553|+0.070
 DATA=2460559.786585|+15.460|+0.069

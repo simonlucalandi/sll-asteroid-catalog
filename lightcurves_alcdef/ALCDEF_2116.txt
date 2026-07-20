@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2116
-OBJECTNAME=2116
+OBJECTNAME=Mtskheta
+MPCDESIG=1976 UM
 SESSIONDATE=2021-09-02
 SESSIONTIME=22:17:33
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.5381 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF STRONG_SUPPORT (recorded triage, Fink down) = 2nd realization. TESS s42: P=1.7691h, LS power=0.340, FAP=9.87e-247, no comb/alias match, clean single-sect
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.698604|+16.393|+0.090
 DATA=2459447.705549|+16.305|+0.086

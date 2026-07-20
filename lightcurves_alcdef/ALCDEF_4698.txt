@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=4698
-OBJECTNAME=4698
+OBJECTNAME=Jizera
+MPCDESIG=1986 RO1
 SESSIONDATE=2023-10-09
 SESSIONTIME=20:59:00
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 158.302 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.7. All 3 sectors independently find the same fundamental P≈79.14-79.99h (spread &lt;1.1%, well within harmonic tolerance) despite s71/s91 being flagged se
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460221.370572|+17.253|+0.445
 DATA=2460221.384462|+17.852|+0.749
@@ -5060,8 +5058,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=4698
-OBJECTNAME=4698
+OBJECTNAME=Jizera
+MPCDESIG=1986 RO1
 SESSIONDATE=2023-10-26
 SESSIONTIME=10:12:51
 CONTACTNAME=S. Landi
@@ -5095,11 +5095,7 @@ COMMENT=Family: main belt. Adopted rotation period 158.302 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.7. All 3 sectors independently find the same fundamental P≈79.14-79.99h (spread &lt;1.1%, well within harmonic tolerance) despite s71/s91 being flagged se
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460234.046863|+15.921|+0.381
 DATA=2460234.049178|+16.289|+0.532
@@ -12801,8 +12797,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=4698
-OBJECTNAME=4698
+OBJECTNAME=Jizera
+MPCDESIG=1986 RO1
 SESSIONDATE=2025-04-24
 SESSIONTIME=09:31:44
 CONTACTNAME=S. Landi
@@ -12836,11 +12834,7 @@ COMMENT=Family: main belt. Adopted rotation period 158.302 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.7. All 3 sectors independently find the same fundamental P≈79.14-79.99h (spread &lt;1.1%, well within harmonic tolerance) despite s71/s91 being flagged se
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460778.311907|+16.002|+0.075
 DATA=2460778.314222|+15.967|+0.074

@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=9214
-OBJECTNAME=9214
+OBJECTNAME=1995 UC6
+MPCDESIG=1995 UC6
 SESSIONDATE=2021-09-28
 SESSIONTIME=11:25:03
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.391 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=None. Sectors 44 and 83 independently detect P=2.391h as the dominant LS peak (power 0.50/0.54, FAP~0), a genuine fundamental match not harmonic-only, satisfying the >=2
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.193750|+18.900|+0.859
 DATA=2459474.200695|+17.808|+0.324
@@ -2409,8 +2407,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=9214
-OBJECTNAME=9214
+OBJECTNAME=1995 UC6
+MPCDESIG=1995 UC6
 SESSIONDATE=2021-10-24
 SESSIONTIME=19:06:38
 CONTACTNAME=S. Landi
@@ -2444,11 +2444,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.391 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=None. Sectors 44 and 83 independently detect P=2.391h as the dominant LS peak (power 0.50/0.54, FAP~0), a genuine fundamental match not harmonic-only, satisfying the >=2
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459500.195279|+16.333|+0.101
 DATA=2459500.202224|+16.436|+0.108
@@ -5082,8 +5078,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=9214
-OBJECTNAME=9214
+OBJECTNAME=1995 UC6
+MPCDESIG=1995 UC6
 SESSIONDATE=2024-09-20
 SESSIONTIME=10:19:10
 CONTACTNAME=S. Landi
@@ -5117,11 +5115,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.391 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=None. Sectors 44 and 83 independently detect P=2.391h as the dominant LS peak (power 0.50/0.54, FAP~0), a genuine fundamental match not harmonic-only, satisfying the >=2
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460563.480867|+15.160|+0.066
 DATA=2460563.483182|+15.217|+0.067

@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=15315
-OBJECTNAME=15315
+OBJECTNAME=Sundin
+MPCDESIG=1993 FX35
 SESSIONDATE=2018-08-19
 SESSIONTIME=18:51:09
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Phocaea. Adopted rotation period 12.942 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: DOUBLED 1P->2P 6.471->12.942h (high-amp 1P audit 2026-07-18: folded amp 0.616 = elongated/double-peaked; house rule amp>0.40->2P).
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458348.181411|+15.523|+0.053
 DATA=2458348.202243|+15.454|+0.053
@@ -168,8 +166,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=15315
-OBJECTNAME=15315
+OBJECTNAME=Sundin
+MPCDESIG=1993 FX35
 SESSIONDATE=2025-08-10
 SESSIONTIME=19:31:01
 CONTACTNAME=S. Landi
@@ -203,11 +203,7 @@ COMMENT=Family: Phocaea. Adopted rotation period 12.942 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: DOUBLED 1P->2P 6.471->12.942h (high-amp 1P audit 2026-07-18: folded amp 0.616 = elongated/double-peaked; house rule amp>0.40->2P).
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460889.229833|+15.626|+0.077
 DATA=2460889.232147|+15.548|+0.074

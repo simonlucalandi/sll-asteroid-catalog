@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=29931
-OBJECTNAME=29931
+OBJECTNAME=1999 JL44
+MPCDESIG=1999 JL44
 SESSIONDATE=2021-03-16
 SESSIONTIME=06:01:27
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Ursula. Adopted rotation period 2.2917 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF independent blind-recovery (FAP<<1e-8) = 2nd realization. TESS sector 36 (1959 pts, load_clean+detrend, error-weighted LS) gives a clean, decisive s
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459281.007803|+16.540|+0.295
 DATA=2459281.111973|+16.670|+0.392

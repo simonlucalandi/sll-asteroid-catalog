@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=12315
-OBJECTNAME=12315
+OBJECTNAME=1992 FA2
+MPCDESIG=1992 FA2
 SESSIONDATE=2021-09-02
 SESSIONTIME=10:46:05
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Padua. Adopted rotation period 2.781 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 2/2 sectors; amp 0.297 gray zone, no minima asymmetry -> 1P
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.701603|+17.032|+0.143
 DATA=2459447.708548|+17.462|+0.212
@@ -1745,8 +1743,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=12315
-OBJECTNAME=12315
+OBJECTNAME=1992 FA2
+MPCDESIG=1992 FA2
 SESSIONDATE=2025-08-07
 SESSIONTIME=09:37:21
 CONTACTNAME=S. Landi
@@ -1780,11 +1780,7 @@ COMMENT=Family: Padua. Adopted rotation period 2.781 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 2/2 sectors; amp 0.297 gray zone, no minima asymmetry -> 1P
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460882.425389|+15.656|+0.221
 DATA=2460882.427703|+17.113|+0.809

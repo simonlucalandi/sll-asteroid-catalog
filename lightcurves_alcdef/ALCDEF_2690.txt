@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2690
-OBJECTNAME=2690
+OBJECTNAME=Ristiina
+MPCDESIG=1938 DG1
 SESSIONDATE=2020-10-06
 SESSIONTIME=17:02:02
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.66 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 6 sectors, 1P; verify pending-batch resolved
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459116.008244|+14.799|+0.052
 DATA=2459116.015188|+14.817|+0.052
@@ -2734,8 +2732,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2690
-OBJECTNAME=2690
+OBJECTNAME=Ristiina
+MPCDESIG=1938 DG1
 SESSIONDATE=2021-10-31
 SESSIONTIME=11:33:27
 CONTACTNAME=S. Landi
@@ -2769,11 +2769,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.66 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 6 sectors, 1P; verify pending-batch resolved
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459513.571305|+16.256|+0.124
 DATA=2459513.578250|+16.415|+0.155
@@ -4181,8 +4177,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2690
-OBJECTNAME=2690
+OBJECTNAME=Ristiina
+MPCDESIG=1938 DG1
 SESSIONDATE=2021-11-19
 SESSIONTIME=01:15:49
 CONTACTNAME=S. Landi
@@ -4216,11 +4214,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.66 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 6 sectors, 1P; verify pending-batch resolved
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459526.037657|+15.719|+0.112
 DATA=2459526.044602|+16.247|+0.166
@@ -6634,8 +6628,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2690
-OBJECTNAME=2690
+OBJECTNAME=Ristiina
+MPCDESIG=1938 DG1
 SESSIONDATE=2021-12-16
 SESSIONTIME=22:19:56
 CONTACTNAME=S. Landi
@@ -6669,11 +6665,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.66 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 6 sectors, 1P; verify pending-batch resolved
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459552.464401|+16.828|+0.907
 DATA=2459552.471346|+16.340|+0.470
@@ -9696,8 +9688,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2690
-OBJECTNAME=2690
+OBJECTNAME=Ristiina
+MPCDESIG=1938 DG1
 SESSIONDATE=2025-05-30
 SESSIONTIME=20:00:53
 CONTACTNAME=S. Landi
@@ -9731,11 +9725,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.66 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 6 sectors, 1P; verify pending-batch resolved
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460823.346407|+17.511|+0.422
 DATA=2460823.351037|+18.014|+0.666
@@ -11687,8 +11677,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2690
-OBJECTNAME=2690
+OBJECTNAME=Ristiina
+MPCDESIG=1938 DG1
 SESSIONDATE=2025-09-02
 SESSIONTIME=09:47:15
 CONTACTNAME=S. Landi
@@ -11722,11 +11714,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.66 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 6 sectors, 1P; verify pending-batch resolved
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460908.418115|+15.153|+0.464
 DATA=2460908.663493|+16.521|+0.542

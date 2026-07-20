@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=30968
-OBJECTNAME=30968
+OBJECTNAME=1995 AM1
+MPCDESIG=1995 AM1
 SESSIONDATE=2018-10-04
 SESSIONTIME=12:20:06
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Phocaea. Adopted rotation period 4.151 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: (none)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458385.972205|+15.996|+0.057
 DATA=2458385.993039|+16.038|+0.058
@@ -796,8 +794,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=30968
-OBJECTNAME=30968
+OBJECTNAME=1995 AM1
+MPCDESIG=1995 AM1
 SESSIONDATE=2018-10-21
 SESSIONTIME=22:35:13
 CONTACTNAME=S. Landi
@@ -831,11 +831,7 @@ COMMENT=Family: Phocaea. Adopted rotation period 4.151 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: (none)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458411.034879|+15.802|+0.055
 DATA=2458411.055713|+15.867|+0.055

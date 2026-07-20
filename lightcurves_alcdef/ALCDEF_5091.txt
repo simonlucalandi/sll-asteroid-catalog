@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5091
-OBJECTNAME=5091
+OBJECTNAME=Isakovskij
+MPCDESIG=1981 SD4
 SESSIONDATE=2023-10-05
 SESSIONTIME=14:33:13
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Hoffmeister. Adopted rotation period 13.914 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF independent blind-recovery (FAP<<1e-8) = 2nd realization. TESS sector 70 (own error-weighted LS + PDM rerun) gives a clean single-sector detection a
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460212.815999|+15.689|+0.083
 DATA=2460212.818314|+15.775|+0.087

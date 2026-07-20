@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=22719
-OBJECTNAME=22719
+OBJECTNAME=Nakadori
+MPCDESIG=1998 SH25
 SESSIONDATE=2021-10-25
 SESSIONTIME=18:51:05
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Padua. Adopted rotation period 4.777 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF independent blind-recovery (FAP<<1e-8) = 2nd realization. TESS sector 44 alone is a clean, dominant, non-instrumental detection: LS power 0.41 at P_
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459502.173882|+16.793|+0.119
 DATA=2459502.180827|+16.796|+0.115

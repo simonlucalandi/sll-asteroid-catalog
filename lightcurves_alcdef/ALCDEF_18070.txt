@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=18070
-OBJECTNAME=18070
+OBJECTNAME=2000 AC205
+MPCDESIG=2000 AC205
 SESSIONDATE=2019-12-11
 SESSIONTIME=10:06:39
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Phocaea. Adopted rotation period 111.7 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SUPER-SLOW; multi-year sidereal confirmation vs comb 109.6h; c=-1.1
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458816.702690|+15.914|+0.066
 DATA=2458816.723503|+15.892|+0.066
@@ -887,8 +885,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=18070
-OBJECTNAME=18070
+OBJECTNAME=2000 AC205
+MPCDESIG=2000 AC205
 SESSIONDATE=2025-04-23
 SESSIONTIME=08:20:40
 CONTACTNAME=S. Landi
@@ -922,11 +922,7 @@ COMMENT=Family: Phocaea. Adopted rotation period 111.7 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SUPER-SLOW; multi-year sidereal confirmation vs comb 109.6h; c=-1.1
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460775.298223|+16.591|+0.141
 DATA=2460775.300538|+16.926|+0.186

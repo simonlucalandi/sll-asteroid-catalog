@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=13382
-OBJECTNAME=13382
+OBJECTNAME=1998 XC4
+MPCDESIG=1998 XC4
 SESSIONDATE=2021-08-28
 SESSIONTIME=14:22:10
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Koronis. Adopted rotation period 1.868 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF independent blind-recovery (FAP<<1e-8) = 2nd realization. TESS s42 gives a clean, very strong single-sector detection at P_phot=1.868h (error-weight
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.702948|+16.340|+0.090
 DATA=2459447.709893|+16.348|+0.090

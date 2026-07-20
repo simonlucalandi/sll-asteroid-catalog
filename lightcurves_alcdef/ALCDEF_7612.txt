@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=7612
-OBJECTNAME=7612
+OBJECTNAME=1996 CN2
+MPCDESIG=1996 CN2
 SESSIONDATE=2025-04-23
 SESSIONTIME=11:17:21
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Veritas. Adopted rotation period 13.0243 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF independent blind-recovery (FAP<<1e-8) = 2nd realization. TESS s91 (8502 pts, 26.46d baseline, 48.8 cycles) gives a razor-sharp error-weighted LS pe
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460775.740355|+16.805|+0.181
 DATA=2460775.742670|+16.895|+0.195

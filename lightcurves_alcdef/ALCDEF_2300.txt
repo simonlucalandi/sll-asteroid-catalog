@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2300
-OBJECTNAME=2300
+OBJECTNAME=Stebbins
+MPCDESIG=1953 TG2
 SESSIONDATE=2021-10-29
 SESSIONTIME=10:48:10
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Koronis. Adopted rotation period 2.143 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: near-barrier (rho_crit 3.1 vs S-type ~2.7): doubling to 4.29h possible; flagged
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459509.508418|+16.582|+0.109
 DATA=2459509.515363|+16.398|+0.100
@@ -1712,8 +1710,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2300
-OBJECTNAME=2300
+OBJECTNAME=Stebbins
+MPCDESIG=1953 TG2
 SESSIONDATE=2021-11-19
 SESSIONTIME=11:50:52
 CONTACTNAME=S. Landi
@@ -1747,11 +1747,7 @@ COMMENT=Family: Koronis. Adopted rotation period 2.143 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: near-barrier (rho_crit 3.1 vs S-type ~2.7): doubling to 4.29h possible; flagged
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459526.037658|+15.682|+0.135
 DATA=2459526.044603|+15.805|+0.148
@@ -4853,8 +4849,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2300
-OBJECTNAME=2300
+OBJECTNAME=Stebbins
+MPCDESIG=1953 TG2
 SESSIONDATE=2021-12-25
 SESSIONTIME=15:50:49
 CONTACTNAME=S. Landi
@@ -4888,11 +4886,7 @@ COMMENT=Family: Koronis. Adopted rotation period 2.143 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: near-barrier (rho_crit 3.1 vs S-type ~2.7): doubling to 4.29h possible; flagged
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459569.923967|+16.254|+0.083
 DATA=2459569.930912|+16.156|+0.076

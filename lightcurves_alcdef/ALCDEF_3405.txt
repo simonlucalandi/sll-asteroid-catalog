@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3405
-OBJECTNAME=3405
+OBJECTNAME=Daiwensai
+MPCDESIG=1964 UQ
 SESSIONDATE=2021-02-19
 SESSIONTIME=05:21:34
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 13.997 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: PDM independently converges on 13.99-14.01h in all three sectors (theta 0.52-0.72), and LS matches directly in S35 (14.04h) and S88 (13.99h) while S71
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459255.931686|+15.440|+0.066
 DATA=2459255.938631|+15.447|+0.065
@@ -1566,8 +1564,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3405
-OBJECTNAME=3405
+OBJECTNAME=Daiwensai
+MPCDESIG=1964 UQ
 SESSIONDATE=2023-10-28
 SESSIONTIME=04:48:06
 CONTACTNAME=S. Landi
@@ -1601,11 +1601,7 @@ COMMENT=Family: main belt. Adopted rotation period 13.997 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: PDM independently converges on 13.99-14.01h in all three sectors (theta 0.52-0.72), and LS matches directly in S35 (14.04h) and S88 (13.99h) while S71
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460234.105152|+14.773|+0.133
 DATA=2460234.112097|+14.689|+0.127
@@ -9496,8 +9492,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3405
-OBJECTNAME=3405
+OBJECTNAME=Daiwensai
+MPCDESIG=1964 UQ
 SESSIONDATE=2025-01-29
 SESSIONTIME=01:48:52
 CONTACTNAME=S. Landi
@@ -9531,11 +9529,7 @@ COMMENT=Family: main belt. Adopted rotation period 13.997 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: PDM independently converges on 13.99-14.01h in all three sectors (theta 0.52-0.72), and LS matches directly in S35 (14.04h) and S88 (13.99h) while S71
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460691.992406|+17.336|+0.689
 DATA=2460692.006295|+16.264|+0.238

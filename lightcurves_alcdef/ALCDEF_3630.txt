@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3630
-OBJECTNAME=3630
+OBJECTNAME=Lubomir
+MPCDESIG=1984 QN
 SESSIONDATE=2021-09-02
 SESSIONTIME=11:31:04
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Dora. Adopted rotation period 9.329 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: doubling proven: 8.8-sigma phase-locked minima asymmetry
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.701590|+16.990|+0.151
 DATA=2459447.708535|+16.625|+0.113
@@ -2013,8 +2011,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3630
-OBJECTNAME=3630
+OBJECTNAME=Lubomir
+MPCDESIG=1984 QN
 SESSIONDATE=2021-09-20
 SESSIONTIME=12:46:59
 CONTACTNAME=S. Landi
@@ -2048,11 +2048,7 @@ COMMENT=Family: Dora. Adopted rotation period 9.329 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: doubling proven: 8.8-sigma phase-locked minima asymmetry
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.202698|+14.939|+0.055
 DATA=2459474.209643|+15.346|+0.057

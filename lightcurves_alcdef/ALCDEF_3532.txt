@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3532
-OBJECTNAME=3532
+OBJECTNAME=Tracie
+MPCDESIG=1983 AS2
 SESSIONDATE=2020-07-17
 SESSIONTIME=11:47:13
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 12.316 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.095. Only s27 is clean; s43 was correctly flagged for raw contamination (4mag range) but its detrended 12.32h signal is phase-coherent with s27 (r=0.91, z
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459036.286149|+15.746|+0.074
 DATA=2459036.438931|+15.614|+0.070
@@ -2697,8 +2695,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3532
-OBJECTNAME=3532
+OBJECTNAME=Tracie
+MPCDESIG=1983 AS2
 SESSIONDATE=2021-08-29
 SESSIONTIME=15:32:05
 CONTACTNAME=S. Landi
@@ -2732,11 +2732,7 @@ COMMENT=Family: main belt. Adopted rotation period 12.316 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.095. Only s27 is clean; s43 was correctly flagged for raw contamination (4mag range) but its detrended 12.32h signal is phase-coherent with s27 (r=0.91, z
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.698604|+16.343|+0.082
 DATA=2459447.705549|+16.425|+0.084
@@ -4803,8 +4799,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3532
-OBJECTNAME=3532
+OBJECTNAME=Tracie
+MPCDESIG=1983 AS2
 SESSIONDATE=2021-09-29
 SESSIONTIME=06:00:08
 CONTACTNAME=S. Landi
@@ -4838,11 +4836,7 @@ COMMENT=Family: main belt. Adopted rotation period 12.316 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.095. Only s27 is clean; s43 was correctly flagged for raw contamination (4mag range) but its detrended 12.32h signal is phase-coherent with s27 (r=0.91, z
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.610462|+16.093|+0.759
 DATA=2459474.617407|+16.029|+0.517
@@ -7400,8 +7394,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3532
-OBJECTNAME=3532
+OBJECTNAME=Tracie
+MPCDESIG=1983 AS2
 SESSIONDATE=2025-05-20
 SESSIONTIME=14:54:38
 CONTACTNAME=S. Landi
@@ -7435,11 +7431,7 @@ COMMENT=Family: main belt. Adopted rotation period 12.316 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.095. Only s27 is clean; s43 was correctly flagged for raw contamination (4mag range) but its detrended 12.32h signal is phase-coherent with s27 (r=0.91, z
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460802.974295|+17.250|+0.493
 DATA=2460802.976610|+16.612|+0.276

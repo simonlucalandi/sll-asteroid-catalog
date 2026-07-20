@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1588
-OBJECTNAME=1588
+OBJECTNAME=Descamisada
+MPCDESIG=1951 MH
 SESSIONDATE=2020-07-25
 SESSIONTIME=15:17:24
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 4.606 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF STRONG_SUPPORT (recorded triage, Fink down) = 2nd realization. TESS s27 solo: LS base peak 2.3030h, power 0.9435, FAP~0 (Baluev); PDM confirms 2.3070h th
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459052.043346|+14.423|+0.052
 DATA=2459052.050291|+14.496|+0.052

@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1519
-OBJECTNAME=1519
+OBJECTNAME=Kajaani
+MPCDESIG=1938 UB
 SESSIONDATE=2021-09-11
 SESSIONTIME=04:32:10
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 27.35 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED from 2P/54.7: amp 0.408 was contamination-driven, clipped 0.391<0.40 -> 1P; medium-conf doubling call
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459464.383498|+13.741|+0.051
 DATA=2459464.390443|+13.738|+0.051
@@ -951,8 +949,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1519
-OBJECTNAME=1519
+OBJECTNAME=Kajaani
+MPCDESIG=1938 UB
 SESSIONDATE=2022-12-29
 SESSIONTIME=04:38:03
 CONTACTNAME=S. Landi
@@ -986,11 +986,7 @@ COMMENT=Family: main belt. Adopted rotation period 27.35 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED from 2P/54.7: amp 0.408 was contamination-driven, clipped 0.391<0.40 -> 1P; medium-conf doubling call
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459936.908240|+15.563|+0.078
 DATA=2459936.910555|+15.418|+0.072
@@ -4818,8 +4814,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1519
-OBJECTNAME=1519
+OBJECTNAME=Kajaani
+MPCDESIG=1938 UB
 SESSIONDATE=2025-04-19
 SESSIONTIME=20:41:02
 CONTACTNAME=S. Landi
@@ -4853,11 +4851,7 @@ COMMENT=Family: main belt. Adopted rotation period 27.35 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED from 2P/54.7: amp 0.408 was contamination-driven, clipped 0.391<0.40 -> 1P; medium-conf doubling call
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460775.298148|+16.514|+0.146
 DATA=2460775.300463|+16.439|+0.138

@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3810
-OBJECTNAME=3810
+OBJECTNAME=Aoraki
+MPCDESIG=1985 DX
 SESSIONDATE=2019-04-09
 SESSIONTIME=15:07:26
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.857 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: S10 flat=faint apparition (low weight); s45/s46 carry 3.857h/1P (folded amp<0.40). Minor field-star pts masked. CONFIRMED holds
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458570.869613|+15.034|+0.055
 DATA=2458570.890447|+15.052|+0.055
@@ -912,8 +910,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3810
-OBJECTNAME=3810
+OBJECTNAME=Aoraki
+MPCDESIG=1985 DX
 SESSIONDATE=2021-11-19
 SESSIONTIME=17:05:54
 CONTACTNAME=S. Landi
@@ -947,11 +947,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.857 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: S10 flat=faint apparition (low weight); s45/s46 carry 3.857h/1P (folded amp<0.40). Minor field-star pts masked. CONFIRMED holds
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459526.030712|+17.489|+0.559
 DATA=2459526.037657|+16.618|+0.242
@@ -3527,8 +3523,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3810
-OBJECTNAME=3810
+OBJECTNAME=Aoraki
+MPCDESIG=1985 DX
 SESSIONDATE=2021-12-16
 SESSIONTIME=21:58:49
 CONTACTNAME=S. Landi
@@ -3562,11 +3560,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.857 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: S10 flat=faint apparition (low weight); s45/s46 carry 3.857h/1P (folded amp<0.40). Minor field-star pts masked. CONFIRMED holds
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459552.435672|+16.526|+0.188
 DATA=2459552.442617|+16.674|+0.198

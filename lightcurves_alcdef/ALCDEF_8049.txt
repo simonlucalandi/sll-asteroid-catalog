@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=8049
-OBJECTNAME=8049
+OBJECTNAME=Janvier
+MPCDESIG=1996 FL2
 SESSIONDATE=2023-10-03
 SESSIONTIME=09:49:15
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Koronis. Adopted rotation period 3.214 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF independent blind-recovery (FAP<<1e-8) = 2nd realization. TESS sector 70 alone gives a clean, non-comb, non-grid-edge detection at P_phot=1.607h (po
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460208.421508|+17.055|+0.770
 DATA=2460208.423823|+17.042|+0.757

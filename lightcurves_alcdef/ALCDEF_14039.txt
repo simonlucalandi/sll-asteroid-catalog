@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=14039
-OBJECTNAME=14039
+OBJECTNAME=1995 KZ1
+MPCDESIG=1995 KZ1
 SESSIONDATE=2023-03-23
 SESSIONTIME=23:03:09
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Ursula. Adopted rotation period 2.641 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF independent blind-recovery (FAP<<1e-8) = 2nd realization. TESS sector 63 alone gives a dominant, non-comb LS peak at P=2.641h (power=0.346, next pea
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460014.709203|+15.583|+0.269
 DATA=2460014.845781|+16.306|+0.526

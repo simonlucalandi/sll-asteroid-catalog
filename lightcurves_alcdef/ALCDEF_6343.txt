@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6343
-OBJECTNAME=6343
+OBJECTNAME=1993 VK
+MPCDESIG=1993 VK
 SESSIONDATE=2019-05-08
 SESSIONTIME=01:37:28
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Veritas. Adopted rotation period 14.117 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CONFIRMED holds: re-verify found S43+S44 both detect (perm ~50sigma/~98sigma, both 14.117h to 0.08%); audit flag was false-positive (fixed power floor N-blind).
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458599.265477|+16.737|+0.126
 DATA=2458599.390481|+16.553|+0.091
@@ -742,8 +740,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6343
-OBJECTNAME=6343
+OBJECTNAME=1993 VK
+MPCDESIG=1993 VK
 SESSIONDATE=2021-09-29
 SESSIONTIME=06:08:57
 CONTACTNAME=S. Landi
@@ -777,11 +777,7 @@ COMMENT=Family: Veritas. Adopted rotation period 14.117 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CONFIRMED holds: re-verify found S43+S44 both detect (perm ~50sigma/~98sigma, both 14.117h to 0.08%); audit flag was false-positive (fixed power floor N-blind).
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.623360|+16.883|+0.127
 DATA=2459474.630305|+17.012|+0.143
@@ -3384,8 +3380,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6343
-OBJECTNAME=6343
+OBJECTNAME=1993 VK
+MPCDESIG=1993 VK
 SESSIONDATE=2021-10-25
 SESSIONTIME=20:16:42
 CONTACTNAME=S. Landi
@@ -3419,11 +3417,7 @@ COMMENT=Family: Veritas. Adopted rotation period 14.117 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CONFIRMED holds: re-verify found S43+S44 both detect (perm ~50sigma/~98sigma, both 14.117h to 0.08%); audit flag was false-positive (fixed power floor N-blind).
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459502.292599|+16.504|+0.104
 DATA=2459502.299543|+16.347|+0.093

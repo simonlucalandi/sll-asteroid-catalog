@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3168
-OBJECTNAME=3168
+OBJECTNAME=Lomnicky
+MPCDESIG=1980 XM
 SESSIONDATE=2021-09-02
 SESSIONTIME=17:33:54
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.237 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.23. All 3 sectors independently detect 3.236-3.238h at FAP~1e-240 to 1e-306 (spread <0.1%), including s42/s43 once the handful (13-24 of ~2000-4200 pts, <
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.734404|+18.697|+0.837
 DATA=2459447.741349|+18.814|+0.906
@@ -2060,8 +2058,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3168
-OBJECTNAME=3168
+OBJECTNAME=Lomnicky
+MPCDESIG=1980 XM
 SESSIONDATE=2021-09-24
 SESSIONTIME=10:50:53
 CONTACTNAME=S. Landi
@@ -2095,11 +2095,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.237 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.23. All 3 sectors independently detect 3.236-3.238h at FAP~1e-240 to 1e-306 (spread <0.1%), including s42/s43 once the handful (13-24 of ~2000-4200 pts, <
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.194666|+18.686|+0.850
 DATA=2459474.201610|+17.320|+0.229
@@ -3438,8 +3434,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3168
-OBJECTNAME=3168
+OBJECTNAME=Lomnicky
+MPCDESIG=1980 XM
 SESSIONDATE=2022-12-29
 SESSIONTIME=22:43:03
 CONTACTNAME=S. Landi
@@ -3473,11 +3471,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.237 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.23. All 3 sectors independently detect 3.236-3.238h at FAP~1e-240 to 1e-306 (spread <0.1%), including s42/s43 once the handful (13-24 of ~2000-4200 pts, <
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459937.123523|+16.262|+0.164
 DATA=2459937.125838|+16.974|+0.306

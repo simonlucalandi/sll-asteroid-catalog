@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=13388
-OBJECTNAME=13388
+OBJECTNAME=1999 AE6
+MPCDESIG=1999 AE6
 SESSIONDATE=2019-11-13
 SESSIONTIME=10:07:19
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 305.594 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SUPER-SLOW #3 (3-sector S18/36/89, comb-free, 2P). Error-weighted LS and PDM independently recover the same ~152-154h base period in all 3 sectors: LS gives S18=; P_sid=307.0h Thet
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458790.703107|+14.956|+0.052
 DATA=2458790.723941|+14.975|+0.052
@@ -618,8 +616,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=13388
-OBJECTNAME=13388
+OBJECTNAME=1999 AE6
+MPCDESIG=1999 AE6
 SESSIONDATE=2021-03-20
 SESSIONTIME=10:46:28
 CONTACTNAME=S. Landi
@@ -653,11 +653,7 @@ COMMENT=Family: main belt. Adopted rotation period 305.594 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SUPER-SLOW #3 (3-sector S18/36/89, comb-free, 2P). Error-weighted LS and PDM independently recover the same ~152-154h base period in all 3 sectors: LS gives S18=; P_sid=307.0h Thet
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459281.910866|+15.588|+0.076
 DATA=2459281.917811|+15.570|+0.078
@@ -3318,8 +3314,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=13388
-OBJECTNAME=13388
+OBJECTNAME=1999 AE6
+MPCDESIG=1999 AE6
 SESSIONDATE=2025-02-25
 SESSIONTIME=16:08:19
 CONTACTNAME=S. Landi
@@ -3353,11 +3351,7 @@ COMMENT=Family: main belt. Adopted rotation period 305.594 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SUPER-SLOW #3 (3-sector S18/36/89, comb-free, 2P). Error-weighted LS and PDM independently recover the same ~152-154h base period in all 3 sectors: LS gives S18=; P_sid=307.0h Thet
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460718.144782|+15.777|+0.091
 DATA=2460718.147097|+15.794|+0.094

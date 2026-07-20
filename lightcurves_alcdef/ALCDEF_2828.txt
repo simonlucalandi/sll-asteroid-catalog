@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2828
-OBJECTNAME=2828
+OBJECTNAME=Iku-Turso
+MPCDESIG=1942 DL
 SESSIONDATE=2021-08-29
 SESSIONTIME=10:35:19
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.803 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: VIRGIN first det; sub-barrier 1.90h REFUTED->doubled (odd-harm F-test+null significant all 3 sectors); D=7.3km
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.697353|+17.932|+0.402
 DATA=2459447.704298|+18.117|+0.465
@@ -1742,8 +1740,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2828
-OBJECTNAME=2828
+OBJECTNAME=Iku-Turso
+MPCDESIG=1942 DL
 SESSIONDATE=2021-09-28
 SESSIONTIME=19:27:25
 CONTACTNAME=S. Landi
@@ -1777,11 +1777,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.803 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: VIRGIN first det; sub-barrier 1.90h REFUTED->doubled (odd-harm F-test+null significant all 3 sectors); D=7.3km
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.170756|+16.304|+0.092
 DATA=2459474.177701|+16.221|+0.088
@@ -4583,8 +4579,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2828
-OBJECTNAME=2828
+OBJECTNAME=Iku-Turso
+MPCDESIG=1942 DL
 SESSIONDATE=2021-11-03
 SESSIONTIME=03:46:40
 CONTACTNAME=S. Landi
@@ -4618,11 +4616,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.803 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: VIRGIN first det; sub-barrier 1.90h REFUTED->doubled (odd-harm F-test+null significant all 3 sectors); D=7.3km
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459518.917749|+15.336|+0.058
 DATA=2459518.924693|+15.290|+0.058

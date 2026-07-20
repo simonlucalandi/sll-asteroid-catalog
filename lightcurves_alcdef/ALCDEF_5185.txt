@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5185
-OBJECTNAME=5185
+OBJECTNAME=Alerossi
+MPCDESIG=1990 RV2
 SESSIONDATE=2021-09-02
 SESSIONTIME=19:52:32
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 102.3 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED batch7 conflict re-verify 2026-07-18: NOT single-sector -- 3 sectors s42/s43/s62 agree ~101-102h (FAP~0). Prior 204.594h/2P and prior KILL both wrong; adopt 102.3h/1P (am
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.698592|+16.805|+0.118
 DATA=2459447.705537|+16.895|+0.127
@@ -2832,8 +2830,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5185
-OBJECTNAME=5185
+OBJECTNAME=Alerossi
+MPCDESIG=1990 RV2
 SESSIONDATE=2021-09-25
 SESSIONTIME=01:14:49
 CONTACTNAME=S. Landi
@@ -2867,11 +2867,7 @@ COMMENT=Family: main belt. Adopted rotation period 102.3 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED batch7 conflict re-verify 2026-07-18: NOT single-sector -- 3 sectors s42/s43/s62 agree ~101-102h (FAP~0). Prior 204.594h/2P and prior KILL both wrong; adopt 102.3h/1P (am
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459475.041042|+15.069|+0.509
 DATA=2459475.047987|+15.196|+0.492
@@ -4197,8 +4193,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5185
-OBJECTNAME=5185
+OBJECTNAME=Alerossi
+MPCDESIG=1990 RV2
 SESSIONDATE=2023-02-25
 SESSIONTIME=07:44:47
 CONTACTNAME=S. Landi
@@ -4232,11 +4230,7 @@ COMMENT=Family: main belt. Adopted rotation period 102.3 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED batch7 conflict re-verify 2026-07-18: NOT single-sector -- 3 sectors s42/s43/s62 agree ~101-102h (FAP~0). Prior 204.594h/2P and prior KILL both wrong; adopt 102.3h/1P (am
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459988.447605|+15.318|+0.132
 DATA=2459988.449920|+15.281|+0.124

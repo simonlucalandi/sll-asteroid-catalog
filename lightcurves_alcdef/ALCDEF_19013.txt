@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=19013
-OBJECTNAME=19013
+OBJECTNAME=2000 RN76
+MPCDESIG=2000 RN76
 SESSIONDATE=2020-07-09
 SESSIONTIME=13:02:10
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Cameron. Adopted rotation period 4.437 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: ZTF blind recovery FAP 1.15e-20 (5.4yr) + alias-fan decomposition; TESS 1P clean
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459036.286149|+15.432|+0.060
 DATA=2459036.293094|+15.530|+0.062

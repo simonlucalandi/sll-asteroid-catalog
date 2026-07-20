@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2711
-OBJECTNAME=2711
+OBJECTNAME=Aleksandrov
+MPCDESIG=1978 QB2
 SESSIONDATE=2020-10-06
 SESSIONTIME=16:37:01
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 32.44 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 2 apparitions s30/s46 agree <1%; minima symmetric->1P; comb 328.8/10 adjacent but S46 1.8% off
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459115.897128|+15.347|+0.056
 DATA=2459115.904073|+15.358|+0.056
@@ -2698,8 +2696,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2711
-OBJECTNAME=2711
+OBJECTNAME=Aleksandrov
+MPCDESIG=1978 QB2
 SESSIONDATE=2021-11-19
 SESSIONTIME=12:07:24
 CONTACTNAME=S. Landi
@@ -2733,11 +2733,7 @@ COMMENT=Family: main belt. Adopted rotation period 32.44 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 2 apparitions s30/s46 agree <1%; minima symmetric->1P; comb 328.8/10 adjacent but S46 1.8% off
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459525.844337|+16.656|+0.211
 DATA=2459525.858227|+16.192|+0.138
@@ -5338,8 +5334,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2711
-OBJECTNAME=2711
+OBJECTNAME=Aleksandrov
+MPCDESIG=1978 QB2
 SESSIONDATE=2021-12-23
 SESSIONTIME=23:06:29
 CONTACTNAME=S. Landi
@@ -5373,11 +5371,7 @@ COMMENT=Family: main belt. Adopted rotation period 32.44 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: 2 apparitions s30/s46 agree <1%; minima symmetric->1P; comb 328.8/10 adjacent but S46 1.8% off
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459566.528599|+15.724|+0.075
 DATA=2459566.535544|+15.917|+0.084

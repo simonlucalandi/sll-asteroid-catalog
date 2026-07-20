@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=24417
-OBJECTNAME=24417
+OBJECTNAME=2000 BK5
+MPCDESIG=2000 BK5
 SESSIONDATE=2023-10-03
 SESSIONTIME=18:07:25
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.783 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.27. Independent LS scans of s70 (pw=0.40,FAP~0) and s71 (pw=0.45,FAP~0) both peak sharply at P=3.7821h with matching fold phase (min~0.72-0.75, max~0.45 in both), and 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460209.111970|+15.823|+0.108
 DATA=2460209.114285|+15.823|+0.108
@@ -8485,8 +8483,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=24417
-OBJECTNAME=24417
+OBJECTNAME=2000 BK5
+MPCDESIG=2000 BK5
 SESSIONDATE=2023-11-02
 SESSIONTIME=05:44:44
 CONTACTNAME=S. Landi
@@ -8520,11 +8520,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.783 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.27. Independent LS scans of s70 (pw=0.40,FAP~0) and s71 (pw=0.45,FAP~0) both peak sharply at P=3.7821h with matching fold phase (min~0.72-0.75, max~0.45 in both), and 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460242.081882|+14.702|+0.063
 DATA=2460242.084197|+14.739|+0.064
@@ -14416,8 +14412,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=24417
-OBJECTNAME=24417
+OBJECTNAME=2000 BK5
+MPCDESIG=2000 BK5
 SESSIONDATE=2025-04-18
 SESSIONTIME=20:29:15
 CONTACTNAME=S. Landi
@@ -14451,11 +14449,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.783 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: folded_amp=0.27. Independent LS scans of s70 (pw=0.40,FAP~0) and s71 (pw=0.45,FAP~0) both peak sharply at P=3.7821h with matching fold phase (min~0.72-0.75, max~0.45 in both), and 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460775.814429|+16.153|+0.116
 DATA=2460775.816744|+16.076|+0.110

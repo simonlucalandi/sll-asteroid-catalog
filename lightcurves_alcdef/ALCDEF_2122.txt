@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2122
-OBJECTNAME=2122
+OBJECTNAME=Pyatiletka
+MPCDESIG=1971 XB
 SESSIONDATE=2023-10-03
 SESSIONTIME=06:19:19
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 8.9016 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: confirms Durech/Waszczak 8.90h; LCDB U=1 upgraded
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460208.564499|+15.160|+0.139
 DATA=2460208.571444|+16.830|+0.524
@@ -7122,8 +7120,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2122
-OBJECTNAME=2122
+OBJECTNAME=Pyatiletka
+MPCDESIG=1971 XB
 SESSIONDATE=2023-10-30
 SESSIONTIME=02:53:13
 CONTACTNAME=S. Landi
@@ -7157,11 +7157,7 @@ COMMENT=Family: main belt. Adopted rotation period 8.9016 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: confirms Durech/Waszczak 8.90h; LCDB U=1 upgraded
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460235.837223|+14.697|+0.974
 DATA=2460235.839538|+14.737|+0.974

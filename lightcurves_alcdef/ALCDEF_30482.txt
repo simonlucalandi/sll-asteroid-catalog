@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=30482
-OBJECTNAME=30482
+OBJECTNAME=2000 OG45
+MPCDESIG=2000 OG45
 SESSIONDATE=2021-05-12
 SESSIONTIME=19:06:28
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Ursula. Adopted rotation period 4.335 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: harmonic-flip resolved
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459334.195603|+16.839|+0.161
 DATA=2459334.202547|+16.511|+0.125
@@ -2900,8 +2898,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=30482
-OBJECTNAME=30482
+OBJECTNAME=2000 OG45
+MPCDESIG=2000 OG45
 SESSIONDATE=2026-02-15
 SESSIONTIME=17:04:36
 CONTACTNAME=S. Landi
@@ -2935,11 +2935,7 @@ COMMENT=Family: Ursula. Adopted rotation period 4.335 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: harmonic-flip resolved
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2461074.025843|+15.615|+0.155
 DATA=2461074.030473|+15.734|+0.168

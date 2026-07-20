@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2451
-OBJECTNAME=2451
+OBJECTNAME=Dollfus
+MPCDESIG=1980 RQ
 SESSIONDATE=2021-09-02
 SESSIONTIME=19:57:32
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 138.364 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SETTLES 3-way conflict: base 69.1-69.2h in ALL 3 sectors; refutes LCDB 48.0h AND Lam+2023 3.29h
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.698592|+16.124|+0.074
 DATA=2459447.705537|+16.199|+0.075
@@ -2622,8 +2620,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2451
-OBJECTNAME=2451
+OBJECTNAME=Dollfus
+MPCDESIG=1980 RQ
 SESSIONDATE=2021-09-28
 SESSIONTIME=13:05:03
 CONTACTNAME=S. Landi
@@ -2657,11 +2657,7 @@ COMMENT=Family: main belt. Adopted rotation period 138.364 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SETTLES 3-way conflict: base 69.1-69.2h in ALL 3 sectors; refutes LCDB 48.0h AND Lam+2023 3.29h
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.172915|+16.231|+0.093
 DATA=2459474.179860|+16.238|+0.094
@@ -5110,8 +5106,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2451
-OBJECTNAME=2451
+OBJECTNAME=Dollfus
+MPCDESIG=1980 RQ
 SESSIONDATE=2025-05-24
 SESSIONTIME=21:56:54
 CONTACTNAME=S. Landi
@@ -5145,11 +5143,7 @@ COMMENT=Family: main belt. Adopted rotation period 138.364 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: SETTLES 3-way conflict: base 69.1-69.2h in ALL 3 sectors; refutes LCDB 48.0h AND Lam+2023 3.29h
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460811.432181|+16.113|+0.120
 DATA=2460811.434496|+16.034|+0.113

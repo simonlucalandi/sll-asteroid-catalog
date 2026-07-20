@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=8265
-OBJECTNAME=8265
+OBJECTNAME=1986 RB5
+MPCDESIG=1986 RB5
 SESSIONDATE=2020-11-27
 SESSIONTIME=22:07:09
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 89.552 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.67. 4/4 sectors independently find the SAME fundamental P~44.5-45.4h (spread 1.9%, FAP~0; agreement holds even restricted to the 2 uncontaminated sectors 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459174.244577|+15.302|+0.058
 DATA=2459174.251522|+15.300|+0.058
@@ -1337,8 +1335,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=8265
-OBJECTNAME=8265
+OBJECTNAME=1986 RB5
+MPCDESIG=1986 RB5
 SESSIONDATE=2022-03-08
 SESSIONTIME=12:01:47
 CONTACTNAME=S. Landi
@@ -1372,11 +1372,7 @@ COMMENT=Family: main belt. Adopted rotation period 89.552 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.67. 4/4 sectors independently find the SAME fundamental P~44.5-45.4h (spread 1.9%, FAP~0; agreement holds even restricted to the 2 uncontaminated sectors 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459639.035815|+17.040|+0.705
 DATA=2459639.049704|+16.148|+0.303
@@ -2843,8 +2839,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=8265
-OBJECTNAME=8265
+OBJECTNAME=1986 RB5
+MPCDESIG=1986 RB5
 SESSIONDATE=2023-09-09
 SESSIONTIME=21:46:23
 CONTACTNAME=S. Landi
@@ -2878,11 +2876,7 @@ COMMENT=Family: main belt. Adopted rotation period 89.552 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.67. 4/4 sectors independently find the SAME fundamental P~44.5-45.4h (spread 1.9%, FAP~0; agreement holds even restricted to the 2 uncontaminated sectors 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460187.635383|+14.237|+0.053
 DATA=2460187.637698|+14.295|+0.054
@@ -9133,8 +9127,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=8265
-OBJECTNAME=8265
+OBJECTNAME=1986 RB5
+MPCDESIG=1986 RB5
 SESSIONDATE=2023-09-26
 SESSIONTIME=00:06:13
 CONTACTNAME=S. Landi
@@ -9168,11 +9164,7 @@ COMMENT=Family: main belt. Adopted rotation period 89.552 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.67. 4/4 sectors independently find the SAME fundamental P~44.5-45.4h (spread 1.9%, FAP~0; agreement holds even restricted to the 2 uncontaminated sectors 
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460209.144521|+14.736|+0.057
 DATA=2460209.146836|+14.716|+0.056

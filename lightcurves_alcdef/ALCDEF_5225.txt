@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5225
-OBJECTNAME=5225
+OBJECTNAME=Loral
+MPCDESIG=1983 TS1
 SESSIONDATE=2021-09-01
 SESSIONTIME=04:50:41
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Themis. Adopted rotation period 71.266 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp_F 1.20, a/b~3, shape-inversion target; 3 sectors shape-corr 0.99
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.697353|+16.416|+0.097
 DATA=2459447.704298|+16.426|+0.097
@@ -2635,8 +2633,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5225
-OBJECTNAME=5225
+OBJECTNAME=Loral
+MPCDESIG=1983 TS1
 SESSIONDATE=2021-09-27
 SESSIONTIME=03:33:46
 CONTACTNAME=S. Landi
@@ -2670,11 +2670,7 @@ COMMENT=Family: Themis. Adopted rotation period 71.266 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp_F 1.20, a/b~3, shape-inversion target; 3 sectors shape-corr 0.99
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.171935|+17.178|+0.214
 DATA=2459474.178880|+16.785|+0.150
@@ -5185,8 +5181,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5225
-OBJECTNAME=5225
+OBJECTNAME=Loral
+MPCDESIG=1983 TS1
 SESSIONDATE=2021-10-29
 SESSIONTIME=11:56:54
 CONTACTNAME=S. Landi
@@ -5220,11 +5218,7 @@ COMMENT=Family: Themis. Adopted rotation period 71.266 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp_F 1.20, a/b~3, shape-inversion target; 3 sectors shape-corr 0.99
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459509.598414|+15.423|+0.058
 DATA=2459509.605358|+15.381|+0.058

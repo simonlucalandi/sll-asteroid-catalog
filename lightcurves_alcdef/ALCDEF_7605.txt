@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=7605
-OBJECTNAME=7605
+OBJECTNAME=Cindygraber
+MPCDESIG=1995 SR1
 SESSIONDATE=2020-01-07
 SESSIONTIME=04:07:13
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 11.9368 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG resolved: 11.94h 2P adopted; ZTF FAP 1.6e-24 at P/2 match
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458842.536126|+15.999|+0.063
 DATA=2458842.556939|+15.902|+0.060
@@ -889,8 +887,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=7605
-OBJECTNAME=7605
+OBJECTNAME=Cindygraber
+MPCDESIG=1995 SR1
 SESSIONDATE=2021-03-23
 SESSIONTIME=15:30:48
 CONTACTNAME=S. Landi
@@ -924,11 +924,7 @@ COMMENT=Family: main belt. Adopted rotation period 11.9368 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG resolved: 11.94h 2P adopted; ZTF FAP 1.6e-24 at P/2 match
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459288.417169|+15.325|+0.056
 DATA=2459288.424113|+15.336|+0.057

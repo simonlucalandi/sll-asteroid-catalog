@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3840
-OBJECTNAME=3840
+OBJECTNAME=Mimistrobell
+MPCDESIG=1980 TN4
 SESSIONDATE=2020-07-24
 SESSIONTIME=06:52:23
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 22.549 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF STRONG_SUPPORT (recorded triage, Fink down) = 2nd realization. TESS s27: LS P=22.549h power=0.817 FAP~0, PDM P=22.548h agree, no comb/alias hits, not gri
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459049.175282|+16.793|+0.155
 DATA=2459049.182226|+16.313|+0.105

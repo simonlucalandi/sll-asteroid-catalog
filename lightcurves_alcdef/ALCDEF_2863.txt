@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2863
-OBJECTNAME=2863
+OBJECTNAME=Ben
+MPCDESIG=1981 QG2
 SESSIONDATE=2021-09-28
 SESSIONTIME=19:02:25
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Themis. Adopted rotation period 5.251 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 2026-07-18 re-verify: prior 10.501h was a comb-alias artifact from s72 (164.4h momentum-dump n=2). 3 clean sectors s43/s44/s91 agree P=5.251h to <0.1% (FAP 1e-140..1e-294
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.170756|+17.477|+0.236
 DATA=2459474.177701|+17.215|+0.187
@@ -2096,8 +2094,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2863
-OBJECTNAME=2863
+OBJECTNAME=Ben
+MPCDESIG=1981 QG2
 SESSIONDATE=2021-10-31
 SESSIONTIME=19:06:31
 CONTACTNAME=S. Landi
@@ -2131,11 +2131,7 @@ COMMENT=Family: Themis. Adopted rotation period 5.251 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 2026-07-18 re-verify: prior 10.501h was a comb-alias artifact from s72 (164.4h momentum-dump n=2). 3 clean sectors s43/s44/s91 agree P=5.251h to <0.1% (FAP 1e-140..1e-294
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459514.195335|+16.326|+0.089
 DATA=2459514.202280|+16.380|+0.093
@@ -3483,8 +3479,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2863
-OBJECTNAME=2863
+OBJECTNAME=Ben
+MPCDESIG=1981 QG2
 SESSIONDATE=2023-11-19
 SESSIONTIME=22:08:12
 CONTACTNAME=S. Landi
@@ -3518,11 +3516,7 @@ COMMENT=Family: Themis. Adopted rotation period 5.251 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 2026-07-18 re-verify: prior 10.501h was a comb-alias artifact from s72 (164.4h momentum-dump n=2). 3 clean sectors s43/s44/s91 agree P=5.251h to <0.1% (FAP 1e-140..1e-294
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460260.228350|+16.673|+0.550
 DATA=2460260.232980|+17.009|+0.704
@@ -5768,8 +5762,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2863
-OBJECTNAME=2863
+OBJECTNAME=Ben
+MPCDESIG=1981 QG2
 SESSIONDATE=2025-04-22
 SESSIONTIME=11:29:26
 CONTACTNAME=S. Landi
@@ -5803,11 +5799,7 @@ COMMENT=Family: Themis. Adopted rotation period 5.251 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: CORRECTED 2026-07-18 re-verify: prior 10.501h was a comb-alias artifact from s72 (164.4h momentum-dump n=2). 3 clean sectors s43/s44/s91 agree P=5.251h to <0.1% (FAP 1e-140..1e-294
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460775.456078|+16.217|+0.776
 DATA=2460775.511638|+16.628|+0.733

@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3208
-OBJECTNAME=3208
+OBJECTNAME=Lunn
+MPCDESIG=1981 JM
 SESSIONDATE=2021-09-03
 SESSIONTIME=02:52:00
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Themis. Adopted rotation period 7.472 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp caution: post-gap spikes
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459449.897408|+15.932|+0.074
 DATA=2459449.904352|+16.119|+0.080
@@ -1854,8 +1852,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3208
-OBJECTNAME=3208
+OBJECTNAME=Lunn
+MPCDESIG=1981 JM
 SESSIONDATE=2023-11-24
 SESSIONTIME=22:10:20
 CONTACTNAME=S. Landi
@@ -1889,11 +1889,7 @@ COMMENT=Family: Themis. Adopted rotation period 7.472 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp caution: post-gap spikes
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460261.445945|+17.650|+0.904
 DATA=2460261.464465|+17.818|+0.989
@@ -7365,8 +7361,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3208
-OBJECTNAME=3208
+OBJECTNAME=Lunn
+MPCDESIG=1981 JM
 SESSIONDATE=2025-04-30
 SESSIONTIME=07:22:41
 CONTACTNAME=S. Landi
@@ -7400,11 +7398,7 @@ COMMENT=Family: Themis. Adopted rotation period 7.472 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp caution: post-gap spikes
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460789.668623|+15.474|+0.077
 DATA=2460789.670938|+15.506|+0.078

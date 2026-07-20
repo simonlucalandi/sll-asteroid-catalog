@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5768
-OBJECTNAME=5768
+OBJECTNAME=Pittich
+MPCDESIG=1986 TN1
 SESSIONDATE=2021-04-15
 SESSIONTIME=08:17:02
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 8.14 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: LS s37 P=4.070h(pw=0.94,FAP=0),s55 P=4.070h(pw=0.78,FAP=0),agree to 0.01%. Folded amp s37=0.72,s55=0.31,combined=0.67, all>0.40 -> elongated, adopt 2P
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459307.293200|+15.005|+0.065
 DATA=2459307.300144|+14.865|+0.061
@@ -2950,8 +2948,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5768
-OBJECTNAME=5768
+OBJECTNAME=Pittich
+MPCDESIG=1986 TN1
 SESSIONDATE=2022-08-25
 SESSIONTIME=20:26:06
 CONTACTNAME=S. Landi
@@ -2985,11 +2985,7 @@ COMMENT=Family: main belt. Adopted rotation period 8.14 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: LS s37 P=4.070h(pw=0.94,FAP=0),s55 P=4.070h(pw=0.78,FAP=0),agree to 0.01%. Folded amp s37=0.72,s55=0.31,combined=0.67, all>0.40 -> elongated, adopt 2P
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459811.306464|+15.839|+0.066
 DATA=2459811.313409|+15.857|+0.065

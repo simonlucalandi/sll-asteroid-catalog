@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1053
-OBJECTNAME=1053
+OBJECTNAME=Vigdis
+MPCDESIG=1925 WA
 SESSIONDATE=2020-03-01
 SESSIONTIME=13:52:16
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 1.832 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 3 sectors independently converge on P_base=1.8320h (LS power 0.73/0.41/0.42, FAP effectively 0 for all; PDM theta 0.37-0.73), with cross-sector sc
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458899.327996|+15.951|+0.089
 DATA=2458899.348870|+15.977|+0.091
@@ -744,8 +742,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1053
-OBJECTNAME=1053
+OBJECTNAME=Vigdis
+MPCDESIG=1925 WA
 SESSIONDATE=2023-11-24
 SESSIONTIME=21:12:10
 CONTACTNAME=S. Landi
@@ -779,11 +779,7 @@ COMMENT=Family: main belt. Adopted rotation period 1.832 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 3 sectors independently converge on P_base=1.8320h (LS power 0.73/0.41/0.42, FAP effectively 0 for all; PDM theta 0.37-0.73), with cross-sector sc
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460261.368419|+16.665|+0.707
 DATA=2460262.090713|+15.972|+0.146
@@ -8840,8 +8836,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=1053
-OBJECTNAME=1053
+OBJECTNAME=Vigdis
+MPCDESIG=1925 WA
 SESSIONDATE=2025-04-22
 SESSIONTIME=20:43:41
 CONTACTNAME=S. Landi
@@ -8875,11 +8873,7 @@ COMMENT=Family: main belt. Adopted rotation period 1.832 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: All 3 sectors independently converge on P_base=1.8320h (LS power 0.73/0.41/0.42, FAP effectively 0 for all; PDM theta 0.37-0.73), with cross-sector sc
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460776.144464|+16.115|+0.128
 DATA=2460776.146779|+15.955|+0.114

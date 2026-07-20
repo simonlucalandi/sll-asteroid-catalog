@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=7607
-OBJECTNAME=7607
+OBJECTNAME=Billmerline
+MPCDESIG=1995 SB13
 SESSIONDATE=2023-10-03
 SESSIONTIME=09:04:49
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Hoffmeister. Adopted rotation period 38.774 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: TESS single-sector + ZTF independent blind-recovery (FAP<<1e-8) = 2nd realization. TESS (my own re-run via load_clean/detrend/ls_scan on lc_7607_s70.csv, n=8576, baseline=60
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460208.359906|+15.984|+0.176
 DATA=2460208.362221|+15.830|+0.154

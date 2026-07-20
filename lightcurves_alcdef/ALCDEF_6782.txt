@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6782
-OBJECTNAME=6782
+OBJECTNAME=1990 SU10
+MPCDESIG=1990 SU10
 SESSIONDATE=2023-10-03
 SESSIONTIME=09:15:06
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Hoffmeister. Adopted rotation period 3.927 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: census amp 0.96 was blend event; real 0.20
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460208.767945|+15.561|+0.989
 DATA=2460208.770260|+15.605|+0.950
@@ -8014,8 +8012,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6782
-OBJECTNAME=6782
+OBJECTNAME=1990 SU10
+MPCDESIG=1990 SU10
 SESSIONDATE=2023-11-07
 SESSIONTIME=00:24:49
 CONTACTNAME=S. Landi
@@ -8049,11 +8049,7 @@ COMMENT=Family: Hoffmeister. Adopted rotation period 3.927 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: census amp 0.96 was blend event; real 0.20
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460251.753418|+15.838|+0.096
 DATA=2460251.755733|+15.900|+0.098

@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=19290
-OBJECTNAME=19290
+OBJECTNAME=Schroeder
+MPCDESIG=1996 JR1
 SESSIONDATE=2021-10-07
 SESSIONTIME=20:53:35
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Phocaea. Adopted rotation period 65.015 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp 0.77; consecutive sectors, no sidereal possible
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459491.852917|+16.691|+0.179
 DATA=2459491.859862|+16.948|+0.205
@@ -940,8 +938,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=19290
-OBJECTNAME=19290
+OBJECTNAME=Schroeder
+MPCDESIG=1996 JR1
 SESSIONDATE=2021-10-24
 SESSIONTIME=19:10:08
 CONTACTNAME=S. Landi
@@ -975,11 +975,7 @@ COMMENT=Family: Phocaea. Adopted rotation period 65.015 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: amp 0.77; consecutive sectors, no sidereal possible
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459500.200736|+18.915|+0.976
 DATA=2459500.207681|+18.165|+0.479

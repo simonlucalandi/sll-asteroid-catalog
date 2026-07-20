@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6658
-OBJECTNAME=6658
+OBJECTNAME=Akiraabe
+MPCDESIG=1992 WT2
 SESSIONDATE=2022-05-12
 SESSIONTIME=06:21:51
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.665 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.28. All 3 sectors (S51/S70/S71) independently find P~2.66-2.67h with FAP~0/1e-93 (100-228 cycles each) -> genuine cross-sector CONFIRMED; but folded/binne
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459706.133340|+15.029|+0.058
 DATA=2459706.140285|+14.973|+0.058
@@ -538,8 +536,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6658
-OBJECTNAME=6658
+OBJECTNAME=Akiraabe
+MPCDESIG=1992 WT2
 SESSIONDATE=2023-10-02
 SESSIONTIME=07:11:41
 CONTACTNAME=S. Landi
@@ -573,11 +573,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.665 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.28. All 3 sectors (S51/S70/S71) independently find P~2.66-2.67h with FAP~0/1e-93 (100-228 cycles each) -> genuine cross-sector CONFIRMED; but folded/binne
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460208.825802|+16.710|+0.603
 DATA=2460208.828117|+16.352|+0.378
@@ -7364,8 +7360,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=6658
-OBJECTNAME=6658
+OBJECTNAME=Akiraabe
+MPCDESIG=1992 WT2
 SESSIONDATE=2023-10-29
 SESSIONTIME=05:28:03
 CONTACTNAME=S. Landi
@@ -7399,11 +7397,7 @@ COMMENT=Family: main belt. Adopted rotation period 2.665 h (1P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: REVIEW-FLAG: folded_amp=0.28. All 3 sectors (S51/S70/S71) independently find P~2.66-2.67h with FAP~0/1e-93 (100-228 cycles each) -> genuine cross-sector CONFIRMED; but folded/binne
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460234.058844|+16.784|+0.743
 DATA=2460234.065789|+16.411|+0.530

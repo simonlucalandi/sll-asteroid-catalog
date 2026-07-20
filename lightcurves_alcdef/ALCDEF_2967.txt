@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2967
-OBJECTNAME=2967
+OBJECTNAME=Vladisvyat
+MPCDESIG=1977 SS1
 SESSIONDATE=2020-04-03
 SESSIONTIME=00:22:13
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Ursula. Adopted rotation period 8.374 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: base 4.1875h x4 sectors/3.6yr alias-free; 2P by amplitude convention (amp 0.63)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458930.161370|+15.841|+0.094
 DATA=2458930.182244|+15.757|+0.086
@@ -802,8 +800,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2967
-OBJECTNAME=2967
+OBJECTNAME=Vladisvyat
+MPCDESIG=1977 SS1
 SESSIONDATE=2021-05-12
 SESSIONTIME=15:52:01
 CONTACTNAME=S. Landi
@@ -837,11 +837,7 @@ COMMENT=Family: Ursula. Adopted rotation period 8.374 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: base 4.1875h x4 sectors/3.6yr alias-free; 2P by amplitude convention (amp 0.63)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459333.924859|+14.690|+0.064
 DATA=2459334.042918|+16.891|+0.223
@@ -3656,8 +3652,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2967
-OBJECTNAME=2967
+OBJECTNAME=Vladisvyat
+MPCDESIG=1977 SS1
 SESSIONDATE=2023-10-03
 SESSIONTIME=10:34:04
 CONTACTNAME=S. Landi
@@ -3691,11 +3689,7 @@ COMMENT=Family: Ursula. Adopted rotation period 8.374 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: base 4.1875h x4 sectors/3.6yr alias-free; 2P by amplitude convention (amp 0.63)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460208.482301|+14.043|+0.190
 DATA=2460208.517026|+14.048|+0.183
@@ -12364,8 +12358,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=2967
-OBJECTNAME=2967
+OBJECTNAME=Vladisvyat
+MPCDESIG=1977 SS1
 SESSIONDATE=2023-10-29
 SESSIONTIME=05:19:31
 CONTACTNAME=S. Landi
@@ -12399,11 +12395,7 @@ COMMENT=Family: Ursula. Adopted rotation period 8.374 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: base 4.1875h x4 sectors/3.6yr alias-free; 2P by amplitude convention (amp 0.63)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460234.046863|+14.524|+0.108
 DATA=2460234.049178|+14.475|+0.105

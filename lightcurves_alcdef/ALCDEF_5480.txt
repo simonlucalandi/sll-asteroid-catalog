@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5480
-OBJECTNAME=5480
+OBJECTNAME=1989 YK8
+MPCDESIG=1989 YK8
 SESSIONDATE=2021-09-01
 SESSIONTIME=10:36:45
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 23.11 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: Pipeline: 1P/11.557h CONFIRMED but flagged near-threshold, incoherent-sectors, period-spread177%, harmonic-only(s91). Independent check: s42 LS P=11.5
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.702314|+15.360|+0.056
 DATA=2459447.709259|+15.410|+0.057
@@ -1976,8 +1974,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5480
-OBJECTNAME=5480
+OBJECTNAME=1989 YK8
+MPCDESIG=1989 YK8
 SESSIONDATE=2023-11-24
 SESSIONTIME=00:22:04
 CONTACTNAME=S. Landi
@@ -2011,11 +2011,7 @@ COMMENT=Family: main belt. Adopted rotation period 23.11 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: Pipeline: 1P/11.557h CONFIRMED but flagged near-threshold, incoherent-sectors, period-spread177%, harmonic-only(s91). Independent check: s42 LS P=11.5
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460260.521116|+16.243|+0.295
 DATA=2460260.523431|+16.644|+0.424
@@ -8844,8 +8840,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5480
-OBJECTNAME=5480
+OBJECTNAME=1989 YK8
+MPCDESIG=1989 YK8
 SESSIONDATE=2025-04-13
 SESSIONTIME=00:32:42
 CONTACTNAME=S. Landi
@@ -8879,11 +8877,7 @@ COMMENT=Family: main belt. Adopted rotation period 23.11 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: Pipeline: 1P/11.557h CONFIRMED but flagged near-threshold, incoherent-sectors, period-spread177%, harmonic-only(s91). Independent check: s42 LS P=11.5
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460775.298134|+15.097|+0.065
 DATA=2460775.300449|+15.176|+0.067

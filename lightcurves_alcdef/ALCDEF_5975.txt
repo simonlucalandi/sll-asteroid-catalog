@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5975
-OBJECTNAME=5975
+OBJECTNAME=Otakemayumi
+MPCDESIG=1992 SG
 SESSIONDATE=2020-08-12
 SESSIONTIME=12:17:17
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 12.262 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: confirms Cellino+2024/DurechHanus2023 12.26h
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459067.223889|+15.347|+0.057
 DATA=2459067.230834|+15.338|+0.057
@@ -1489,8 +1487,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5975
-OBJECTNAME=5975
+OBJECTNAME=Otakemayumi
+MPCDESIG=1992 SG
 SESSIONDATE=2023-04-19
 SESSIONTIME=19:01:32
 CONTACTNAME=S. Landi
@@ -1524,11 +1524,7 @@ COMMENT=Family: main belt. Adopted rotation period 12.262 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: confirms Cellino+2024/DurechHanus2023 12.26h
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460041.197936|+15.666|+0.108
 DATA=2460041.200251|+15.983|+0.137

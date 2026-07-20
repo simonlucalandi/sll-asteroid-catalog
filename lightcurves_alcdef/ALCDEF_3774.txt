@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3774
-OBJECTNAME=3774
+OBJECTNAME=Megumi
+MPCDESIG=1987 YC
 SESSIONDATE=2022-09-13
 SESSIONTIME=08:11:34
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.5724 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: sub-barrier 1.79h resolved to 3.572h (physics + Durech match); D=18km
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459825.262530|+15.260|+0.070
 DATA=2459825.264845|+15.186|+0.067
@@ -7244,8 +7242,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=3774
-OBJECTNAME=3774
+OBJECTNAME=Megumi
+MPCDESIG=1987 YC
 SESSIONDATE=2025-02-25
 SESSIONTIME=18:30:34
 CONTACTNAME=S. Landi
@@ -7279,11 +7279,7 @@ COMMENT=Family: main belt. Adopted rotation period 3.5724 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: sub-barrier 1.79h resolved to 3.572h (physics + Durech match); D=18km
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460718.145190|+14.847|+0.062
 DATA=2460718.147505|+14.892|+0.064

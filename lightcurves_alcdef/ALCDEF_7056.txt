@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=7056
-OBJECTNAME=7056
+OBJECTNAME=Kierkegaard
+MPCDESIG=1989 SE2
 SESSIONDATE=2020-03-13
 SESSIONTIME=08:37:26
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Agnia. Adopted rotation period 61.906 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: cleanest sidereal fit of program (Theta 0.18, 5.1yr)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2458917.328118|+16.341|+0.076
 DATA=2458917.348931|+16.262|+0.071
@@ -434,8 +432,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=7056
-OBJECTNAME=7056
+OBJECTNAME=Kierkegaard
+MPCDESIG=1989 SE2
 SESSIONDATE=2025-04-23
 SESSIONTIME=08:34:02
 CONTACTNAME=S. Landi
@@ -469,11 +469,7 @@ COMMENT=Family: Agnia. Adopted rotation period 61.906 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: cleanest sidereal fit of program (Theta 0.18, 5.1yr)
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2460776.455634|+16.005|+0.088
 DATA=2460776.457948|+16.169|+0.098

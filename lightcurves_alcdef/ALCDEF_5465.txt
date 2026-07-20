@@ -1,8 +1,10 @@
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5465
-OBJECTNAME=5465
+OBJECTNAME=Chumakov
+MPCDESIG=1986 RF13
 SESSIONDATE=2021-09-02
 SESSIONTIME=11:31:05
 CONTACTNAME=S. Landi
@@ -36,11 +38,7 @@ COMMENT=Family: Koronis. Adopted rotation period 3.218 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: PHYSICS-FORCED doubling: P_phot 1.609h sub-barrier (rho_crit 5.4 g/cc impossible for rubble pile); 1P monolith NOT established; Szabo-2022 precedent for symmetric-2P adoption
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459447.764107|+18.785|+0.878
 DATA=2459447.777997|+18.518|+0.664
@@ -2033,8 +2031,10 @@ ENDDATA
 STARTMETADATA
 REVISEDDATA=FALSE
 SUBMITPDS=TRUE
+ALLOWSHARING=TRUE
 OBJECTNUMBER=5465
-OBJECTNAME=5465
+OBJECTNAME=Chumakov
+MPCDESIG=1986 RF13
 SESSIONDATE=2021-09-28
 SESSIONTIME=23:31:58
 CONTACTNAME=S. Landi
@@ -2068,11 +2068,7 @@ COMMENT=Family: Koronis. Adopted rotation period 3.218 h (2P),
 COMMENT=house convention: amplitude-first (amp>0.40 mag) + asymmetry-override
 COMMENT=doubling, adversarially verified against raw photometry. status=CONFIRMED.
 COMMENT=Note: PHYSICS-FORCED doubling: P_phot 1.609h sub-barrier (rho_crit 5.4 g/cc impossible for rubble pile); 1P monolith NOT established; Szabo-2022 precedent for symmetric-2P adoption
-COMMENT=OBJECTNAME defaults to the bare object number: no local provisional-
-COMMENT=designation table was available for this family; verify/replace before
-COMMENT=the manual alcdef.org upload if a proper designation is known.
-COMMENT=Associated second MPB paper is in preparation (not yet submitted);
-COMMENT=this export is prep-only.
+COMMENT=Reference: Landi, S. (2026). Minor Planet Bulletin, submitted.
 ENDMETADATA
 DATA=2459474.251317|+15.976|+0.077
 DATA=2459474.258262|+16.343|+0.097
