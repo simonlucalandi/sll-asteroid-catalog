@@ -1,6 +1,15 @@
 # TESS-FFI Asteroid Rotation Catalog
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21567084.svg)](https://doi.org/10.5281/zenodo.21567084)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21446076.svg)](https://doi.org/10.5281/zenodo.21446076)
+
+**Citing this catalog.** The badge above is the *concept* DOI
+([10.5281/zenodo.21446076](https://doi.org/10.5281/zenodo.21446076)): it never changes and
+always resolves to the newest release, so use it to point people at the current data.
+When citing the catalog **in a paper**, cite the *version* DOI of the release you actually
+used instead, so the numbers behind your results stay retrievable. The current release is
+**v1.1.0**, [10.5281/zenodo.21567084](https://doi.org/10.5281/zenodo.21567084); every
+version is listed on the
+[Zenodo versions page](https://zenodo.org/search?q=conceptdoi:%2210.5281/zenodo.21446076%22&f=allversions%3Atrue).
 
 Rotation periods of numbered main-belt asteroids derived from TESS Full-Frame Image (FFI)
 moving-target photometry. The program targets objects with **no reliable prior rotation
