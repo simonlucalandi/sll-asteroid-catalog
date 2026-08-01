@@ -35,6 +35,23 @@ as follows:
   cannot rotate faster than ~2.3 h. A sub-2.3 h photometric period on a multi-km body is
   therefore necessarily the 2nd harmonic, and P_rot = 2 x P_phot regardless of amplitude.
 
+### 3b. Decision hierarchy for 1P vs 2P (revised 2026-08-01)
+The amplitude convention is the WEAKEST rung, not the strongest. The order is:
+
+1. **Measured fold shape** -- odd-harmonic power or unequal minima at the doubled period,
+   significant against a block bootstrap. When present, it decides regardless of amplitude.
+2. **Spin-barrier physics** -- a rubble pile larger than ~1 km cannot rotate faster than
+   ~2.2 h. A sub-barrier photometric period on a km-sized body is therefore double-peaked
+   whatever its amplitude: the single-peaked reading is physically excluded, not merely
+   unlikely. This rung was added after a systematic sweep found 49 catalog entries below
+   2.2 h, all on 5-16 km bodies and all shape 1P by the amplitude rule; a fresh
+   odd-harmonic audit then found MEASURED double-peak evidence in 44 of the 49 (up to
+   23.7 sigma), confirming that the amplitude rule fails systematically at the fast end,
+   where geometric foreshortening keeps folded amplitudes small. All 49 were doubled onto
+   3.0-4.4 h, the ordinary main-belt range.
+3. **Amplitude convention** (folded amp > 0.40 -> 2P) -- only where neither measurement nor
+   physics constrains the answer.
+
 ## 4. Confirmation across sectors
 - CONFIRMED: two or more sectors independently detect the same period (harmonic-aware, i.e.
   agreeing to within 5% at P, P/2, or 2P), with the multi-sector agreement significant at
