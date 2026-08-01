@@ -23,7 +23,7 @@ number,family,P_rot_h,shape,quality_U,status
 3208,Themis,7.472,1P,2,CONFIRMED
 2863,Themis,10.502,2P,2,CONFIRMED
 5225,Themis,71.266,2P,2,CONFIRMED
-30968,Phocaea,4.151,1P,2,CONFIRMED
+30968,Phocaea,8.302,2P,2,CONFIRMED
 15315,Phocaea,12.942,2P,2,CONFIRMED
 29909,Phocaea,14.38,2P,2,CONFIRMED
 19290,Phocaea,65.015,2P,2,CONFIRMED
@@ -41,7 +41,7 @@ number,family,P_rot_h,shape,quality_U,status
 5809,Koronis,4.182,2P,2,CONFIRMED
 7056,Agnia,61.906,2P,2,CONFIRMED
 2967,Ursula,8.374,2P,2,CONFIRMED
-30482,Ursula,4.335,1P,2,CONFIRMED
+30482,Ursula,8.67,2P,2,CONFIRMED
 6079,Ursula,31.392,2P,2,CONFIRMED
 14039,Ursula,5.282,2P,2,CONFIRMED
 29931,Ursula,4.5834,2P,2,CONFIRMED
@@ -75,10 +75,10 @@ number,family,P_rot_h,shape,quality_U,status
 14720,main belt (survey),108.08,2P,2,CONFIRMED
 2828,main belt (survey),3.803,2P,2,CONFIRMED
 22790,main belt (survey),19.262,2P,2,CONFIRMED
-2350,main belt (survey),3.016,1P,2,CONFIRMED
+2350,main belt (survey),6.032,2P,2,CONFIRMED
 7887,main belt (survey),111.712,2P,2,CONFIRMED
 5167,main belt (survey),2.6597,1P,2,CONFIRMED
-3477,main belt (survey),4.2,1P,2,CONFIRMED
+3477,main belt (survey),8.4,2P,2,CONFIRMED
 2724,main belt (survey),6.898,1P,2,CONFIRMED
 5824,main belt (survey),24.1,ambiguous,1,CANDIDATE
 2024,main belt (survey),167.52,2P,2,CONFIRMED
@@ -90,8 +90,8 @@ number,family,P_rot_h,shape,quality_U,status
 3949,main belt (survey),3.622,2P,2,CONFIRMED
 2736,main belt (survey),9.38,1P,2,CONFIRMED
 3371,main belt (survey),64.848,1P,1,CANDIDATE
-5777,main belt (survey),2.556,1P,1,CANDIDATE
-3520,main belt (survey),2.8967,1P,1,CANDIDATE
+5777,main belt (survey),5.112,2P,1,CANDIDATE
+3520,main belt (survey),5.7934,2P,1,CANDIDATE
 7605,main belt (survey),11.9368,2P,2,CONFIRMED
 2352,main belt (survey),41.181,2P,1,CANDIDATE
 15427,main belt (survey),39.45,1P,2,CONFIRMED
@@ -126,9 +126,9 @@ number,family,P_rot_h,shape,quality_U,status
 6286,main belt (survey),13.2124,1P,1,CANDIDATE
 4617,main belt (survey),14.9178,2P,1,CANDIDATE
 10164,main belt (survey),3.3126,2P,1,CANDIDATE
-4203,main belt (survey),3.3831,1P,1,CANDIDATE
+4203,main belt (survey),6.7662,2P,1,CANDIDATE
 16785,main belt (survey),139.885,1P,1,CANDIDATE
-5113,main belt (survey),2.3786,1P,1,CANDIDATE
+5113,main belt (survey),4.7572,2P,1,CANDIDATE
 5600,main belt (survey),3.5056,1P,1,CANDIDATE
 5480,main belt (survey),23.11,2P,2,CONFIRMED
 46992,main belt (survey),53.8038,2P,1,CANDIDATE
@@ -150,7 +150,7 @@ number,family,P_rot_h,shape,quality_U,status
 2124,main belt (survey),3.1227,2P,1,CANDIDATE
 2465,main belt (survey),16.4918,1P,1,CANDIDATE
 2805,main belt (survey),4.3677,1P,1,CANDIDATE
-2878,main belt (survey),10.2427,1P,1,CANDIDATE
+2878,main belt (survey),20.4854,2P,1,CANDIDATE
 3246,main belt (survey),7.184,2P,2,CONFIRMED
 3594,main belt (survey),4.608,2P,2,CONFIRMED
 4001,main belt (survey),5.009,2P,1,CANDIDATE
@@ -184,7 +184,7 @@ number,family,P_rot_h,shape,quality_U,status
 6658,main belt (survey),5.33,2P,2,CONFIRMED
 7463,main belt (survey),12.6112,1P,1,CANDIDATE
 8265,main belt (survey),89.552,2P,2,CONFIRMED
-9214,main belt (survey),2.391,1P,2,CONFIRMED
+9214,main belt (survey),4.782,2P,2,CONFIRMED
 9594,main belt (survey),2.8866,1P,1,CANDIDATE
 18067,main belt (survey),4.773,1P,2,CONFIRMED
 22870,main belt (survey),4.7626,1P,1,CANDIDATE
@@ -200,11 +200,11 @@ number,family,P_rot_h,shape,quality_U,status
 25316,main belt (survey),3.3269,2P,1,CANDIDATE
 3846,main belt (survey),5.1719,1P,1,CANDIDATE
 10451,main belt (survey),10.178,2P,2,CONFIRMED
-4118,main belt (survey),4.367,1P,2,CONFIRMED
+4118,main belt (survey),8.734,2P,2,CONFIRMED
 5576,main belt (survey),12.094,1P,2,CONFIRMED
-9092,main belt (survey),7.226,1P,2,CONFIRMED
+9092,main belt (survey),14.452,2P,2,CONFIRMED
 9171,main belt (survey),14.026,2P,2,CONFIRMED
-10031,main belt (survey),2.5017,1P,1,CANDIDATE
+10031,main belt (survey),5.0034,2P,1,CANDIDATE
 17569,main belt (survey),89.1748,2P,1,CANDIDATE
 8294,main belt (survey),3.2408,2P,1,CANDIDATE
 5109,main belt (survey),45.3887,1P,1,CANDIDATE
@@ -217,18 +217,18 @@ number,family,P_rot_h,shape,quality_U,status
 11933,main belt (survey),14.1399,1P,1,CANDIDATE
 12064,main belt (survey),8.1155,1P,1,CANDIDATE
 12975,main belt (survey),3.6668,2P,1,CANDIDATE
-13073,main belt (survey),2.8414,1P,1,CANDIDATE
+13073,main belt (survey),5.6828,2P,1,CANDIDATE
 14927,main belt (survey),86.196,2P,2,CONFIRMED
 15070,main belt (survey),19.174,2P,2,CONFIRMED
 15286,main belt (survey),118.76,1P,2,CONFIRMED
 15524,main belt (survey),10.8,1P,1,CANDIDATE
 16405,main belt (survey),100.2192,1P,1,CANDIDATE
-16555,main belt (survey),20.2102,1P,1,CANDIDATE
+16555,main belt (survey),40.4204,2P,1,CANDIDATE
 16650,main belt (survey),2.323,1P,2,CONFIRMED
 17019,main belt (survey),4.1396,2P,1,CANDIDATE
 18069,main belt (survey),2.4993,1P,1,CANDIDATE
 18114,main belt (survey),12.2033,1P,1,CANDIDATE
-19150,main belt (survey),2.7376,1P,1,CANDIDATE
+19150,main belt (survey),5.4752,2P,1,CANDIDATE
 19364,main belt (survey),11.2488,2P,1,CANDIDATE
 19657,main belt (survey),4.35,2P,2,CONFIRMED
 21977,main belt (survey),3.779,1P,2,CONFIRMED
@@ -238,7 +238,7 @@ number,family,P_rot_h,shape,quality_U,status
 24809,main belt (survey),6.4374,2P,1,CANDIDATE
 2488,main belt (survey),44.2385,1P,1,CANDIDATE
 2514,main belt (survey),2.5337,1P,1,CANDIDATE
-2775,main belt (survey),4.165,1P,2,CONFIRMED
+2775,main belt (survey),8.33,2P,2,CONFIRMED
 27791,main belt (survey),6.3926,2P,1,CANDIDATE
 28056,main belt (survey),6.157,1P,2,CONFIRMED
 29199,main belt (survey),15.38,2P,2,CONFIRMED
@@ -251,20 +251,20 @@ number,family,P_rot_h,shape,quality_U,status
 4315,main belt (survey),7.2308,1P,1,CANDIDATE
 4523,main belt (survey),13.162,2P,2,CONFIRMED
 4573,main belt (survey),4.238,2P,2,CONFIRMED
-4645,main belt (survey),5.883,1P,2,CONFIRMED
+4645,main belt (survey),11.766,2P,2,CONFIRMED
 46568,main belt (survey),64.4736,2P,1,CANDIDATE
 4973,main belt (survey),28.5253,1P,1,CANDIDATE
 5015,main belt (survey),58.708,1P,2,CONFIRMED
-5024,main belt (survey),13.0234,1P,1,CANDIDATE
+5024,main belt (survey),26.0468,2P,1,CANDIDATE
 5106,main belt (survey),16.7546,2P,1,CANDIDATE
-55103,main belt (survey),2.321,1P,2,CONFIRMED
+55103,main belt (survey),4.642,2P,2,CONFIRMED
 5683,main belt (survey),20.318,1P,2,CONFIRMED
 5722,main belt (survey),3.74,2P,2,CONFIRMED
 5844,main belt (survey),148.102,1P,2,CONFIRMED
 5921,main belt (survey),86.243,1P,2,CONFIRMED
 6101,main belt (survey),49.034,1P,2,CONFIRMED
 6162,main belt (survey),167.682,2P,2,CONFIRMED
-6277,main belt (survey),4.7912,1P,1,CANDIDATE
+6277,main belt (survey),9.5824,2P,1,CANDIDATE
 6281,main belt (survey),4.66,1P,2,CONFIRMED
 6678,main belt (survey),6.715,1P,2,CONFIRMED
 6740,main belt (survey),189.62,ambiguous,1,CANDIDATE
@@ -273,7 +273,7 @@ number,family,P_rot_h,shape,quality_U,status
 6914,main belt (survey),92.2278,2P,1,CANDIDATE
 7046,main belt (survey),5.0076,1P,1,CANDIDATE
 7113,main belt (survey),16.074,2P,2,CONFIRMED
-7215,main belt (survey),3.044,1P,2,CONFIRMED
+7215,main belt (survey),6.088,2P,2,CONFIRMED
 73689,main belt (survey),216.406,2P,2,CONFIRMED
 7472,main belt (survey),4.372,2P,2,CONFIRMED
 7628,main belt (survey),10.82,2P,2,CONFIRMED
@@ -284,7 +284,7 @@ number,family,P_rot_h,shape,quality_U,status
 9146,main belt (survey),4.4736,1P,1,CANDIDATE
 94030,main belt (survey),10.758,2P,1,CANDIDATE
 9891,main belt (survey),9.6034,1P,1,CANDIDATE
-10112,main belt (survey),2.936,1P,2,CONFIRMED
+10112,main belt (survey),5.872,2P,2,CONFIRMED
 10363,main belt (survey),51.802,2P,1,CANDIDATE
 10505,main belt (survey),133.3104,2P,1,CANDIDATE
 10710,main belt (survey),4.2803,1P,1,CANDIDATE
@@ -297,7 +297,7 @@ number,family,P_rot_h,shape,quality_U,status
 12745,main belt (survey),10.9262,1P,1,CANDIDATE
 13632,main belt (survey),3.3666,2P,1,CANDIDATE
 13786,main belt (survey),3.846,2P,2,CONFIRMED
-13808,main belt (survey),3.785,1P,2,CONFIRMED
+13808,main belt (survey),7.57,2P,2,CONFIRMED
 14338,main belt (survey),9.1962,1P,1,CANDIDATE
 14912,main belt (survey),67.3758,1P,1,CANDIDATE
 14945,main belt (survey),11.495,1P,2,CONFIRMED
@@ -321,7 +321,7 @@ number,family,P_rot_h,shape,quality_U,status
 19197,main belt (survey),3.5189,1P,1,CANDIDATE
 19794,main belt (survey),5.1979,1P,1,CANDIDATE
 19932,main belt (survey),6.3851,1P,1,CANDIDATE
-20170,main belt (survey),15.6323,1P,1,CANDIDATE
+20170,main belt (survey),31.2646,2P,1,CANDIDATE
 20314,main belt (survey),11.5238,2P,1,CANDIDATE
 20750,main belt (survey),2.66,1P,2,CONFIRMED
 21934,main belt (survey),6.0628,1P,1,CANDIDATE
@@ -370,9 +370,9 @@ number,family,P_rot_h,shape,quality_U,status
 50380,main belt (survey),5.684,2P,2,CONFIRMED
 5282,main belt (survey),79.9106,2P,1,CANDIDATE
 53365,main belt (survey),190.071,2P,1,CANDIDATE
-5688,main belt (survey),3.0279,1P,1,CANDIDATE
+5688,main belt (survey),6.0558,2P,1,CANDIDATE
 5829,main belt (survey),50.929,1P,2,CONFIRMED
-5910,main belt (survey),101.062,1P,1,CANDIDATE
+5910,main belt (survey),202.124,2P,1,CANDIDATE
 5950,main belt (survey),9.2234,2P,1,CANDIDATE
 5954,main belt (survey),3.1692,2P,1,CANDIDATE
 6005,main belt (survey),4.152,2P,2,CONFIRMED
@@ -383,7 +383,7 @@ number,family,P_rot_h,shape,quality_U,status
 65668,main belt (survey),74.549,1P,1,CANDIDATE
 6640,main belt (survey),2.772,1P,2,CONFIRMED
 6769,main belt (survey),10.972,2P,1,CANDIDATE
-6967,main belt (survey),2.6618,1P,1,CANDIDATE
+6967,main belt (survey),5.3236,2P,1,CANDIDATE
 7176,main belt (survey),3.286,2P,2,CONFIRMED
 7245,main belt (survey),79.5344,2P,1,CANDIDATE
 7252,main belt (survey),9.065,1P,2,CONFIRMED
@@ -407,14 +407,14 @@ number,family,P_rot_h,shape,quality_U,status
 9255,main belt (survey),18.1512,2P,1,CANDIDATE
 9449,main belt (survey),193.1862,2P,1,CANDIDATE
 9494,main belt (survey),3.162,2P,1,CANDIDATE
-9609,main belt (survey),4.0395,1P,1,CANDIDATE
+9609,main belt (survey),8.079,2P,1,CANDIDATE
 9955,main belt (survey),2.312,1P,2,CONFIRMED
-10158,main belt (survey),46.7017,1P,1,CANDIDATE
+10158,main belt (survey),93.4034,2P,1,CANDIDATE
 10561,main belt (survey),118.9676,2P,1,CANDIDATE
 106622,main belt (survey),28.1854,2P,1,CANDIDATE
 10778,main belt (survey),7.1908,2P,1,CANDIDATE
 10798,main belt (survey),3.2888,2P,1,CANDIDATE
-11182,main belt (survey),3.132,1P,1,CANDIDATE
+11182,main belt (survey),6.264,2P,1,CANDIDATE
 11226,main belt (survey),16.279,1P,2,CONFIRMED
 11285,main belt (survey),3.6496,2P,1,CANDIDATE
 11327,main belt (survey),3.33,2P,2,CONFIRMED
@@ -427,7 +427,7 @@ number,family,P_rot_h,shape,quality_U,status
 12821,main belt (survey),3.5119,1P,1,CANDIDATE
 133054,main belt (survey),73.2462,2P,1,CANDIDATE
 13370,main belt (survey),2.9896,1P,1,CANDIDATE
-13501,main belt (survey),3.2248,1P,1,CANDIDATE
+13501,main belt (survey),6.4496,2P,1,CANDIDATE
 13749,main belt (survey),4.054,2P,2,CONFIRMED
 13927,main belt (survey),99.3698,2P,1,CANDIDATE
 13947,main belt (survey),4.0028,2P,1,CANDIDATE
@@ -445,7 +445,7 @@ number,family,P_rot_h,shape,quality_U,status
 17766,main belt (survey),3.3176,2P,1,CANDIDATE
 17923,main belt (survey),84.6518,1P,1,CANDIDATE
 17986,main belt (survey),4.6736,2P,1,CANDIDATE
-18074,main belt (survey),7.3943,1P,1,CANDIDATE
+18074,main belt (survey),14.7886,2P,1,CANDIDATE
 18083,main belt (survey),2.3556,1P,1,CANDIDATE
 18153,main belt (survey),38.448,2P,2,CONFIRMED
 18887,main belt (survey),61.625,1P,2,CONFIRMED
@@ -454,7 +454,7 @@ number,family,P_rot_h,shape,quality_U,status
 19510,main belt (survey),5.506,2P,1,CANDIDATE
 19762,main belt (survey),3.1507,1P,1,CANDIDATE
 19840,main belt (survey),5.2894,2P,1,CANDIDATE
-20396,main belt (survey),2.574,1P,1,CANDIDATE
+20396,main belt (survey),5.148,2P,1,CANDIDATE
 20511,main belt (survey),9.38,2P,2,CONFIRMED
 22015,main belt (survey),3.6044,2P,1,CANDIDATE
 23044,main belt (survey),2.6848,1P,1,CANDIDATE
@@ -471,37 +471,37 @@ number,family,P_rot_h,shape,quality_U,status
 28462,main belt (survey),6.238,2P,2,CONFIRMED
 30428,main belt (survey),22.1222,2P,1,CANDIDATE
 3046,main belt (survey),10.1669,1P,1,CANDIDATE
-30849,main belt (survey),5.55,1P,1,CANDIDATE
+30849,main belt (survey),11.1,2P,1,CANDIDATE
 31147,main belt (survey),4.1808,2P,1,CANDIDATE
 32158,main belt (survey),44.088,1P,2,CONFIRMED
 32164,main belt (survey),73.7175,1P,1,CANDIDATE
 33082,main belt (survey),2.9283,1P,1,CANDIDATE
-34588,main belt (survey),4.5681,1P,1,CANDIDATE
+34588,main belt (survey),9.1362,2P,1,CANDIDATE
 36273,main belt (survey),7.734,1P,2,CONFIRMED
 37113,main belt (survey),3.6822,1P,1,CANDIDATE
 3741,main belt (survey),32.36,2P,2,CONFIRMED
 39899,main belt (survey),3.958,1P,1,CANDIDATE
-4018,main belt (survey),3.738,1P,1,CANDIDATE
+4018,main belt (survey),7.476,2P,1,CANDIDATE
 42921,main belt (survey),8.716,1P,2,CONFIRMED
 43469,main belt (survey),3.4488,2P,1,CANDIDATE
 43891,main belt (survey),3.115,1P,2,CONFIRMED
 44118,main belt (survey),72.2076,2P,1,CANDIDATE
 45287,main belt (survey),4.409,1P,2,CONFIRMED
-45456,main belt (survey),4.6323,1P,1,CANDIDATE
+45456,main belt (survey),9.2646,2P,1,CANDIDATE
 45469,main belt (survey),42.388,1P,2,CONFIRMED
 4682,main belt (survey),6.456,2P,2,CONFIRMED
 5218,main belt (survey),4.2588,2P,1,CANDIDATE
 5269,main belt (survey),161.701,2P,1,CANDIDATE
 5519,main belt (survey),26.319,1P,2,CONFIRMED
 56439,main belt (survey),23.6982,1P,1,CANDIDATE
-5816,main belt (survey),3.4492,1P,1,CANDIDATE
+5816,main belt (survey),6.8984,2P,1,CANDIDATE
 5862,main belt (survey),3.1109,1P,1,CANDIDATE
-59522,main belt (survey),3.4401,1P,1,CANDIDATE
+59522,main belt (survey),6.8802,2P,1,CANDIDATE
 5966,main belt (survey),6.6365,1P,1,CANDIDATE
 6038,main belt (survey),5.226,1P,2,CONFIRMED
 6389,main belt (survey),4.497,1P,2,CONFIRMED
-6462,main belt (survey),2.2149,1P,1,CANDIDATE
-6492,main belt (survey),4.7909,1P,1,CANDIDATE
+6462,main belt (survey),4.4298,2P,1,CANDIDATE
+6492,main belt (survey),9.5818,2P,1,CANDIDATE
 6544,main belt (survey),20.003,2P,1,CANDIDATE
 6603,main belt (survey),223.394,2P,2,CONFIRMED
 6614,main belt (survey),120.4324,2P,1,CANDIDATE
@@ -514,15 +514,15 @@ number,family,P_rot_h,shape,quality_U,status
 7466,main belt (survey),4.8808,1P,1,CANDIDATE
 7631,main belt (survey),102.6636,2P,1,CANDIDATE
 8377,main belt (survey),45.0459,1P,1,CANDIDATE
-8378,main belt (survey),5.897,1P,2,CONFIRMED
+8378,main belt (survey),11.794,2P,2,CONFIRMED
 8464,main belt (survey),15.862,2P,2,CONFIRMED
 8472,main belt (survey),13.631,1P,2,CONFIRMED
 8707,main belt (survey),2.6372,1P,1,CANDIDATE
 8835,main belt (survey),3.166,2P,2,CONFIRMED
 8850,main belt (survey),12.8086,2P,1,CANDIDATE
 8984,main belt (survey),21.1211,1P,1,CANDIDATE
-9141,main belt (survey),3.8613,1P,1,CANDIDATE
-9149,main belt (survey),4.934,1P,2,CONFIRMED
+9141,main belt (survey),7.7226,2P,1,CANDIDATE
+9149,main belt (survey),9.868,2P,2,CONFIRMED
 9403,main belt (survey),4.3203,1P,1,CANDIDATE
 9447,main belt (survey),68.9546,1P,1,CANDIDATE
 9543,main belt (survey),4.6308,2P,1,CANDIDATE

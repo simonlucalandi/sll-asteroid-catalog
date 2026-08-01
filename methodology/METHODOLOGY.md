@@ -52,6 +52,15 @@ The amplitude convention is the WEAKEST rung, not the strongest. The order is:
 3. **Amplitude convention** (folded amp > 0.40 -> 2P) -- only where neither measurement nor
    physics constrains the answer.
 
+The odd-harmonic audit itself is CALIBRATED, not trusted: a null test re-runs the identical
+machinery asking whether the already-doubled period should double again (2P vs 4P), where a
+fire is false by construction. Measured on 60 real curves: the raw verdict fires falsely 27%
+of the time, almost entirely through the minima-asymmetry branch (false z up to 34), which is
+therefore NOT accepted on its own. Requiring odd-harmonic >= 8 sigma with EVERY detecting
+sector significant gives 0/60 false fires; that is the bar a measured doubling must clear.
+Applied to all 228 single-peaked entries on 2026-08-02: 45 cleared it and were doubled; the
+71 symmetric and 41 sub-threshold cases keep their 1P reading.
+
 ## 4. Confirmation across sectors
 - CONFIRMED: two or more sectors independently detect the same period (harmonic-aware, i.e.
   agreeing to within 5% at P, P/2, or 2P), with the multi-sector agreement significant at

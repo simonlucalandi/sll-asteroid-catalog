@@ -2,7 +2,7 @@
 
 # TESS-FFI Asteroid Rotation Catalog
 
-**529 main-belt asteroids · 261 secure periods · 50 rotating slower than 100 hours · 2.2 h to 434 h**
+**529 main-belt asteroids · 261 secure periods · 50 rotating slower than 100 hours · 2.3 h to 434 h**
 
 Rotation periods measured from TESS Full-Frame-Image moving-target photometry, for asteroids
 that had **no reliable published period**. Open data, open reasoning, one file per object.
@@ -38,7 +38,7 @@ way. **50 objects rotate slower than 100 h and 14 slower than 200 h**, the slowe
 | objects with an adopted period | **529** (261 CONFIRMED, 267 CANDIDATE, 1 MARGINAL) |
 | first determinations | **320** from the novelty-selected belt-wide lots |
 | slowest rotation | **(25880) 433.59 h** |
-| fastest rotation | **2.21 h** (all 49 sub-barrier readings on km-sized bodies were re-audited and doubled, METHODOLOGY 3b) |
+| fastest rotation | **2.29 h** (all 49 sub-barrier readings on km-sized bodies were re-audited and doubled, METHODOLOGY 3b) |
 | P > 100 h / P > 200 h | **50 / 14** |
 | light curves extracted | 3,803 asteroid-sector crossings over 92 TESS sectors |
 | detections published as rejected | 15, with reasons |
