@@ -114,6 +114,27 @@ amplitude rule the measurement wins and the override is recorded with its eviden
 the worked example (odd-harmonic 4.3 sigma at 227.79 h in a directly extracted sector, against
 an amplitude of 0.256 mag that the rule would have halved).
 
+## 6b. Curve-quality audit and human review (standing gate, added 2026-08-01)
+The signal gates above test the detection; none of them asks whether the CURVE is clean
+enough to carry the claim it carries. That gap let a curve with day-long brightening bursts
+hold a CONFIRMED 379 h entry until a human spotted it in the published montage. Two measures
+now close it:
+
+- `curve_quality_audit` ranks every catalog object by (a) its worst sector's outlier rate
+  relative to THAT SECTOR's own norm (extended-mission sectors run 2-4x noisier than early
+  ones, so absolute rates mislead), (b) the spread of folded amplitude across sectors,
+  (c) the cycle count in the poorest sector, and (d) whether the 1P/2P call is measured or
+  conventional. Objects with two or more flags go to human review.
+- Every flagged object is REVIEWED BY EYE on the published fold before release, with three
+  possible verdicts per object (holds / downgrade / kill) recorded alongside the audit. The
+  2026-08-01 pass reviewed 86 flagged objects: 83 held, one was downgraded (its doubling had
+  no shape evidence and its curve carries unexplained bursts), one had a sub-cycle 24 h data
+  fragment removed from its display, one gained a documented eclipsing-binary reading.
+
+Display rule from the same pass: a sector fragment covering less than ~3/4 of one cycle of
+the adopted period is excluded from published folds; it cannot phase-fold meaningfully and
+only smears the figure.
+
 ## 7. Published fold displays
 The phase-fold plots in `plots/` show the photometry the periods were derived from, with
 two display-side contamination excisions (both disclosed here and in figure captions):
