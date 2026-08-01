@@ -59,11 +59,60 @@ Two families of instrumental signal are addressed explicitly:
   TESS's systematics) is used as an independent check. A blind recovery of the TESS period
   over ZTF's multi-year baseline is decisive evidence the period is astrophysical.
 
+## 5b. Chunked extraction and the quarantine (added 2026-08-01)
+A crossing whose pixel stack exceeds memory is re-extracted in N time chunks and the chunks
+are stitched. Each chunk's MEDIAN magnitude is normalised to a common reference, which
+removes the inter-chunk zero-point steps that stitching would otherwise leave, but that
+normalisation is a HIGH-PASS FILTER with its corner at the chunk length: it cannot separate an
+instrumental step from real variation slower than one chunk, so it removes both. Measured over
+the three ledger lots, 37% of crossings were chunked, with a median chunk span of ~155 h.
+
+Consequently a long period recovered from a chunked curve is a lower bound, not a measurement,
+and each such object carries one or more labels:
+
+- **SUPPRESSED** the adopted period is at least half the chunk span, so amplitude is damped
+  and the period can be biased short.
+- **BROKEN_CHUNK** a chunk returned under 10% of the points its siblings did (its median is
+  noise), or the applied offsets are large and not a smooth monotonic ramp. A monotonic ramp
+  is instead a real slow trend across the sector and only affects periods near the chunk span.
+- **AMP_DOMINATED** the non-monotonic stitching steps exceed the object's own folded
+  amplitude, so any fold SHAPE from that curve may be an artefact of the stitching.
+
+An object escapes the labels if a DIRECTLY extracted sector carries the adopted period; that
+test is harmonic-aware, since under the doubling convention a direct sector at P/2 supports
+rather than contradicts the claim. An object whose period rests only on quarantined curves is
+recorded as CANDIDATE rather than CONFIRMED, and its object file says so.
+
+Starved chunks are dropped rather than aligned as of 2026-07-30; curves extracted before that
+date can contain a few points displaced by up to ~3 mag, which the census clipping removes.
+
+## 5c. Field-wide (common-mode) events
+Deep faint excursions in DIFFERENT asteroids coincide in absolute time 2.13x more often than
+chance (5269 cross-object coincidences within 6 h against 2472 expected, over 294 objects and
+38 sectors). At those times scattered light and background-subtraction failure degrade every
+moving target in the field together. A bad-times map is built from every extracted curve on
+disk (~3,200 curves, 97 sectors, 519 bad bins covering 1,557 h) and any event landing inside
+one is rejected. This matters for transient-like features (dips, brightenings); it does not
+affect the rotation periods, which are periodic and survive isolated bad windows.
+
+## 5d. Star proximity
+The co-moving aperture passes field stars continuously. A crossing is normally brief, but near
+a STATIONARY POINT the target's apparent motion falls to ~8 TESS pixels/day and it lingers
+beside a star for days, so the PRF wings draw a broad symmetric brightening that mimics an
+astrophysical event. Any transient-like claim is therefore checked against the object's
+ephemeris track and a Gaia DR3 cone search before it is retained.
+
 ## 6. Verification and catalog
 Every confirmed/candidate period passes an independent, refutation-first re-analysis
 (re-derive the period from the raw light curves; apply the alias, comb, and contamination
 checks; enforce the shape conventions above; single-sector photometric detections above 100 h are treated as dead-on-arrival (trend-indistinguishable); an amplitude-forced doubling of a well-sampled fundamental across the 100 h line is retained as a provisional candidate with the doubling explicitly marked unconfirmed). Adopted values, shapes, and per-object reasoning for every non-trivial
-call are recorded per object in `objects/` (one file each).
+call are recorded per object in `objects/` (one file each), including whether a 1P/2P doubling
+was MEASURED (odd-harmonic power or unequal minima at the long period, significant against a
+block bootstrap and reproduced per sector) or adopted BY CONVENTION (symmetric fold above the
+amplitude cut, where photometry cannot decide). Where a fold-shape measurement contradicts the
+amplitude rule the measurement wins and the override is recorded with its evidence; (2211) is
+the worked example (odd-harmonic 4.3 sigma at 227.79 h in a directly extracted sector, against
+an amplitude of 0.256 mag that the rule would have halved).
 
 ## 7. Published fold displays
 The phase-fold plots in `plots/` show the photometry the periods were derived from, with
@@ -86,6 +135,14 @@ two display-side contamination excisions (both disclosed here and in figure capt
 - `quality_U = 1-` -- MARGINAL.
 Rejected detections (instrumental artifacts, e.g. comb aliases) are listed with reasons in
 `catalog/rejected.csv` for transparency.
+
+## Provenance lots
+Objects carry the lot they were extracted in. `Ledger-v16/v17/v18` are the novelty-selected
+belt-wide lots (V_opp <= 16.0, 16.0-16.25, 16.25-16.50), built by joining AstDyS against LCDB
+2023, Vavilov & Carry 2025, McNeill 2023 and the SsODNet ssoCard aggregator, so every target
+had no published period in any of those sources at selection time; the SsODNet query is
+repeated live before publication. Named families (Themis, Koronis, Phocaea, ...) are
+dynamically selected lots. `main belt` in the public tables covers the belt-wide batches.
 
 ## Data provenance and attribution
 Derived from public TESS FFIs (NASA/MIT/TESS) and ZTF (Palomar/IPAC, via the Fink broker).
