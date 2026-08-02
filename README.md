@@ -45,6 +45,24 @@ way. **50 objects rotate slower than 100 h and 14 slower than 200 h**, the slowe
 
 <img src="figs/period_distribution.png" width="49%"> <img src="figs/family_coverage.png" width="49%">
 
+
+## Three asteroids that tumble
+
+A tumbling asteroid rotates around a precessing axis: its light curve is woven from **two
+incommensurate periods** and never repeats. This survey's calibrated two-frequency search
+([method](methodology/METHODOLOGY.md), §8) recovered 4 known LCDB tumblers and found **three
+new candidates** — two of them on rotation periods this catalog itself determined:
+
+| candidate | periods | second-frequency reproduction |
+|--|--|--|
+| **[(3345)](TUMBLERS.md#3345--rotation-1877-h--precession-2649-h)** | 187.7 h + 264.9 h | beat envelope visible by eye |
+| **[(7887)](TUMBLERS.md#7887--rotation-1117-h--second-period-872-h)** | 111.7 h + 87.2 h | 0.7% across independent sectors |
+| **[(6162)](TUMBLERS.md#6162--rotation-1677-h--second-period-1353-h)** | 167.7 h + 135.3 h | 0.9% across independent sectors |
+
+<img src="figs/tumbler_3345.png" width="100%">
+
+**[The full tumbling dossier →](TUMBLERS.md)**
+
 ## What's here
 
 | path | contents |
