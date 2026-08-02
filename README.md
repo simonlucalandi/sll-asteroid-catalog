@@ -63,6 +63,21 @@ new candidates** — two of them on rotation periods this catalog itself determi
 
 **[The full tumbling dossier →](TUMBLERS.md)**
 
+
+## A candidate eclipsing binary
+
+**[(46992)](objects/46992.md)** shows the one morphology a single rotating body cannot make: a
+**flat baseline interrupted by narrow, deep eclipses** (0.6-1.6 mag, 0.6-2.7 h) at two phases
+half a cycle apart. 17 of its 20 events pass the photon-statistics test (in-eclipse errors grow
+exactly as a real flux drop requires), the events repeat on a strict 26.88 h clock — half the
+53.8 h period, i.e. primary and secondary of a synchronous orbit — and they are absent at an
+earlier epoch, as an eclipse season switching off predicts. No second instrument has seen the
+events yet (ZTF has no coverage at the right epoch; the object is in solar conjunction until
+late 2027), so it remains a **candidate**: the full evidence and caveats are in
+[its reasoning sheet](objects/46992.md).
+
+<img src="figs/binary_46992.png" width="100%">
+
 ## What's here
 
 | path | contents |
