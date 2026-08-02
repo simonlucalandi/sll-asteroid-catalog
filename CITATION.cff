@@ -17,8 +17,8 @@ keywords:
   - photometry
   - light curves
 license: CC-BY-4.0
-version: 1.1.0
-date-released: 2026-07-25
+version: 1.2.0
+date-released: 2026-08-02
 # Concept DOI: always resolves to the newest version, so it cannot go stale when a
 # new release is minted. Version-specific DOIs are listed under identifiers.
 doi: 10.5281/zenodo.21446076
@@ -28,7 +28,7 @@ identifiers:
     description: "Concept DOI (all versions)"
   - type: doi
     value: 10.5281/zenodo.21567084
-    description: "Version DOI (v1.1.0, current)"
+    description: "Version DOI (v1.1.0, superseded: 94 doublings corrected + quality audit in v1.2.0)"
   - type: doi
     value: 10.5281/zenodo.21446077
     description: "Version DOI (v1.0.0, superseded: 26 periods corrected in v1.1.0)"
