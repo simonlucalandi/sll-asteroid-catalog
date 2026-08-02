@@ -195,3 +195,17 @@ dynamically selected lots. `main belt` in the public tables covers the belt-wide
 Derived from public TESS FFIs (NASA/MIT/TESS) and ZTF (Palomar/IPAC, via the Fink broker).
 Built on the open `tess-asteroids` and `lightkurve` packages. Please cite those upstream
 resources and the accompanying paper(s) when using this catalog.
+
+## 8. Non-principal-axis (tumbling) screening
+Objects are also screened for a second, non-harmonic rotation frequency (tumbling) with a
+two-frequency Fourier fit in the Pravec et al. (2005) formulation: harmonics of f1 and f2
+plus the combination terms (j f1 +/- k f2) that distinguish genuine two-axis rotation from
+two unrelated periodicities. Detection is NOT taken from analytic statistics: the F statistic
+of the second frequency is judged against the empirical distribution of the same statistic
+over the non-control population of the same run (red noise makes analytic thresholds
+meaningless), the operating point is chosen on a measured ROC built with LCDB-listed tumblers
+as positive controls run through the identical pipeline, and every candidate must survive
+(a) a common-fundamental veto (the two frequencies must not be harmonics of one base), 
+(b) momentum-dump comb separation, and (c) reproduction of f2 across sectors where a second
+sector exists. Candidates from this screen are reported separately from the rotation catalog
+and are not catalog rows until independently confirmed.
