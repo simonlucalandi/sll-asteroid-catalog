@@ -209,3 +209,23 @@ as positive controls run through the identical pipeline, and every candidate mus
 (b) momentum-dump comb separation, and (c) reproduction of f2 across sectors where a second
 sector exists. Candidates from this screen are reported separately from the rotation catalog
 and are not catalog rows until independently confirmed.
+
+The screen's SELECTION FUNCTION is measured, not assumed (injection-recovery, 2026-08-03:
+3,264 two-frequency injections with combination-term power into 12 real single-period light
+curves, the full decision chain as run, plus 12 clean nulls). Three measured facts constrain
+what this screen can and cannot claim:
+
+1. Amplitude floor: recovery is zero for second components below half the primary's
+   amplitude, and 17-29% (hunt operating point) at equal-to-1.5x amplitude. The screen only
+   detects tumblers whose second mode is comparable to the primary.
+2. Blind zones at low-order period ratios: within 4% of a rational p/q (p, q <= 4),
+   recovery drops to 11-14% against 34-54% outside, because the common-fundamental veto
+   (correctly) kills pairs that a single harmonic-rich period could explain. A genuine
+   tumbler at such a ratio is indistinguishable from a shaped single rotator in frequency
+   content alone and cannot be claimed from this screen.
+3. Null false-positive rate at the operating points: 0/12.
+
+Consequently: reported tumbler candidates are required to sit at non-rational period ratios;
+and no population-level tumbling fraction is quoted from raw candidate counts, since the
+effective completeness is of order 10-20% and ratio-dependent. Full numbers and the map:
+docs/results/NPA_SELECTION_FUNCTION.md and npa_blind_zones_v2.* in the working repository.
