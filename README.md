@@ -55,9 +55,15 @@ new candidates** — two of them on rotation periods this catalog itself determi
 
 | candidate | periods | second-frequency reproduction |
 |--|--|--|
-| **[(3345)](TUMBLERS.md#3345--rotation-1877-h--precession-2649-h)** | 187.7 h + 264.9 h | beat envelope visible by eye |
-| **[(7887)](TUMBLERS.md#7887--rotation-1117-h--second-period-872-h)** | 111.7 h + 87.2 h | 0.7% across independent sectors |
-| **[(6162)](TUMBLERS.md#6162--rotation-1677-h--second-period-1353-h)** | 167.7 h + 135.3 h | 0.9% across independent sectors |
+| **[(3345)](TUMBLERS.md#3345-rotation-1877-h--precession-2649-h)** | 187.7 h + 264.9 h | beat envelope visible by eye |
+| **[(7887)](TUMBLERS.md#7887-rotation-1117-h--second-period-872-h)** | 111.7 h + 87.2 h | 0.7% across independent sectors |
+| **[(6162)](TUMBLERS.md#6162-rotation-1677-h--second-period-1353-h)** | 167.7 h + 135.3 h | 0.9% across independent sectors |
+
+The pipeline is validated on ground truth: run blind over 134 LCDB-listed tumblers it flags
+them at 2.9x the rate of everything else (p = 0.0006), and its cleanest recovery, **(2000)
+Herschel** (LCDB's highest-confidence tumbling code), matches the published rotation to 1%
+with the second period reproduced across sectors to 0.3%:
+[the proof chart and the recovered set are in the dossier](TUMBLERS.md#proof-that-the-pipeline-works-recovered-known-tumblers).
 
 <img src="figs/tumbler_3345.png" width="100%">
 

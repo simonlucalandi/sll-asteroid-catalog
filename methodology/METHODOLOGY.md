@@ -229,3 +229,23 @@ Consequently: reported tumbler candidates are required to sit at non-rational pe
 and no population-level tumbling fraction is quoted from raw candidate counts, since the
 effective completeness is of order 10-20% and ratio-dependent. Full numbers and the map:
 docs/results/NPA_SELECTION_FUNCTION.md and npa_blind_zones_v2.* in the working repository.
+
+CONTROL-SET VALIDATION (2026-08-03, extended run). The positive-control set was doubled by
+extracting 40 additional LCDB NPA-flagged objects that had never been observed by this survey
+(selection dropped the original P >= 30 h and U >= 2 requirements: a control is a control
+regardless of its period). Blind re-run over 1,024 objects / 134 controls / 1,748 sector fits:
+
+- Discrimination: controls flagged at 13.4% vs 5.1% of non-controls (odds ratio 2.9,
+  Fisher exact p = 0.0006). The screen separates known tumblers from the field.
+- Full-chain recall (F above the empirical bar, F_comb > 20, second frequency reproduced
+  to 10% in >= 2 sectors): 3 of 55 multi-sector controls at the 5% operating point,
+  1 of 55 at the 1% point. This low number is the amplitude floor of the measured
+  selection function at work, not a defect: LCDB tumbling flags come mostly from epochs
+  and aspects where the second component was large.
+- Recovered: (2045) Peking [T], (2000) Herschel [T+, published rotation matched to 1%,
+  second period reproduced to 0.3%], (1839) Ragazza [T, strongest combination terms].
+  Two of the newly added controls, (24077) and (6183), light up strongly in their single
+  sector and are structurally excluded only by the two-sector reproduction bar.
+- The candidate (3345) re-emerged past every bar in this blind re-run, unprompted, as the
+  only non-control survivor besides the documented common-fundamental false positive (879),
+  which the veto removes.
