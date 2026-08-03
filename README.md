@@ -51,7 +51,7 @@ way. **50 objects rotate slower than 100 h and 14 slower than 200 h**, the slowe
 A tumbling asteroid rotates around a precessing axis: its light curve is woven from **two
 incommensurate periods** and never repeats. This survey's calibrated two-frequency search
 ([method](methodology/METHODOLOGY.md), §8) recovered 4 known LCDB tumblers and found **three
-new candidates** — two of them on rotation periods this catalog itself determined:
+new candidates**, two of them on rotation periods this catalog itself determined:
 
 | candidate | periods | second-frequency reproduction |
 |--|--|--|
@@ -75,12 +75,20 @@ with the second period reproduced across sectors to 0.3%:
 **[(46992)](objects/46992.md)** shows the one morphology a single rotating body cannot make: a
 **flat baseline interrupted by narrow, deep eclipses** (0.6-1.6 mag, 0.6-2.7 h) at two phases
 half a cycle apart. 17 of its 20 events pass the photon-statistics test (in-eclipse errors grow
-exactly as a real flux drop requires), the events repeat on a strict 26.88 h clock — half the
-53.8 h period, i.e. primary and secondary of a synchronous orbit — and they are absent at an
+exactly as a real flux drop requires), the events repeat on a strict 26.88 h clock (half the
+53.8 h period, i.e. primary and secondary of a synchronous orbit), and they are absent at an
 earlier epoch, as an eclipse season switching off predicts. No second instrument has seen the
 events yet (ZTF has no coverage at the right epoch; the object is in solar conjunction until
 late 2027), so it remains a **candidate**: the full evidence and caveats are in
 [its reasoning sheet](objects/46992.md).
+
+The search behind it now covers **2,210 objects**, including the ones with no determined
+rotation period (an eclipsing binary does not need one to be found, and a deep eclipse is
+itself a reason the period determination fails). Expanding it produced no second candidate:
+the one object that emerged with the strongest formal significance turned out to be a single
+narrow minimum of its own rotation curve, counted once per cycle, and was rejected by a test
+added for exactly that failure. That test, and the reason (46992) is no longer called
+"survey-significant" although its evidence is unchanged, are set out in its sheet.
 
 <img src="figs/binary_46992.png" width="100%">
 
