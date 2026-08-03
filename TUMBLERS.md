@@ -48,6 +48,11 @@ of coherent residual, the two-period fit drops it to 65 mmag and leaves nothing 
 either period. In the 2026-08-03 re-run of the full chain with a doubled control set, (3345)
 was the only object outside the controls to re-emerge past every bar, without being looked for.
 
+Its strongest single piece of evidence comes from the baseline-scaling test (METHODOLOGY §8):
+across sectors whose durations differ by 52% (394 h to 598 h), the second period stays within
+3% in hours. An artifact that scales with the observing window, the one systematic that
+cross-sector reproduction cannot catch, would have varied by that same 52%.
+
 <img src="figs/tumbler_3345.png" width="100%">
 
 ### (7887), rotation 111.7 h + second period 87.2 h

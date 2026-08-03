@@ -249,3 +249,27 @@ regardless of its period). Blind re-run over 1,024 objects / 134 controls / 1,74
 - The candidate (3345) re-emerged past every bar in this blind re-run, unprompted, as the
   only non-control survivor besides the documented common-fundamental false positive (879),
   which the veto removes.
+
+COVERAGE, AND THE BASELINE-SCALING VETO (2026-08-03). The screen needs a seed period, so it
+had only ever run on objects that already had one, which is the population where tumblers are
+least likely: the census rejects an object exactly when its sectors disagree on a single
+coherent period, and a tumbler's light curve does not repeat. The complement was therefore
+swept separately (369 multi-sector objects with no census period, seeded from each sector's own
+Lomb-Scargle peak and its double). It produced no candidate, but it did expose a hole in the
+bars:
+
+Cross-sector reproduction of the second frequency was the main defence against systematics, and
+against sector-specific artifacts it works. It is NOT evidence against an artifact whose period
+is a fixed fraction of the sector length, because TESS sectors all have similar durations, so
+such an artifact reproduces trivially. One object, (1826), passed every bar this way: P2 =
+137, 248, 335, 338 h in sectors of 320, 495, 598, 586 h, that is P2/baseline = 0.43 to 0.58
+throughout. A half-baseline drift, not a period.
+
+The added test asks which quantity is stable across sectors of DIFFERENT length: a real period
+holds P2 constant in hours while P2/baseline varies; a drift does the opposite. It targets the
+half-baseline family specifically, so an object whose P2/baseline lies outside [0.35, 0.75] in
+every sector passes conclusively; inside that band with near-identical baselines the verdict is
+INCONCLUSIVE, never a pass. Applied retroactively, all recovered controls and all three
+published candidates pass, and for (3345) it is the strongest evidence on record: its sector
+baselines span 52% while P2 stays within 3%, where a baseline-scaling artifact would have
+varied by the same 52%.
