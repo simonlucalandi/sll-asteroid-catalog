@@ -1,4 +1,4 @@
-# Methodology — TESS-FFI asteroid rotation periods
+# Methodology: TESS-FFI asteroid rotation periods
 
 This describes how the periods in `catalog/catalog.csv` are derived. The processing code
 is not distributed; this document specifies the method, gates, and thresholds in enough
