@@ -53,6 +53,16 @@ across sectors whose durations differ by 52% (394 h to 598 h), the second period
 3% in hours. An artifact that scales with the observing window, the one systematic that
 cross-sector reproduction cannot catch, would have varied by that same 52%.
 
+**Two further TESS sectors were recovered and they weaken it (2026-08-04).** The coverage
+table always held five flown crossings, not three: S12 (2019) and S66 (2023) had been dropped by
+an automatic cut on galactic-plane crowding. Extracted by hand, S66 is a good curve (6,409
+points), and it gives essentially nothing at the published second period of 187.7 h, while at
+the value that would agree with the 2022 pair its harmonic veto fires. A second measurement
+reframes the rest: with only 2 to 3 cycles per sector the periodogram peak is 30 to 45 per cent
+wide, so the cross-sector reproduction bar of 10 per cent, one of the screen's main defences,
+has very little power here. The five sectors do not formally contradict each other, but passing
+that bar is weaker evidence than it looked.
+
 **A physical two-axis model was attempted and does NOT confirm it (2026-08-04).** A rigid body
 in free precession has no free coefficients: its two periods are locked together by the inertia
 ratios and the excitation, and one state must fit every sector. The observed period ratio does
@@ -64,8 +74,11 @@ shape freedom: its own light curve is dominated by a single period of 131 h, hal
 candidate. Forcing the model to carry the observed periods gives harmonics of one fundamental
 (531.7 h and 132.7 h) and fits one sector badly (per-sector chi2 2.6, 8.1, 1.5).
 The full result, including the limits of the ellipsoid shape model, is in the working notes:
-the candidate keeps the support of the Fourier detection, the cross-sector reproduction and the
-baseline-scaling test, and explicitly lacks the support of a physical model.
+On the present evidence (3345) is a **weak candidate**: the two-frequency detection is strong in
+four sectors and the baseline-scaling test passes, but there is no physical model behind it and
+the reproduction bar it passed is weak at these period-to-baseline ratios. Settling it needs
+period resolution rather than more data of the same kind: a phase-connected fit across the
+2019 to 2024 baseline would pin the second period to about 0.1 per cent instead of 30.
 
 <img src="figs/tumbler_3345.png" width="100%">
 
