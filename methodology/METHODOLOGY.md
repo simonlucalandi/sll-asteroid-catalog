@@ -273,3 +273,28 @@ INCONCLUSIVE, never a pass. Applied retroactively, all recovered controls and al
 published candidates pass, and for (3345) it is the strongest evidence on record: its sector
 baselines span 52% while P2 stays within 3%, where a baseline-scaling artifact would have
 varied by the same 52%.
+
+HOW MUCH THE REPRODUCTION BAR IS ACTUALLY WORTH (measured 2026-08-04). The bar requires the
+second frequency to agree within 10% across sectors. That tolerance was never compared against
+the precision the data can deliver, and it should have been. A Lomb-Scargle peak for a period P
+over a baseline T is about P^2/T wide, so for a 175 h period in a 600 h sector (three cycles)
+the peak is 30% of the period wide, and for two cycles it is 45%. Two independent draws from a
+peak that wide agree within 10% often enough that passing the bar is weak evidence. **The
+tolerance is therefore quoted relative to P^2/T from now on, not as a flat 10%, and a
+reproduction claim states the peak width beside the agreement.** For the three candidates the
+agreements (0.7%, 0.9%, and 3% in hours) are much tighter than their peak widths (13%, 23%,
+30%), which is what a real signal detected strongly should give, so this measurement does not
+overturn them; it removes an unearned part of their support.
+
+WHAT A PHASE-CONNECTED TEST CAN AND CANNOT ADD. The natural next step, requiring the second
+frequency to keep its phase across years rather than merely reappear, was built and calibrated
+on the same controls. It does not discriminate: **(2000) Herschel, which carries LCDB's
+highest-confidence tumbling code and whose second period the coherent scan recovers to 0.09%,
+fails the test at p = 0.27**, and the null distributions sit within about 1% of the observed
+scores throughout. With two to five sectors the share of the fit improvement that comes from
+cross-sector phase is negligible next to within-sector structure, so no candidate is confirmed
+or retracted on this basis. The coherent scan is kept for what it demonstrably does well: it
+recovers published second periods to 0.1 to 1.8%, against about 30% per sector, and is used as a
+period estimator only. A related correction belongs here: a shared-frequency multi-sector fit
+that gives each sector its own harmonic coefficients does NOT constrain phase at all, since free
+coefficients are free amplitude and free phase; only a fit with shared coefficients does.

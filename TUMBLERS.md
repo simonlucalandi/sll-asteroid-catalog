@@ -92,9 +92,27 @@ harmonic veto in both, and survives the de-comb with a 1-5% power change.
 ### (6162), rotation 167.7 h + second period 135.3 h
 Also a first-determination rotator of this survey ([reasoning](objects/6162.md)). Second
 frequency reproduced to **0.9%** (136.63 / 135.34 h), harmonic veto passed in both sectors,
-de-comb survived.
+de-comb survived. Weakest of the three on coverage: its two sectors are consecutive (51 days
+apart), so "reproduction across sectors" carries much less weight here than for an object
+observed years apart, and a coherent multi-sector scan cannot add anything at that baseline.
 
 <img src="figs/tumbler_6162.png" width="100%">
+
+## How much the reproduction evidence is worth
+
+A periodogram peak for a period P over a baseline T is about P^2/T wide, so with two or three
+cycles per sector these peaks are 13 to 45 per cent of the period wide. The 10 per cent
+agreement the screen requires is therefore a much weaker filter than it looks, and from
+2026-08-04 the tolerance is quoted against the peak width rather than as a flat number
+(METHODOLOGY §8). The three candidates agree far more tightly than their own widths, which is
+what a real signal detected strongly gives, so this does not overturn them; it removes an
+unearned part of their support.
+
+A stronger test, requiring the second frequency to hold its PHASE across years, was built and
+calibrated on the same known tumblers. It does not discriminate: (2000) Herschel, the
+highest-confidence control, has its second period recovered to 0.09 per cent and still fails the
+test. So nothing here is confirmed or retracted on phase coherence, and the coherent scan is
+used only for what it does well, which is measuring periods to about 1 per cent instead of 30.
 
 ## Status
 
