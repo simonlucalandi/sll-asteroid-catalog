@@ -53,6 +53,20 @@ across sectors whose durations differ by 52% (394 h to 598 h), the second period
 3% in hours. An artifact that scales with the observing window, the one systematic that
 cross-sector reproduction cannot catch, would have varied by that same 52%.
 
+**A physical two-axis model was attempted and does NOT confirm it (2026-08-04).** A rigid body
+in free precession has no free coefficients: its two periods are locked together by the inertia
+ratios and the excitation, and one state must fit every sector. The observed period ratio does
+turn out to be reachable by ordinary bodies (69 of 2,384 simulated states match it and the
+observed amplitude, nearly all in short-axis mode). But when those states are fitted to the
+actual photometry, the best one improves on a non-tumbling rotator only because of its extra
+shape freedom: its own light curve is dominated by a single period of 131 h, half the observed
+264.9 h, and it never produces the second frequency near 180 h that makes the object a
+candidate. Forcing the model to carry the observed periods gives harmonics of one fundamental
+(531.7 h and 132.7 h) and fits one sector badly (per-sector chi2 2.6, 8.1, 1.5).
+The full result, including the limits of the ellipsoid shape model, is in the working notes:
+the candidate keeps the support of the Fourier detection, the cross-sector reproduction and the
+baseline-scaling test, and explicitly lacks the support of a physical model.
+
 <img src="figs/tumbler_3345.png" width="100%">
 
 ### (7887), rotation 111.7 h + second period 87.2 h
