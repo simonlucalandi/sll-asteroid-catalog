@@ -60,7 +60,18 @@ any subset. Applied cumulatively to the 50 objects above 100 h:
 | **at least 3 cycles of the adopted period** | **19** | **1** |
 | de-comb not inconclusive | 16 | 1 |
 | period measured to better than 20 per cent | 14 | 1 |
-| doubling measured rather than conventional | 2 | 1 |
+| factor of two measured, externally confirmed, or not needed | 3 | 1 |
+
+The `doubling` column records which kind of evidence supports each factor of two, since most
+slow periods exist only because a shorter photometric period was doubled. Across the 50:
+
+| | count | meaning |
+|--|--|--|
+| EXTERNAL | 5 | the adopted period is confirmed by, or settles a conflict against, an independently published determination. Stronger evidence than any internal test. |
+| MEASURED | 7 | the doubling was demonstrated on the data (odd-harmonic power or unequal minima, significant and reproduced) |
+| CONVENTION | 28 | adopted on the amplitude rule: an elongated body shows two maxima per rotation, so above the amplitude cut a single-peaked reading is physically implausible. Standard practice, but a convention rather than a measurement. |
+| NONE(1P) | 8 | no doubling was applied |
+| UNCONFIRMED | 2 | the entry itself records that the doubling is not confirmed; both are CANDIDATE |
 
 Two things this makes plain, and both are stated rather than buried. Most of the slow tail rests
 on the **amplitude convention** for the factor of two, which is standard practice in asteroid
