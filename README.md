@@ -4,6 +4,8 @@
 
 **529 main-belt asteroids · 261 secure periods · 50 rotating slower than 100 hours · 2.3 h to 434 h**
 
+*Every period ships with the evidence it rests on: cycles observed, measured uncertainty, and how the factor-of-two was decided.*
+
 Rotation periods measured from TESS Full-Frame-Image moving-target photometry, for asteroids
 that had **no reliable published period**. Open data, open reasoning, one file per object.
 
@@ -37,11 +39,36 @@ way. **50 objects rotate slower than 100 h and 14 slower than 200 h**, the slowe
 |--|--|
 | objects with an adopted period | **529** (261 CONFIRMED, 267 CANDIDATE, 1 MARGINAL) |
 | first determinations | **320** from the novelty-selected belt-wide lots |
-| slowest rotation | **(25880) 433.59 h** |
+| P > 100 h / P > 200 h | **50 / 14** as adopted, **19 / 1** on curves covering at least three cycles (see the ladder below) |
+| slowest well-constrained rotation | **(2211) 227.79 h**, two sectors, 3.6 cycles, doubling measured |
 | fastest rotation | **2.29 h** (all 49 sub-barrier readings on km-sized bodies were re-audited and doubled, METHODOLOGY 3b) |
-| P > 100 h / P > 200 h | **50 / 14** |
 | light curves extracted | 3,803 asteroid-sector crossings over 92 TESS sectors |
 | detections published as rejected | 15, with reasons |
+
+### How much each slow-rotation claim rests on
+
+A period is only as good as the number of cycles observed and the way the factor-of-two was
+decided, so `catalog/catalog.csv` now carries those quantities as columns (`n_sectors`,
+`n_cycles_best`, `peak_width_frac`, `P_sigma_h`, `doubling`, `decomb`) and any reader can rebuild
+any subset. Applied cumulatively to the 50 objects above 100 h:
+
+| criterion | P > 100 h | P > 200 h |
+|--|--|--|
+| as adopted | 50 | 14 |
+| not chunk-quarantined | 44 | 13 |
+| at least 2 sectors | 31 | 12 |
+| **at least 3 cycles of the adopted period** | **19** | **1** |
+| de-comb not inconclusive | 16 | 1 |
+| period measured to better than 20 per cent | 14 | 1 |
+| doubling measured rather than conventional | 2 | 1 |
+
+Two things this makes plain, and both are stated rather than buried. Most of the slow tail rests
+on the **amplitude convention** for the factor of two, which is standard practice in asteroid
+photometry (an elongated body shows two maxima per rotation) but is a convention, not a
+measurement. And the longest periods rest on **one or two cycles**, where the periodogram peak is
+tens of per cent wide: (25880), previously quoted here as the slowest rotation at 433.59 h,
+covers 1.44 cycles and has a measured 1-sigma uncertainty near 26 h, so it is reported with that
+uncertainty and is no longer used as a headline number.
 
 <img src="figs/period_distribution.png" width="49%"> <img src="figs/family_coverage.png" width="49%">
 
@@ -97,7 +124,8 @@ added for exactly that failure. That test, and the reason (46992) is no longer c
 | path | contents |
 |--|--|
 | [`GALLERY.md`](GALLERY.md) | **thumbnail index of every folded light curve**, grouped, click through to full resolution |
-| `catalog/catalog.csv` | adopted periods with shape and reliability code |
+| `catalog/catalog.csv` | adopted periods with shape, reliability code, and the evidence columns (cycles covered, measured peak width and period uncertainty, doubling provenance, de-comb verdict) |
+| `catalog/evidence.csv` | the same evidence quantities for every object, for filtering |
 | `catalog/rejected.csv` | detections rejected as instrumental, with reasons |
 | `catalog/data_dictionary.md` | column definitions |
 | `objects/<number>.md` | per-object evidence sheet: per-sector detections, gates, and the reasoning behind every judgment call ([index](objects/README.md)) |
