@@ -17,6 +17,25 @@ second components comparable in amplitude to the primary, and it is deliberately
 low-order period ratios, where a real tumbler cannot be told apart from a harmonic-rich
 single rotator (the full map is in METHODOLOGY §8).
 
+## Where this stands today (2026-08-05)
+
+Read this before the evidence below, because the three candidates are not equal and the
+strongest-looking one has weakened as more tests were run.
+
+| | status |
+|--|--|
+| **the screen** | validated. Run blind over 134 LCDB-listed tumblers it flags them at 2.9x the field rate (p = 0.0006) and recovers known tumblers including (2000) Herschel, whose second period it reproduces to 0.3 per cent. |
+| **(3345)** | **weak candidate.** No physical two-axis model reproduces its period pair while fitting the photometry. A fifth sector, recovered later, does not support the published second period and triggers the harmonic veto where it would agree with the others. |
+| **(7887), (6162)** | **unverified candidates.** The detections stand and a coherent multi-sector scan recovers their second periods to 0.5 and 1.3 per cent, but neither has an independent confirmation, and (6162)'s two sectors are 51 days apart, so "reproduction across sectors" carries little weight for it. |
+| **what would settle any of them** | a physical two-axis model that fits every sector from one rotation state, or a second instrument. Neither exists yet. |
+
+Two tests that sound decisive are not, and are reported here so nobody mistakes their absence
+for a gap. The cross-sector reproduction bar is much weaker than it looks at these
+period-to-baseline ratios (see below), and a phase-coherence test built for this purpose was
+calibrated on the same known tumblers and **failed to discriminate**: (2000) Herschel, the
+highest-confidence control, has its second period recovered to 0.09 per cent and still fails it.
+So no candidate here is confirmed or retracted on phase coherence.
+
 ## Proof that the pipeline works: recovered known tumblers
 
 Run blind over 1,024 objects containing 134 LCDB-listed tumblers as positive controls, the

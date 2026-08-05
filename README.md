@@ -99,11 +99,14 @@ incommensurate periods** and never repeats. This survey's calibrated two-frequen
 ([method](methodology/METHODOLOGY.md), §8) recovered 4 known LCDB tumblers and found **three
 new candidates**, two of them on rotation periods this catalog itself determined:
 
-| candidate | periods | second-frequency reproduction |
+| candidate | periods | where it stands |
 |--|--|--|
-| **[(3345)](TUMBLERS.md#3345-rotation-1877-h--precession-2649-h)** | 187.7 h + 264.9 h | beat envelope visible by eye |
-| **[(7887)](TUMBLERS.md#7887-rotation-1117-h--second-period-872-h)** | 111.7 h + 87.2 h | 0.7% across independent sectors |
-| **[(6162)](TUMBLERS.md#6162-rotation-1677-h--second-period-1353-h)** | 167.7 h + 135.3 h | 0.9% across independent sectors |
+| **[(3345)](TUMBLERS.md#3345-rotation-1877-h--precession-2649-h)** | 187.7 h + 264.9 h | **weak**: no physical two-axis model fits it, and a fifth sector recovered later does not support the published second period |
+| **[(7887)](TUMBLERS.md#7887-rotation-1117-h--second-period-872-h)** | 111.7 h + 87.2 h | unverified: second period reproduced to 0.7% across sectors a year apart |
+| **[(6162)](TUMBLERS.md#6162-rotation-1677-h--second-period-1353-h)** | 167.7 h + 135.3 h | unverified: reproduced to 0.9%, but its two sectors are only 51 days apart |
+
+None of the three is confirmed. What the survey can defend today is the screen itself, not the
+candidates: [the dossier opens with where each one stands](TUMBLERS.md#where-this-stands-today-2026-08-05).
 
 The pipeline is validated on ground truth: run blind over 134 LCDB-listed tumblers it flags
 them at 2.9x the rate of everything else (p = 0.0006), and its cleanest recovery, **(2000)
