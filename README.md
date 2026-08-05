@@ -2,7 +2,7 @@
 
 # TESS-FFI Asteroid Rotation Catalog
 
-**529 main-belt asteroids · 261 secure periods · 50 rotating slower than 100 hours · 2.3 h to 434 h**
+**528 main-belt asteroids · 260 secure periods · 49 rotating slower than 100 hours · 2.3 h to 434 h**
 
 *Every period ships with the evidence it rests on: cycles observed, measured uncertainty, and how the factor-of-two was decided.*
 
@@ -11,9 +11,9 @@ that had **no reliable published period**. Open data, open reasoning, one file p
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21446076.svg)](https://doi.org/10.5281/zenodo.21446076)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](LICENSE)
-![objects](https://img.shields.io/badge/objects-529-1f6fb4)
+![objects](https://img.shields.io/badge/objects-528-1f6fb4)
 ![first determinations](https://img.shields.io/badge/first%20determinations-320-2ea043)
-![slow rotators](https://img.shields.io/badge/P%20%3E%20100%20h-50-f0c419)
+![slow rotators](https://img.shields.io/badge/P%20%3E%20100%20h-49-f0c419)
 ![sectors](https://img.shields.io/badge/TESS%20sectors-92-8957e5)
 
 <img src="figs/hero_montage.png" width="100%">
@@ -32,18 +32,19 @@ asteroid population is so thinly populated. TESS stares at the same field for 27
 interruption, so a 400-hour rotation is simply 1.6 cycles of continuous coverage.
 
 That is what this catalog is: the slow tail, plus everything else the same survey found on the
-way. **50 objects rotate slower than 100 h and 14 slower than 200 h**, the slowest at
-**433.59 h**, all first determinations.
+way. **49 objects rotate slower than 100 h and 13 slower than 200 h**, all first determinations. How
+far each of those claims can be pushed is set out in the ladder below, because a long period
+observed for one cycle is not the same measurement as one observed for five.
 
 | | |
 |--|--|
-| objects with an adopted period | **529** (261 CONFIRMED, 267 CANDIDATE, 1 MARGINAL) |
+| objects with an adopted period | **528** (260 CONFIRMED, 267 CANDIDATE, 1 MARGINAL) |
 | first determinations | **320** from the novelty-selected belt-wide lots |
 | P > 100 h / P > 200 h | **49 / 13** as adopted, **20 / 1** on curves covering at least three cycles (see the ladder below) |
 | slowest well-constrained rotation | **(2211) 227.79 h**, two sectors, 3.6 cycles, doubling measured |
 | fastest rotation | **2.29 h** (all 49 sub-barrier readings on km-sized bodies were re-audited and doubled, METHODOLOGY 3b) |
 | light curves extracted | 3,803 asteroid-sector crossings over 92 TESS sectors |
-| detections published as rejected | 15, with reasons |
+| detections published as rejected | 16, with reasons |
 
 ### How much each slow-rotation claim rests on
 

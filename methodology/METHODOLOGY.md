@@ -112,6 +112,28 @@ recorded as CANDIDATE rather than CONFIRMED, and its object file says so.
 Starved chunks are dropped rather than aligned as of 2026-07-30; curves extracted before that
 date can contain a few points displaced by up to ~3 mag, which the census clipping removes.
 
+## 5b-bis. Resolving the chunk quarantine (2026-08-05)
+
+Section 5b quarantines a period that rests on chunk-extracted photometry, because median-matching
+the chunks is a high-pass filter that removes variation slower than one chunk. Sixteen crossings
+carried that flag, and their entries said the period could not be claimed until a direct
+extraction existed. Rather than leave the caveat standing, all sixteen were re-extracted without
+chunking and the Lomb-Scargle power AT THE ADOPTED PERIOD was compared before and after. That is
+the right comparison: the global peak of a trend-dominated sector legitimately differs between
+the two reductions, but the power supporting the published period must not.
+
+Fifteen of sixteen retained or improved it (ratios 0.79 to 1.61, most above 1 because removing
+the filter returns power to the signal), so twelve objects left quarantine on a measurement.
+One did not. **(10824)**, adopted at 224.91 h, lost 76 per cent of its power in the sector that
+carried it (0.263 to 0.063) and fell from being that sector's global peak to a third of it; its
+second sector never supported the period strongly in either reduction. It is now rejected.
+
+Two things follow for the method. Chunk stitching does not generally manufacture or destroy long
+periods, which an indirect test on synthetic curves had already suggested and this direct test
+on real curves confirms at 15 of 16. But the exception was real and it sat in the P > 200 h bin,
+the most fragile part of the catalog, so a quarantine is resolved by re-extraction and not by
+argument. The direct curves are now the published ones.
+
 ## 5c. Field-wide (common-mode) events
 Deep faint excursions in DIFFERENT asteroids coincide in absolute time 2.13x more often than
 chance (5269 cross-object coincidences within 6 h against 2472 expected, over 294 objects and
