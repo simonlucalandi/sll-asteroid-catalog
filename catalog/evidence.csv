@@ -286,10 +286,9 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 9891,Ledger-v16,9.6034,1P,CANDIDATE,1,41.96,0.021,0.09,NONE(1P),survived,False,False
 10112,Ledger-v17,5.872,2P,CONFIRMED,2,101.91,0.0047,0.01,MEASURED,survived,False,False
 10363,Ledger-v17,51.802,2P,CANDIDATE,1,8.93,0.0473,0.52,CONVENTION,survived,False,False
-10505,Ledger-v17,133.3104,2P,CANDIDATE,1,5.0,0.0987,2.79,CONVENTION,survived,True,True
+10505,Ledger-v17,133.3104,2P,CANDIDATE,1,4.9,0.1024,2.9,CONVENTION,survived,True,False
 10710,Ledger-v17,4.2803,1P,CANDIDATE,1,116.35,0.0079,0.01,NONE(1P),survived,False,False
 10735,Ledger-v17,102.428,2P,CONFIRMED,3,5.91,0.0662,1.44,CONVENTION,survived,True,False
-10824,Ledger-v17,224.914,1P,CANDIDATE,2,2.67,0.5356,51.15,NONE(1P),survived,True,True
 10932,Ledger-v17,3.9,2P,CONFIRMED,2,160.92,0.0032,0.0,CONVENTION,survived,False,False
 11119,Ledger-v17,9.256,2P,CONFIRMED,2,64.92,0.0068,0.01,CONVENTION,survived,False,False
 11186,Ledger-v17,3.8478,2P,CANDIDATE,2,156.37,0.0026,0.0,MEASURED,,False,False
@@ -305,7 +304,7 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 15706,Ledger-v17,52.2997,1P,CANDIDATE,1,11.34,0.0719,1.6,NONE(1P),inconclusive,False,False
 15877,Ledger-v17,2.763,1P,CONFIRMED,2,211.61,0.0042,0.0,NONE(1P),survived,False,False
 16019,Ledger-v17,6.489,1P,CONFIRMED,1,52.86,0.0179,0.05,NONE(1P),survived,False,False
-16147,Ledger-v17,26.7898,1P,CANDIDATE,1,22.41,0.0378,0.43,NONE(1P),survived,True,True
+16147,Ledger-v17,26.7898,1P,CANDIDATE,1,22.41,0.0394,0.45,NONE(1P),survived,True,False
 17141,Ledger-v17,3.674,2P,CANDIDATE,1,184.28,0.0026,0.0,CONVENTION,survived,False,False
 17219,Ledger-v17,21.578,2P,CONFIRMED,3,26.96,0.0147,0.07,CONVENTION,survived,False,False
 17410,Ledger-v17,3.498,2P,CONFIRMED,2,168.54,0.0026,0.0,CONVENTION,survived,False,False
@@ -317,7 +316,7 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 18654,Ledger-v17,3.9976,2P,CANDIDATE,1,116.82,0.0063,0.01,UNSTATED,survived,False,False
 18840,Ledger-v17,3.6004,2P,CANDIDATE,1,157.16,0.0042,0.0,MEASURED,survived,False,False
 18903,Ledger-v17,59.064,2P,CONFIRMED,3,10.35,0.0399,0.5,CONVENTION,survived,False,False
-19011,Ledger-v17,83.8522,2P,CANDIDATE,1,3.43,0.1297,2.31,CONVENTION,survived,True,True
+19011,Ledger-v17,83.8522,2P,CANDIDATE,1,3.43,0.1329,2.37,CONVENTION,survived,True,False
 19197,Ledger-v17,3.5189,1P,CANDIDATE,1,180.61,0.0053,0.01,NONE(1P),survived,False,False
 19794,Ledger-v17,5.1979,1P,CANDIDATE,2,116.74,0.0074,0.02,NONE(1P),,False,False
 19932,Ledger-v17,6.3851,1P,CANDIDATE,1,93.72,0.0095,0.03,NONE(1P),survived,False,False
@@ -341,7 +340,7 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 28748,Ledger-v17,3.116,1P,CONFIRMED,2,147.89,0.0058,0.01,NONE(1P),,False,False
 28844,Ledger-v17,3.208,2P,CONFIRMED,2,189.8,0.0026,0.0,MEASURED,survived,False,False
 2885,Ledger-v17,76.324,2P,CONFIRMED,2,7.91,0.0572,0.93,CONVENTION,survived,False,False
-29622,Ledger-v17,130.644,2P,CANDIDATE,2,4.8,0.0887,2.46,CONVENTION,survived,True,True
+29622,Ledger-v17,130.644,2P,CANDIDATE,2,4.69,0.0914,2.53,CONVENTION,survived,True,False
 3081,Ledger-v17,8.0068,2P,CANDIDATE,1,76.17,0.0063,0.01,CONVENTION,survived,False,False
 31382,Ledger-v17,23.883,1P,CONFIRMED,3,26.42,0.0331,0.34,NONE(1P),inconclusive,False,False
 31446,Ledger-v17,5.6211,1P,CANDIDATE,1,54.11,0.0179,0.04,NONE(1P),survived,False,False
@@ -352,7 +351,7 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 34812,Ledger-v17,3.0972,2P,CANDIDATE,1,118.71,0.0042,0.0,MEASURED,survived,False,False
 35566,Ledger-v17,94.7676,2P,CANDIDATE,1,6.39,0.0693,1.39,CONVENTION,survived,False,False
 35709,Ledger-v17,11.4086,1P,CANDIDATE,1,37.6,0.0257,0.12,NONE(1P),survived,False,False
-3636,Ledger-v17,2.571,1P,CANDIDATE,2,251.48,0.0037,0.0,NONE(1P),survived,True,True
+3636,Ledger-v17,2.571,1P,CANDIDATE,2,250.08,0.0037,0.0,NONE(1P),survived,True,False
 3716,Ledger-v17,10.472,2P,CONFIRMED,2,57.3,0.0074,0.02,CONVENTION,survived,False,False
 37567,Ledger-v17,62.1256,2P,CANDIDATE,1,9.29,0.0436,0.57,CONVENTION,survived,False,False
 4020,Ledger-v17,50.1458,1P,CANDIDATE,1,8.12,0.1161,2.47,NONE(1P),survived,False,False
@@ -379,13 +378,13 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 6078,Ledger-v17,3.0852,2P,CANDIDATE,1,128.51,0.0047,0.0,MEASURED,survived,False,False
 6113,Ledger-v17,18.85,1P,CONFIRMED,3,33.64,0.0263,0.21,NONE(1P),survived,False,False
 6128,Ledger-v17,8.3441,1P,CANDIDATE,1,76.54,0.011,0.04,NONE(1P),survived,False,False
-6468,Ledger-v17,110.4886,2P,CANDIDATE,1,5.46,0.0683,1.6,CONVENTION,survived,True,True
-65668,Ledger-v17,74.549,1P,CANDIDATE,1,6.38,0.156,4.94,NONE(1P),survived,True,True
+6468,Ledger-v17,110.4886,2P,CANDIDATE,1,5.46,0.0704,1.65,CONVENTION,survived,True,False
+65668,Ledger-v17,74.549,1P,CANDIDATE,1,6.38,0.1428,4.52,NONE(1P),survived,True,False
 6640,Ledger-v17,2.772,1P,CONFIRMED,2,217.35,0.0042,0.0,NONE(1P),,False,False
 6769,Ledger-v17,10.972,2P,CANDIDATE,0,,,,CONVENTION,,False,False
 6967,Ledger-v17,5.3236,2P,CANDIDATE,1,25.23,0.0189,0.02,MEASURED,,False,False
 7176,Ledger-v17,3.286,2P,CONFIRMED,2,187.29,0.0032,0.0,MEASURED,survived,False,False
-7245,Ledger-v17,79.5344,2P,CANDIDATE,1,7.43,0.0562,0.95,CONVENTION,survived,True,True
+7245,Ledger-v17,79.5344,2P,CANDIDATE,1,7.45,0.0578,0.98,CONVENTION,survived,True,False
 7252,Ledger-v17,9.065,1P,CONFIRMED,2,49.3,0.0184,0.07,NONE(1P),survived,False,False
 7386,Ledger-v17,4.5166,1P,CANDIDATE,1,115.24,0.0084,0.02,NONE(1P),,False,False
 7389,Ledger-v17,157.344,2P,CONFIRMED,2,3.87,0.1119,3.74,CONVENTION,survived,True,False
@@ -398,7 +397,7 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 8168,Ledger-v17,3.516,1P,CONFIRMED,2,169.34,0.0058,0.01,NONE(1P),survived,False,False
 8214,Ledger-v17,158.262,2P,CONFIRMED,2,4.11,0.1056,3.55,CONVENTION,survived,True,False
 8333,Ledger-v17,92.12,2P,CONFIRMED,2,6.12,0.063,1.23,CONVENTION,survived,False,False
-8513,Ledger-v17,107.5444,1P,CANDIDATE,1,5.58,0.1481,6.76,NONE(1P),survived,True,True
+8513,Ledger-v17,107.5444,1P,CANDIDATE,1,5.58,0.1512,6.91,NONE(1P),survived,True,False
 8593,Ledger-v17,4.003,1P,CONFIRMED,2,151.86,0.0058,0.01,NONE(1P),survived,False,False
 86402,Ledger-v17,6.1022,2P,CANDIDATE,1,78.3,0.0058,0.01,CONVENTION,survived,False,False
 8925,Ledger-v17,82.3742,2P,CANDIDATE,1,6.21,0.1281,2.24,CONVENTION,survived,False,False
@@ -474,7 +473,7 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 30849,Ledger-v18,11.1,2P,CANDIDATE,1,21.71,0.021,0.05,MEASURED,,False,False
 31147,Ledger-v18,4.1808,2P,CANDIDATE,1,84.19,0.0053,0.0,CONVENTION,survived,False,False
 32158,Ledger-v18,44.088,1P,CONFIRMED,3,13.8,0.0583,1.09,NONE(1P),inconclusive,False,False
-32164,Ledger-v18,73.7175,1P,CANDIDATE,1,10.67,0.0856,2.68,NONE(1P),survived,True,True
+32164,Ledger-v18,73.7175,1P,CANDIDATE,1,10.67,0.084,2.63,NONE(1P),survived,True,False
 33082,Ledger-v18,2.9283,1P,CANDIDATE,1,113.15,0.0084,0.01,NONE(1P),survived,False,False
 34588,Ledger-v18,9.1362,2P,CANDIDATE,1,40.63,0.0121,0.02,MEASURED,,False,False
 36273,Ledger-v18,7.734,1P,CONFIRMED,2,82.57,0.011,0.04,NONE(1P),survived,False,False
@@ -504,9 +503,9 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 6492,Ledger-v18,9.5818,2P,CANDIDATE,1,61.51,0.0063,0.01,MEASURED,,False,False
 6544,Ledger-v18,20.003,2P,CANDIDATE,1,29.03,0.0142,0.06,CONVENTION,survived,False,False
 6603,Ledger-v18,223.394,2P,CONFIRMED,2,2.69,0.1418,6.72,CONVENTION,survived,True,False
-6614,Ledger-v18,120.4324,2P,CANDIDATE,1,4.96,0.0977,2.5,CONVENTION,survived,True,True
+6614,Ledger-v18,120.4324,2P,CANDIDATE,1,4.97,0.094,2.4,CONVENTION,survived,True,False
 66949,Ledger-v18,4.7744,1P,CANDIDATE,1,114.85,0.0074,0.01,NONE(1P),survived,False,False
-6710,Ledger-v18,3.701,2P,CANDIDATE,1,160.87,0.0032,0.0,MEASURED,survived,True,True
+6710,Ledger-v18,3.701,2P,CANDIDATE,1,160.9,0.0032,0.0,MEASURED,survived,True,False
 67508,Ledger-v18,23.7916,2P,CANDIDATE,1,21.14,0.0194,0.1,CONVENTION,survived,False,False
 6900,Ledger-v18,57.4344,2P,CANDIDATE,1,10.25,0.0378,0.46,CONVENTION,survived,False,False
 7129,Ledger-v18,12.182,2P,CANDIDATE,1,40.55,0.01,0.03,CONVENTION,survived,False,False

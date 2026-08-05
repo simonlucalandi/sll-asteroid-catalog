@@ -14,3 +14,4 @@ number,family,reason
 20084,main belt (survey),LS Pbase=57.09h pow=0.52 FAP=4.6e-191 (independently reproduced). Folded amp=0.60-0.74>0.40 & alternating minima depths (16.04/16.39/16.14/1
 5526,main belt (survey),EXTRAORDINARY 288h/2P REFUTED at verify 2026-07-19: 4 census sectors but fails folded-amplitude rule AND cross-sector phase-coherence (the slow-rotator decisive test); DIA inconclusive +24%. Would hav
 19495,main belt (survey),"KILLED at verify 2026-07-19: 91.8h claim carried incoherent-sectors + period-spread 59% + phase-curve-risk; AND JPL SBDB lists published rot_per=2.33h (Terentyeva, D=5.96km) - known-period object leak"
+10824,main belt (survey),2 sector(s) detecting | cross-sector fold correlation 0.60 | single-peaked at folded amp 0.230 mag | fold-shape audit says the 2P reading is the supported one: odd-harmonic 6.45 sigma in s69 and unequ

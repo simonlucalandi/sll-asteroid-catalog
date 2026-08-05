@@ -312,7 +312,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (10735) main belt (survey) | 102.428 | 2P | CONFIRMED | [10735.md](10735.md) |
 | (10778) main belt (survey) | 7.1908 | 2P | CANDIDATE | [10778.md](10778.md) |
 | (10798) main belt (survey) | 3.2888 | 2P | CANDIDATE | [10798.md](10798.md) |
-| (10824) main belt (survey) | 224.914 | 1P | CANDIDATE | [10824.md](10824.md) |
+| (10824) main belt (survey) |  | - | KILLED | [10824.md](10824.md) |
 | (10885) main belt (survey) | 3.2006 | 2P | CANDIDATE | [10885.md](10885.md) |
 | (10932) main belt (survey) | 3.9 | 2P | CONFIRMED | [10932.md](10932.md) |
 | (11022) main belt (survey) | 16.078 | 2P | CONFIRMED | [11022.md](11022.md) |

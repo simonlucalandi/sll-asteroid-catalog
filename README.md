@@ -39,7 +39,7 @@ way. **50 objects rotate slower than 100 h and 14 slower than 200 h**, the slowe
 |--|--|
 | objects with an adopted period | **529** (261 CONFIRMED, 267 CANDIDATE, 1 MARGINAL) |
 | first determinations | **320** from the novelty-selected belt-wide lots |
-| P > 100 h / P > 200 h | **50 / 14** as adopted, **19 / 1** on curves covering at least three cycles (see the ladder below) |
+| P > 100 h / P > 200 h | **49 / 13** as adopted, **20 / 1** on curves covering at least three cycles (see the ladder below) |
 | slowest well-constrained rotation | **(2211) 227.79 h**, two sectors, 3.6 cycles, doubling measured |
 | fastest rotation | **2.29 h** (all 49 sub-barrier readings on km-sized bodies were re-audited and doubled, METHODOLOGY 3b) |
 | light curves extracted | 3,803 asteroid-sector crossings over 92 TESS sectors |
@@ -54,13 +54,20 @@ any subset. Applied cumulatively to the 50 objects above 100 h:
 
 | criterion | P > 100 h | P > 200 h |
 |--|--|--|
-| as adopted | 50 | 14 |
-| not chunk-quarantined | 44 | 13 |
-| at least 2 sectors | 31 | 12 |
-| **at least 3 cycles of the adopted period** | **19** | **1** |
-| de-comb not inconclusive | 16 | 1 |
-| period measured to better than 20 per cent | 14 | 1 |
+| as adopted | 49 | 13 |
+| at least 2 sectors | 32 | 12 |
+| **at least 3 cycles of the adopted period** | **20** | **1** |
+| de-comb not inconclusive | 17 | 1 |
+| period measured to better than 20 per cent | 15 | 1 |
 | factor of two measured, externally confirmed, or not needed | 3 | 1 |
+
+The chunk-quarantine rung is gone from this ladder because the quarantine was resolved rather
+than carried: all 16 affected crossings were re-extracted **without** chunking on 2026-08-05 and
+the power at each adopted period compared before and after. Fifteen retained or improved it, so
+twelve objects left quarantine on a measurement. One did not: **(10824)**, at 224.91 h, lost 76
+per cent of its power and stopped being the global peak once the stitching was removed, so it is
+now in `rejected.csv`. Its own note had required a direct re-extraction before the period could
+be claimed, and the re-extraction refuted it. The direct curves are now the published ones.
 
 The `doubling` column records which kind of evidence supports each factor of two, since most
 slow periods exist only because a shorter photometric period was doubled. Across the 50:
@@ -70,7 +77,7 @@ slow periods exist only because a shorter photometric period was doubled. Across
 | EXTERNAL | 5 | the adopted period is confirmed by, or settles a conflict against, an independently published determination. Stronger evidence than any internal test. |
 | MEASURED | 7 | the doubling was demonstrated on the data (odd-harmonic power or unequal minima, significant and reproduced) |
 | CONVENTION | 28 | adopted on the amplitude rule: an elongated body shows two maxima per rotation, so above the amplitude cut a single-peaked reading is physically implausible. Standard practice, but a convention rather than a measurement. |
-| NONE(1P) | 8 | no doubling was applied |
+| NONE(1P) | 7 | no doubling was applied |
 | UNCONFIRMED | 2 | the entry itself records that the doubling is not confirmed; both are CANDIDATE |
 
 Two things this makes plain, and both are stated rather than buried. Most of the slow tail rests
