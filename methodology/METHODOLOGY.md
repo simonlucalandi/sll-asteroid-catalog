@@ -128,11 +128,24 @@ One did not. **(10824)**, adopted at 224.91 h, lost 76 per cent of its power in 
 carried it (0.263 to 0.063) and fell from being that sector's global peak to a third of it; its
 second sector never supported the period strongly in either reduction. It is now rejected.
 
+The programme was then extended (2026-08-06) to every remaining catalog object resting on
+chunked photometry, quarantined or not, because leaving the test unrun on the rest of the
+exposed population after it had refuted one member would have been indefensible. Final balance
+over the full chunked-dependent set: **37 crossings targeted, 36 direct extractions obtained,
+35 of 36 retained or improved the power at the adopted period** (ratios 0.75 to 1.61, most
+above 1 because removing the high-pass filter returns power to the signal). The survivors
+include the catalog's four longest periods, whose power ratios are 0.91 to 1.02 and which
+remain the global peak of their sectors in both reductions. The one collapse is (10824),
+rejected. The one crossing that could not be directly extracted is (2211) sector 98, the
+57-day double-length sector, whose pixel track exceeds available memory as a single
+allocation; that object is verified on its other, directly re-extracted sector, and the s98
+curve remains chunk-extracted and flagged.
+
 Two things follow for the method. Chunk stitching does not generally manufacture or destroy long
 periods, which an indirect test on synthetic curves had already suggested and this direct test
-on real curves confirms at 15 of 16. But the exception was real and it sat in the P > 200 h bin,
-the most fragile part of the catalog, so a quarantine is resolved by re-extraction and not by
-argument. The direct curves are now the published ones.
+on real curves confirms at 35 of 36. But the exception was real and it sat in the P > 200 h bin,
+the most fragile part of the catalog, so a chunk-dependence is resolved by re-extraction and not
+by argument. The direct curves are now the published ones.
 
 ## 5c. Field-wide (common-mode) events
 Deep faint excursions in DIFFERENT asteroids coincide in absolute time 2.13x more often than
