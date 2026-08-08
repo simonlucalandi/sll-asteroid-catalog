@@ -38,7 +38,7 @@ observed for one cycle is not the same measurement as one observed for five.
 
 | | |
 |--|--|
-| objects with an adopted period | **528** (269 CONFIRMED, 258 CANDIDATE, 1 MARGINAL) |
+| objects with an adopted period | **528** (271 CONFIRMED, 256 CANDIDATE, 1 MARGINAL) |
 | first determinations | **320** from the novelty-selected belt-wide lots |
 | P > 100 h / P > 200 h | **49 / 13** as adopted, **20 / 1** on curves covering at least three cycles (see the ladder below) |
 | slowest well-constrained rotation | **(2211) 227.79 h**, two sectors, 3.6 cycles, doubling measured |
@@ -65,8 +65,8 @@ any subset. Applied cumulatively to the 50 objects above 100 h:
 Two rungs moved on 2026-08-08 for a measured reason: the extraction queues had always
 discarded crossings within 15 degrees of the galactic plane, and a ground-truth test put the
 real crowding penalty there at 5 points of LCDB agreement (72 vs 77 per cent), not a cliff.
-Relaxing the cut to |b| >= 5 recovered 43 curves for catalog objects, of which 25 detect the
-adopted period under the standard gates; nine single-sector candidates, including two in the
+Relaxing the cut to |b| >= 5 recovered 45 curves for catalog objects, of which 27 detect the
+adopted period under the standard gates; eleven single-sector candidates, including two in the
 slow tail, gained a second independent sector (METHODOLOGY 5b-ter). The 18 rescued curves
 that do NOT detect their period are quarantined out of every count.
 
