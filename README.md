@@ -2,7 +2,7 @@
 
 # TESS-FFI Asteroid Rotation Catalog
 
-**528 main-belt asteroids · 260 secure periods · 49 rotating slower than 100 hours · 2.3 h to 434 h**
+**528 main-belt asteroids · 271 secure periods · 49 rotating slower than 100 hours · 2.3 h to 434 h**
 
 *Every period ships with the evidence it rests on: cycles observed, measured uncertainty, and how the factor-of-two was decided.*
 
@@ -14,7 +14,7 @@ that had **no reliable published period**. Open data, open reasoning, one file p
 ![objects](https://img.shields.io/badge/objects-528-1f6fb4)
 ![first determinations](https://img.shields.io/badge/first%20determinations-320-2ea043)
 ![slow rotators](https://img.shields.io/badge/P%20%3E%20100%20h-49-f0c419)
-![sectors](https://img.shields.io/badge/TESS%20sectors-92-8957e5)
+![sectors](https://img.shields.io/badge/TESS%20sectors-100-8957e5)
 
 <img src="figs/hero_montage.png" width="100%">
 
@@ -51,7 +51,7 @@ observed for one cycle is not the same measurement as one observed for five.
 A period is only as good as the number of cycles observed and the way the factor-of-two was
 decided, so `catalog/catalog.csv` now carries those quantities as columns (`n_sectors`,
 `n_cycles_best`, `peak_width_frac`, `P_sigma_h`, `doubling`, `decomb`) and any reader can rebuild
-any subset. Applied cumulatively to the 50 objects above 100 h:
+any subset. Applied cumulatively to the 49 objects above 100 h:
 
 | criterion | P > 100 h | P > 200 h |
 |--|--|--|
