@@ -13,12 +13,12 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (1519) main belt (survey) | 27.35 | 1P | CONFIRMED | [1519.md](1519.md) |
 | (1588) main belt (survey) | 4.606 | 2P | CONFIRMED | [1588.md](1588.md) |
 | (1887) main belt (survey) | 70.18 | 2P | CONFIRMED | [1887.md](1887.md) |
-| (1948) main belt (survey) | 10.7722 | 2P | CANDIDATE | [1948.md](1948.md) |
+| (1948) main belt (survey) | 10.7722 | 2P | CONFIRMED | [1948.md](1948.md) |
 | (2024) main belt (survey) | 167.52 | 2P | CONFIRMED | [2024.md](2024.md) |
 | (2092) Koronis | 30.49 | 2P | CONFIRMED | [2092.md](2092.md) |
 | (2116) main belt (survey) | 3.5381 | 2P | CONFIRMED | [2116.md](2116.md) |
 | (2122) main belt (survey) | 8.9016 | 2P | CONFIRMED | [2122.md](2122.md) |
-| (2124) main belt (survey) | 3.1227 | 2P | CANDIDATE | [2124.md](2124.md) |
+| (2124) main belt (survey) | 3.1227 | 2P | CONFIRMED | [2124.md](2124.md) |
 | (2168) main belt (survey) | 7.353 | 2P | CANDIDATE | [2168.md](2168.md) |
 | (2211) main belt (survey) | 227.792 | 2P | CONFIRMED | [2211.md](2211.md) |
 | (2300) Koronis | 4.286 | 2P | CONFIRMED | [2300.md](2300.md) |
@@ -27,7 +27,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (2366) main belt (survey) | 4.204 | 2P | CANDIDATE | [2366.md](2366.md) |
 | (2401) main belt (survey) | 153.6872 | 2P | CANDIDATE | [2401.md](2401.md) |
 | (2451) main belt (survey) | 138.364 | 2P | CONFIRMED | [2451.md](2451.md) |
-| (2465) main belt (survey) | 16.4918 | 1P | CANDIDATE | [2465.md](2465.md) |
+| (2465) main belt (survey) | 16.4918 | 1P | CONFIRMED | [2465.md](2465.md) |
 | (2488) main belt (survey) | 44.2385 | 1P | CANDIDATE | [2488.md](2488.md) |
 | (2514) main belt (survey) | 2.5337 | 1P | CANDIDATE | [2514.md](2514.md) |
 | (2521) main belt (survey) | 41.58 | 2P | CANDIDATE | [2521.md](2521.md) |
@@ -41,7 +41,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (2761) main belt (survey) | 11.646 | 1P | CONFIRMED | [2761.md](2761.md) |
 | (2765) main belt (survey) | 12.332 | 1P | CONFIRMED | [2765.md](2765.md) |
 | (2775) main belt (survey) | 8.33 | 2P | CONFIRMED | [2775.md](2775.md) |
-| (2805) main belt (survey) | 4.3677 | 1P | CANDIDATE | [2805.md](2805.md) |
+| (2805) main belt (survey) | 4.3677 | 1P | CONFIRMED | [2805.md](2805.md) |
 | (2810) main belt (survey) | 3.05 | 2P | CONFIRMED | [2810.md](2810.md) |
 | (2826) main belt (survey) | 7.181 | 1P | CANDIDATE | [2826.md](2826.md) |
 | (2828) main belt (survey) | 3.803 | 2P | CONFIRMED | [2828.md](2828.md) |
@@ -106,7 +106,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (4118) main belt (survey) | 8.734 | 2P | CONFIRMED | [4118.md](4118.md) |
 | (4164) main belt (survey) | 109.468 | 2P | CANDIDATE | [4164.md](4164.md) |
 | (4165) main belt (survey) | 13.3076 | 1P | CANDIDATE | [4165.md](4165.md) |
-| (4203) main belt (survey) | 6.7662 | 2P | CANDIDATE | [4203.md](4203.md) |
+| (4203) main belt (survey) | 6.7662 | 2P | CONFIRMED | [4203.md](4203.md) |
 | (4208) main belt (survey) | 14.2839 | 1P | CANDIDATE | [4208.md](4208.md) |
 | (4253) main belt (survey) | 2.296 | 1P | CONFIRMED | [4253.md](4253.md) |
 | (4260) Koronis | 29.24 | 1P | CONFIRMED | [4260.md](4260.md) |
@@ -264,7 +264,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (8464) main belt (survey) | 15.862 | 2P | CONFIRMED | [8464.md](8464.md) |
 | (8472) main belt (survey) | 13.631 | 1P | CONFIRMED | [8472.md](8472.md) |
 | (8508) main belt (survey) | 275.67 | 2P | CONFIRMED | [8508.md](8508.md) |
-| (8513) main belt (survey) | 107.5444 | 1P | CANDIDATE | [8513.md](8513.md) |
+| (8513) main belt (survey) | 107.5444 | 1P | CONFIRMED | [8513.md](8513.md) |
 | (8530) main belt (survey) | 3.8208 | 1P | CANDIDATE | [8530.md](8530.md) |
 | (8593) main belt (survey) | 4.003 | 1P | CONFIRMED | [8593.md](8593.md) |
 | (8602) main belt (survey) | 10.518 | 2P | CONFIRMED | [8602.md](8602.md) |
@@ -302,7 +302,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (10292) Baptistina | 2.419 | 1P | CONFIRMED | [10292.md](10292.md) |
 | (10363) main belt (survey) | 51.802 | 2P | CANDIDATE | [10363.md](10363.md) |
 | (10451) main belt (survey) | 10.178 | 2P | CONFIRMED | [10451.md](10451.md) |
-| (10505) main belt (survey) | 133.3104 | 2P | CANDIDATE | [10505.md](10505.md) |
+| (10505) main belt (survey) | 133.3104 | 2P | CONFIRMED | [10505.md](10505.md) |
 | (10561) main belt (survey) | 118.9676 | 2P | CANDIDATE | [10561.md](10561.md) |
 | (10594) main belt (survey) | 70.3216 | 2P | CANDIDATE | [10594.md](10594.md) |
 | (10667) Hungaria | 20.2932 | Sq | CONFIRMED | [10667.md](10667.md) |
@@ -335,7 +335,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (12209) main belt (survey) | 18.2064 | 2P | CANDIDATE | [12209.md](12209.md) |
 | (12262) main belt (survey) | 25.1628 | 1P | CANDIDATE | [12262.md](12262.md) |
 | (12315) Padua | 5.562 | 2P | CONFIRMED | [12315.md](12315.md) |
-| (12335) main belt (survey) | 3.4612 | 2P | CANDIDATE | [12335.md](12335.md) |
+| (12335) main belt (survey) | 3.4612 | 2P | CONFIRMED | [12335.md](12335.md) |
 | (12537) Baptistina | 11.0125 | 1P | CANDIDATE | [12537.md](12537.md) |
 | (12745) main belt (survey) | 10.9262 | 1P | CANDIDATE | [12745.md](12745.md) |
 | (12821) main belt (survey) | 3.5119 | 1P | CANDIDATE | [12821.md](12821.md) |
@@ -385,7 +385,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (16818) main belt (survey) | 25.8975 | 1P | CANDIDATE | [16818.md](16818.md) |
 | (17019) main belt (survey) | 4.1396 | 2P | CANDIDATE | [17019.md](17019.md) |
 | (17051) main belt (survey) | 5.5492 | 2P | CANDIDATE | [17051.md](17051.md) |
-| (17141) main belt (survey) | 3.674 | 2P | CANDIDATE | [17141.md](17141.md) |
+| (17141) main belt (survey) | 3.674 | 2P | CONFIRMED | [17141.md](17141.md) |
 | (17219) main belt (survey) | 21.578 | 2P | CONFIRMED | [17219.md](17219.md) |
 | (17410) main belt (survey) | 3.498 | 2P | CONFIRMED | [17410.md](17410.md) |
 | (17482) main belt (survey) | 4.5117 | 1P | CANDIDATE | [17482.md](17482.md) |

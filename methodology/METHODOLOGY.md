@@ -52,6 +52,12 @@ The amplitude convention is the WEAKEST rung, not the strongest. The order is:
 3. **Amplitude convention** (folded amp > 0.40 -> 2P) -- only where neither measurement nor
    physics constrains the answer.
 
+Since 2026-08-08 the evidence columns surface rung 2 as its own provenance tier, `PHYSICS`,
+sitting between MEASURED and CONVENTION in the `doubling` column; earlier releases lumped
+those objects under the amplitude convention or left them unstated, which understated the
+strength of their doubling. The same pass closed every remaining UNSTATED entry in the
+catalog (52 objects, all outside the slow tail, which had been cleaned on 2026-08-05).
+
 The odd-harmonic audit itself is CALIBRATED, not trusted: a null test re-runs the identical
 machinery asking whether the already-doubled period should double again (2P vs 4P), where a
 fire is false by construction. Measured on 60 real curves: the raw verdict fires falsely 27%
@@ -147,6 +153,28 @@ on real curves confirms at 35 of 36. But the exception was real and it sat in th
 the most fragile part of the catalog, so a chunk-dependence is resolved by re-extraction and not
 by argument. The direct curves are now the published ones.
 
+## 5b-ter. Crowding rescue of |b| 5-15 degree crossings (2026-08-08)
+
+The extraction queues historically discarded any crossing within 15 degrees of the galactic
+plane. A ground-truth test on the tumbler lot (114 rescued objects against LCDB) measured the
+real cost of crowding at these latitudes: agreement with published periods is 72 per cent for
+|b| 5-15 against 77 per cent above, a 5-point penalty and not a cliff. The cut was therefore
+relaxed to |b| >= 5 for catalog objects, with the other queue criteria unchanged
+(median TESS magnitude <= 16.8, fraction on silicon >= 0.5).
+
+The rescued crossings earn their place under the SAME per-sector gates as every other
+detecting sector (FAP < 1e-3 and power >= 0.10 at the adopted photometric period), and
+promotions to CONFIRMED follow section 4 unchanged; every promoted second sector in this
+pass in fact supports the adopted period at FAP <= 1e-22. First application: 48 crossings
+targeted on 42 catalog objects, 43 extracted, 25 passed the gates, 9 single-sector
+candidates gained a second independent sector and were promoted.
+
+A rescued curve in which the adopted period does NOT pass the gates is renamed to
+`lc_<num>_s<sector>.csv.nodetect` and drops out of every downstream count: n_sectors in the
+evidence columns means DETECTING sectors, and a curve that does not detect the period must
+not inflate it. The file is kept on disk because a non-detection at one apparition is still
+information (aspect changes can null the lightcurve of an elongated body seen pole-on).
+
 ## 5c. Field-wide (common-mode) events
 Deep faint excursions in DIFFERENT asteroids coincide in absolute time 2.13x more often than
 chance (5269 cross-object coincidences within 6 h against 2472 expected, over 294 objects and
@@ -195,6 +223,36 @@ now close it:
 Display rule from the same pass: a sector fragment covering less than ~3/4 of one cycle of
 the adopted period is excluded from published folds; it cannot phase-fold meaningfully and
 only smears the figure.
+
+## 6c. Phase anchors: T0 and per-apparition amplitude (2026-08-08)
+
+A period without an epoch says how often, not since when: it cannot propagate a rotational
+phase to an external instrument's observing time. `catalog/phase_anchors.csv` therefore ships,
+for every object, an absolute epoch and the amplitude information a joint fit needs:
+
+- `T0_jd`: the JD of the deepest minimum of the Fourier model, evaluated inside the
+  best-covered apparition (not the first), so the anchor sits where the data constrain it
+  most. The model is a least-squares Fourier series at the adopted photometric period,
+  order chosen by BIC between 2 and 6.
+- `amp_folded_mag` and `amp_per_apparition`: apparitions are clusters of epochs separated
+  by gaps longer than 90 days; the per-apparition fit holds the period and relative harmonic
+  shape fixed and rescales amplitude and phase offset, because viewing aspect changes
+  between apparitions and a single global amplitude would average over geometry.
+- Declared limitation, half-cycle ambiguity: for a 2P object whose two minima are nearly
+  equal, "deepest minimum" is decided by noise, and independent reductions can land half a
+  cycle apart. A consistency check against the public ALCDEF exports found exactly this in
+  49 of 116 overlapping objects (median offset 0.495 cycles, amplitudes agreeing); a
+  downstream fit should treat T0 as defined modulo half a cycle unless the minima depths
+  differ by more than the noise.
+- The sigma_P column of the evidence table is reported to four significant figures since
+  2026-08-08; the previous two-decimal rounding quantized 103 fast rotators to a
+  meaningless 0.00 h.
+
+These anchors exist because phase PREDICTION over survey timescales is impossible at
+catalog precision (median sigma_P/P of 3.8e-3 accumulates to ~6 cycles of phase error over
+two years): an external epoch series must be fit JOINTLY with the period, with the catalog
+value as the alias-breaking prior, and T0 plus per-apparition amplitude are the parameters
+that fit needs seeded.
 
 ## 7. Published fold displays
 The phase-fold plots in `plots/` show the photometry the periods were derived from, with
