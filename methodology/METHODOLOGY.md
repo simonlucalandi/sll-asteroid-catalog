@@ -254,37 +254,46 @@ two years): an external epoch series must be fit JOINTLY with the period, with t
 value as the alias-breaking prior, and T0 plus per-apparition amplitude are the parameters
 that fit needs seeded.
 
-## 6d. Independent-epoch verification with SPHEREx QR2 (2026-08-09)
+## 6d. Cross-checking periods against SPHEREx QR2 (2026-08-09, revised same day after adversarial review)
 
 SPHEREx observes every asteroid near quadrature and releases calibrated spectral images
-weekly; forced PSF photometry at the ephemeris position turns those images into an
-independent epoch series, years after and instrument-independent of TESS. The pipeline
-(scripts in the working repository) is validated before any claim: on 2MASS field stars
-of known magnitude the photometry recovers fluxes to -0.03 mag median offset (scatter
-0.13 mag, 10 stars, SNR 15-40), and the flux estimator recovers synthetic PSF injections
-to 0.1 per cent. Epochs with a Gaia DR3 star inside the PSF core or a bright star in the
-background annulus are dropped (the target moves; the field does not). Two FLAGS-mask
-subtleties matter and are documented in the code: bit 21 marks pixels of KNOWN sources
-(masking it deletes the stars used for validation) and bit 19 is the outlier detector,
-which fires on the moving target itself.
+weekly; forced PSF photometry at the ephemeris position yields an epoch series that is
+instrument-independent of TESS. The photometry is validated on 2MASS field stars, so far
+in a NARROW regime (one detector, one PSF zone, SNR 15-40); epochs with a Gaia DR3 star
+near the target are dropped, but the current screen is known to be incomplete (its core
+radius is smaller than the estimator footprint, and a red star can be NIR-bright yet
+fainter than the Gaia cut). Two FLAGS-mask subtleties are documented in the code: bit 21
+marks pixels of known sources, and bit 19 is the outlier detector, which fires on the
+moving target itself.
 
-A catalog period is considered verified at an independent SPHEREx epoch series when the
-TESS-shape model at the adopted period fits the (contamination-cleaned, reflected-band)
-epochs better than a flat spectrum by a chi-square margin that survives per-detector
-zero-point nuisances. What this test does NOT settle is the period alias within the TESS
-peak width: a sparse epoch series has its own alias comb, and a joint refinement that
-moves the period by one alias spacing must be checked against the per-sector TESS
-constraints before any adopted value changes. First applications:
+What this cross-check can and cannot claim was settled by an adversarial review the same
+day the first version of this section was published, and the corrected standard is:
 
-- **(2451)**, P = 138.36 h: rotational modulation recovered at ~17 sigma with the phase
-  PREDICTED from a contemporaneous TESS sector (no free phase parameters), amplitude
-  0.90x TESS. The de-rotated reflectance shows the 1-micron silicate band expected for
-  its published S classification, which the rotation-smeared points do not.
-- **(2869)**, P = 310.5 h: phase coherence across 172 days of SPHEREx epochs (13+
-  rotations) at 13.6 sigma (38 contamination-cleaned epochs), from a TESS baseline that covered 1.3 cycles. In this regime a
-  spectrum assembles in a fraction of a rotation, so no lightcurve-free correction can
-  average the smearing away; the same property makes the verification the strongest
-  available for few-cycle ultra-slow periods.
+- significance is quoted ONLY from empirical nulls matched to the claim structure (rigid
+  phase rotation for an anchored phase; visit-block shuffling for phase coherence), never
+  from sqrt(delta chi-square), because the spectral baseline is misspecified
+  (chi-square/dof 15-22) and per-epoch systematics of 0.2-0.7 mag dominate the formal
+  errors;
+- a leverage audit is mandatory: if removing one epoch or visit removes most of the
+  signal, the claim is about that epoch, not the dataset.
+
+First applications, restated at their null-calibrated value:
+
+- **(2451)**, P = 138.36 h: the TESS-shape model at the adopted period, with phase
+  ANCHORED to the contemporaneous TESS sector (36 of 37 SPHEREx epochs fall inside that
+  sector's time window, so this is a same-window cross-instrument consistency check, not
+  an out-of-sample prediction), is consistent with the SPHEREx epochs at about the
+  2-sigma level (rigid-phase null p ~ 0.10 on the contamination-cleaned set; permutation
+  null p ~ 0.013). The de-rotated reflectance is consistent with its published S class.
+- **(2869)**, P = 310.5 h: inter-visit brightness modulation is present at about 3 sigma
+  with amplitude compatible with TESS, but phase coherence across the 172-day span is NOT
+  established: 37 of 38 clean epochs span 1.5 rotations and the long baseline rests on a
+  single later epoch (visit-block null p ~ 0.15). The period's external support remains
+  the LCDB 311.3 h agreement.
+
+Neither object's adopted value changes. A verification CLAIM from SPHEREx awaits the
+corrected contamination screen (footprint-matched radius, red-star handling), photometric
+validation across detectors, and the null-calibrated fleet analysis.
 
 ## 7. Published fold displays
 The phase-fold plots in `plots/` show the photometry the periods were derived from, with
