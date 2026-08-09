@@ -117,7 +117,7 @@ is recovered at **~17 sigma with zero free phase parameters** (contemporaneous T
 sector; amplitude 0.90x), and de-rotating the SPHEREx epochs with the TESS model
 recovers the 1-micron silicate band of its published S classification. On **(2869)**,
 at **310 h**, the adopted period holds phase coherence across 172 days of SPHEREx
-epochs (13+ rotations) at 8 sigma, from a TESS baseline of 1.3 cycles: precisely the
+epochs (13+ rotations) at 13.6 sigma, from a TESS baseline of 1.3 cycles: precisely the
 regime where a period cannot be checked any other way.
 
 <img src="figs/spherex_verification_2451.png" width="100%">

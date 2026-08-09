@@ -281,7 +281,7 @@ constraints before any adopted value changes. First applications:
   0.90x TESS. The de-rotated reflectance shows the 1-micron silicate band expected for
   its published S classification, which the rotation-smeared points do not.
 - **(2869)**, P = 310.5 h: phase coherence across 172 days of SPHEREx epochs (13+
-  rotations) at 8 sigma, from a TESS baseline that covered 1.3 cycles. In this regime a
+  rotations) at 13.6 sigma (38 contamination-cleaned epochs), from a TESS baseline that covered 1.3 cycles. In this regime a
   spectrum assembles in a fraction of a rotation, so no lightcurve-free correction can
   average the smearing away; the same property makes the verification the strongest
   available for few-cycle ultra-slow periods.
