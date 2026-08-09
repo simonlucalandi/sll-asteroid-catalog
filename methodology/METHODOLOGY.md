@@ -254,6 +254,38 @@ two years): an external epoch series must be fit JOINTLY with the period, with t
 value as the alias-breaking prior, and T0 plus per-apparition amplitude are the parameters
 that fit needs seeded.
 
+## 6d. Independent-epoch verification with SPHEREx QR2 (2026-08-09)
+
+SPHEREx observes every asteroid near quadrature and releases calibrated spectral images
+weekly; forced PSF photometry at the ephemeris position turns those images into an
+independent epoch series, years after and instrument-independent of TESS. The pipeline
+(scripts in the working repository) is validated before any claim: on 2MASS field stars
+of known magnitude the photometry recovers fluxes to -0.03 mag median offset (scatter
+0.13 mag, 10 stars, SNR 15-40), and the flux estimator recovers synthetic PSF injections
+to 0.1 per cent. Epochs with a Gaia DR3 star inside the PSF core or a bright star in the
+background annulus are dropped (the target moves; the field does not). Two FLAGS-mask
+subtleties matter and are documented in the code: bit 21 marks pixels of KNOWN sources
+(masking it deletes the stars used for validation) and bit 19 is the outlier detector,
+which fires on the moving target itself.
+
+A catalog period is considered verified at an independent SPHEREx epoch series when the
+TESS-shape model at the adopted period fits the (contamination-cleaned, reflected-band)
+epochs better than a flat spectrum by a chi-square margin that survives per-detector
+zero-point nuisances. What this test does NOT settle is the period alias within the TESS
+peak width: a sparse epoch series has its own alias comb, and a joint refinement that
+moves the period by one alias spacing must be checked against the per-sector TESS
+constraints before any adopted value changes. First applications:
+
+- **(2451)**, P = 138.36 h: rotational modulation recovered at ~17 sigma with the phase
+  PREDICTED from a contemporaneous TESS sector (no free phase parameters), amplitude
+  0.90x TESS. The de-rotated reflectance shows the 1-micron silicate band expected for
+  its published S classification, which the rotation-smeared points do not.
+- **(2869)**, P = 310.5 h: phase coherence across 172 days of SPHEREx epochs (13+
+  rotations) at 8 sigma, from a TESS baseline that covered 1.3 cycles. In this regime a
+  spectrum assembles in a fraction of a rotation, so no lightcurve-free correction can
+  average the smearing away; the same property makes the verification the strongest
+  available for few-cycle ultra-slow periods.
+
 ## 7. Published fold displays
 The phase-fold plots in `plots/` show the photometry the periods were derived from, with
 two display-side contamination excisions (both disclosed here and in figure captions):

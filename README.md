@@ -106,6 +106,22 @@ uncertainty and is no longer used as a headline number.
 <img src="figs/period_distribution.png" width="49%"> <img src="figs/family_coverage.png" width="49%">
 
 
+## Independent verification with SPHEREx
+
+The catalog's periods are now being checked against a second space telescope. SPHEREx
+observes every asteroid near quadrature while assembling all-sky spectra; forced PSF
+photometry on its public QR2 images (validated on 2MASS stars to -0.03 +- 0.13 mag)
+yields an epoch series fully independent of TESS. First results, method in
+[METHODOLOGY 6d](methodology/METHODOLOGY.md): on **(2451)** the TESS-predicted rotation
+is recovered at **~17 sigma with zero free phase parameters** (contemporaneous TESS
+sector; amplitude 0.90x), and de-rotating the SPHEREx epochs with the TESS model
+recovers the 1-micron silicate band of its published S classification. On **(2869)**,
+at **310 h**, the adopted period holds phase coherence across 172 days of SPHEREx
+epochs (13+ rotations) at 8 sigma, from a TESS baseline of 1.3 cycles: precisely the
+regime where a period cannot be checked any other way.
+
+<img src="figs/spherex_verification_2451.png" width="100%">
+
 ## Three asteroids that tumble
 
 A tumbling asteroid rotates around a precessing axis: its light curve is woven from **two
