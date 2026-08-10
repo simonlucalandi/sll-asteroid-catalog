@@ -266,11 +266,15 @@ that fit needs seeded.
 
 SPHEREx observes every asteroid near quadrature and releases calibrated spectral images
 weekly; forced PSF photometry at the ephemeris position yields an epoch series that is
-instrument-independent of TESS. The photometry is validated on 2MASS field stars, so far
-in a NARROW regime (one detector, one PSF zone, SNR 15-40); epochs with a Gaia DR3 star
-near the target are dropped, but the current screen is known to be incomplete (its core
-radius is smaller than the estimator footprint, and a red star can be NIR-bright yet
-fainter than the Gaia cut). Two FLAGS-mask subtleties are documented in the code: bit 21
+instrument-independent of TESS. The photometry is validated on catalog stars
+across all six detectors and multiple PSF zones (247 stars, 2MASS for D1-D3 and AllWISE
+for D4-D6): on the reflected-band detectors D1-D3, which carry all the science below
+2.6 um, the median offset is -0.01 to -0.05 mag (scatter 0.27-0.34 mag, dominated by
+unmodelled star colors); the thermal detectors D4-D6 show color-systematic offsets up to
++0.3 mag and are excluded from the reflected-band fits. Epochs with a contaminating star
+are dropped by a two-tier, per-band screen matched to the estimator footprint (Gaia for
+D1-D2, 2MASS for D3-D4, AllWISE for D5-D6), with a background-ring rule that respects the
+median's robustness (only a bright star or a crowd can bias it). Two FLAGS-mask subtleties are documented in the code: bit 21
 marks pixels of known sources, and bit 19 is the outlier detector, which fires on the
 moving target itself.
 
