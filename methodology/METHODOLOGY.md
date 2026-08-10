@@ -169,6 +169,14 @@ pass in fact supports the adopted period at FAP <= 1e-22. First application: 48 
 targeted on 42 catalog objects, 43 extracted, 25 passed the gates, 9 single-sector
 candidates gained a second independent sector and were promoted.
 
+Near-comb candidates from these crowded fields get one additional test that the rest of the
+catalog rarely needs: a FIELD CONTROL. The Lomb-Scargle power at the candidate's exact
+frequency is measured on at least 15 unknown objects extracted from the same sector; a real
+rotation stands 39x to 5000x above the field median, while a frame-level systematic would
+appear in the field too. This is now part of the standard verification for any candidate
+within 3 per cent of a 328.8/n or 24/n line, motivated by the measured comb excess in
+|b| 5-15 fields (47 per cent of census peaks near a line against 26 per cent expected).
+
 A rescued curve in which the adopted period does NOT pass the gates is renamed to
 `lc_<num>_s<sector>.csv.nodetect` and drops out of every downstream count: n_sectors in the
 evidence columns means DETECTING sectors, and a curve that does not detect the period must

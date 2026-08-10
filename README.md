@@ -2,7 +2,7 @@
 
 # TESS-FFI Asteroid Rotation Catalog
 
-**528 main-belt asteroids · 271 secure periods · 49 rotating slower than 100 hours · 2.3 h to 434 h**
+**557 main-belt asteroids · 278 secure periods · 51 rotating slower than 100 hours · 2.3 h to 434 h**
 
 *Every period ships with the evidence it rests on: cycles observed, measured uncertainty, and how the factor-of-two was decided.*
 
@@ -11,9 +11,9 @@ that had **no reliable published period**. Open data, open reasoning, one file p
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21446076.svg)](https://doi.org/10.5281/zenodo.21446076)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](LICENSE)
-![objects](https://img.shields.io/badge/objects-528-1f6fb4)
-![first determinations](https://img.shields.io/badge/first%20determinations-320-2ea043)
-![slow rotators](https://img.shields.io/badge/P%20%3E%20100%20h-49-f0c419)
+![objects](https://img.shields.io/badge/objects-557-1f6fb4)
+![first determinations](https://img.shields.io/badge/first%20determinations-348-2ea043)
+![slow rotators](https://img.shields.io/badge/P%20%3E%20100%20h-51-f0c419)
 ![sectors](https://img.shields.io/badge/TESS%20sectors-100-8957e5)
 
 <img src="figs/hero_montage.png" width="100%">
@@ -32,18 +32,18 @@ asteroid population is so thinly populated. TESS stares at the same field for 27
 interruption, so a 400-hour rotation is simply 1.6 cycles of continuous coverage.
 
 That is what this catalog is: the slow tail, plus everything else the same survey found on the
-way. **49 objects rotate slower than 100 h and 13 slower than 200 h**, all first determinations. How
+way. **51 objects rotate slower than 100 h and 13 slower than 200 h**, all first determinations. How
 far each of those claims can be pushed is set out in the ladder below, because a long period
 observed for one cycle is not the same measurement as one observed for five.
 
 | | |
 |--|--|
-| objects with an adopted period | **528** (271 CONFIRMED, 256 CANDIDATE, 1 MARGINAL) |
-| first determinations | **320** from the novelty-selected belt-wide lots |
-| P > 100 h / P > 200 h | **49 / 13** as adopted, **20 / 1** on curves covering at least three cycles (see the ladder below) |
+| objects with an adopted period | **557** (278 CONFIRMED, 278 CANDIDATE, 1 MARGINAL) |
+| first determinations | **348** from the novelty-selected belt-wide and rescue lots |
+| P > 100 h / P > 200 h | **51 / 13** as adopted, **23 / 1** on curves covering at least three cycles (see the ladder below) |
 | slowest well-constrained rotation | **(2211) 227.79 h**, two sectors, 3.6 cycles, doubling measured |
 | fastest rotation | **2.29 h** (all 49 sub-barrier readings on km-sized bodies were re-audited and doubled, METHODOLOGY 3b) |
-| light curves extracted | 4,169 asteroid-sector crossings over 100 TESS sectors |
+| light curves extracted | 4,436 asteroid-sector crossings over 100 TESS sectors |
 | detections published as rejected | 16, with reasons |
 
 ### How much each slow-rotation claim rests on
@@ -51,16 +51,16 @@ observed for one cycle is not the same measurement as one observed for five.
 A period is only as good as the number of cycles observed and the way the factor-of-two was
 decided, so `catalog/catalog.csv` now carries those quantities as columns (`n_sectors`,
 `n_cycles_best`, `peak_width_frac`, `P_sigma_h`, `doubling`, `decomb`) and any reader can rebuild
-any subset. Applied cumulatively to the 49 objects above 100 h:
+any subset. Applied cumulatively to the 51 objects above 100 h:
 
 | criterion | P > 100 h | P > 200 h |
 |--|--|--|
-| as adopted | 49 | 13 |
-| at least 2 sectors | 34 | 12 |
-| **at least 3 cycles of the adopted period** | **22** | **1** |
-| de-comb not inconclusive | 19 | 1 |
-| period measured to better than 20 per cent | 17 | 1 |
-| factor of two measured, externally confirmed, or not needed | 6 | 1 |
+| as adopted | 51 | 13 |
+| at least 2 sectors | 35 | 12 |
+| **at least 3 cycles of the adopted period** | **23** | **1** |
+| de-comb not inconclusive | 20 | 1 |
+| period measured to better than 20 per cent | 18 | 1 |
+| factor of two measured, externally confirmed, or not needed | 7 | 1 |
 
 Two rungs moved on 2026-08-08 for a measured reason: the extraction queues had always
 discarded crossings within 15 degrees of the galactic plane, and a ground-truth test put the
@@ -69,6 +69,15 @@ Relaxing the cut to |b| >= 5 recovered 45 curves for catalog objects, of which 2
 adopted period under the standard gates; eleven single-sector candidates, including two in the
 slow tail, gained a second independent sector (METHODOLOGY 5b-ter). The 18 rescued curves
 that do NOT detect their period are quarantined out of every count.
+
+The rescue's non-catalog harvest then went through the full gauntlet on 2026-08-10: of 52
+census candidates, a novelty oracle, a de-comb pass, and four refutation-first verification
+waves (blind re-derivation, harmonic-aware comb tests with FIELD CONTROLS on unknown objects
+of the same sectors, calibrated shape rules, human review of flagged folds) admitted **29
+new objects (7 CONFIRMED, 22 CANDIDATE)**, including (6574) at 125.1 h with the doubling
+measured in both sectors, and **(1255)**, where four concordant sectors overturn a published
+29.5 h period (U=2) in favour of 38.28 h. Eighteen candidates matched published periods
+(confirmations, not novelty) and five were excluded with stated reasons.
 
 The chunk-quarantine rung is gone from this ladder because the quarantine was resolved rather
 than carried: all 16 affected crossings were re-extracted **without** chunking on 2026-08-05 and
@@ -79,20 +88,20 @@ now in `rejected.csv`. Its own note had required a direct re-extraction before t
 be claimed, and the re-extraction refuted it. The direct curves are now the published ones.
 
 The `doubling` column records which kind of evidence supports each factor of two, since most
-slow periods exist only because a shorter photometric period was doubled. Across the 49:
+slow periods exist only because a shorter photometric period was doubled. Across the 51:
 
 | | count | meaning |
 |--|--|--|
 | EXTERNAL | 5 | the adopted period is confirmed by, or settles a conflict against, an independently published determination. Stronger evidence than any internal test. |
-| MEASURED | 9 | the doubling was demonstrated on the data (odd-harmonic power or unequal minima, significant and reproduced) |
+| MEASURED | 10 | the doubling was demonstrated on the data (odd-harmonic power or unequal minima, significant and reproduced) |
 | CONVENTION | 26 | adopted on the amplitude rule: an elongated body shows two maxima per rotation, so above the amplitude cut a single-peaked reading is physically implausible. Standard practice, but a convention rather than a measurement. |
 | NONE(1P) | 7 | no doubling was applied |
-| UNCONFIRMED | 2 | the entry itself records that the doubling is not confirmed; both are CANDIDATE |
+| UNCONFIRMED | 3 | the entry itself records that the doubling is not confirmed; all are CANDIDATE |
 
-The same provenance now covers the WHOLE catalog, not only the slow tail: 204 NONE(1P),
-190 CONVENTION, 108 MEASURED, 12 PHYSICS (photometric period below the ~2.2 h rubble-pile
+The same provenance now covers the WHOLE catalog, not only the slow tail: 216 NONE(1P),
+199 CONVENTION, 112 MEASURED, 15 PHYSICS (photometric period below the ~2.2 h rubble-pile
 barrier on a km-sized body, so the doubling is physically forced regardless of amplitude,
-METHODOLOGY 3b rung 2), 11 EXTERNAL, 3 UNCONFIRMED, and **zero UNSTATED**: the 52 entries
+METHODOLOGY 3b rung 2), 11 EXTERNAL, 4 UNCONFIRMED, and **zero UNSTATED**: the 52 entries
 that stated no basis for their factor of two were audited and closed on 2026-08-08.
 
 Two things this makes plain, and both are stated rather than buried. Most of the slow tail rests
