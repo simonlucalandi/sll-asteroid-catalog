@@ -4,7 +4,10 @@
 Verifies that the per-object files under objects/ and the published catalog can never
 silently drift: every objects/<n>.md must match a catalog (or rejected) row on period,
 shape, and status; filenames must match their frontmatter; there must be no orphan files;
-and every rejected object should have a file explaining why. Self-contained -- reads only
+and every rejected object should have a file explaining why. Hand-written "## Verdict"
+lines below the AUTO block are checked too: sheet generation preserves them verbatim, so
+catalog corrections do not propagate there on their own (7 verdicts had silently drifted
+by 2026-08-15, one by a factor 2 in period). Self-contained -- reads only
 catalog/catalog.csv, catalog/rejected.csv, and objects/*.md.
 
 Run from anywhere:  python3 validate_repo.py   (exit 0 = clean, 1 = mismatches).
@@ -53,6 +56,32 @@ def approx_equal(a, b, tol=0.02):
     return abs(a - b) / abs(b) <= tol
 
 
+def check_hand_verdict(path, c):
+    """Errors for a hand-written '## Verdict' line that contradicts the catalog row.
+
+    Only the Verdict line is checked (the Reasoning prose may legitimately discuss
+    superseded values); only the first '<number> h' on it is read as the period, and a
+    status word is only an error when it names a DIFFERENT tier than the catalog.
+    """
+    hand = open(path).read().split("AUTO:END -->", 1)
+    if len(hand) < 2:
+        return []
+    m = re.search(r"##\s*Verdict\s*\n(.+)", hand[1])
+    if not m:
+        return []
+    vline, base, errors = m.group(1), os.path.basename(path), []
+    pm = re.search(r"(\d+(?:\.\d+)?)\s*h", vline)
+    if pm and c["P_rot_h"] and not approx_equal(pm.group(1), c["P_rot_h"]):
+        errors.append(f"{base}: hand Verdict period '{pm.group(1)} h' != catalog "
+                      f"'{c['P_rot_h']} h' (stale hand reasoning)")
+    for st in ("CONFIRMED", "CANDIDATE", "MARGINAL"):
+        # word boundary: 'unconfirmed' in a doubling caveat must not match CONFIRMED
+        if re.search(rf"\b{st}\b", vline.upper()) and st != c["status"]:
+            errors.append(f"{base}: hand Verdict says '{st}', catalog says "
+                          f"'{c['status']}' (stale hand reasoning)")
+    return errors
+
+
 def main():
     ref = load_catalog()
     errors, warnings, seen = [], [], set()
@@ -80,6 +109,7 @@ def main():
                 errors.append(f"{base}: P_rot_h '{fm.get('P_rot_h')}' != catalog '{c['P_rot_h']}'")
             if (fm.get("shape", "") or "").strip() != (c["shape"] or "").strip():
                 errors.append(f"{base}: shape '{fm.get('shape')}' != catalog '{c['shape']}'")
+            errors.extend(check_hand_verdict(path, c))
 
     for num, c in ref.items():
         if num not in seen and c["status"] == "KILLED":
