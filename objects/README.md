@@ -147,7 +147,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (4938) main belt (survey) | 4.1428 | 2P | CONFIRMED | [4938.md](4938.md) |
 | (4973) main belt (survey) | 28.5253 | 1P | CONFIRMED | [4973.md](4973.md) |
 | (5015) main belt (survey) | 58.708 | 1P | CONFIRMED | [5015.md](5015.md) |
-| (5024) main belt (survey) | 26.0468 | 2P | CONFIRMED | [5024.md](5024.md) |
+| (5024) main belt (survey) | 13.0234 | 1P | CONFIRMED | [5024.md](5024.md) |
 | (5051) main belt (survey) | 7.2598 | 1P | CONFIRMED | [5051.md](5051.md) |
 | (5074) main belt (survey) | 12.662 | 2P | CONFIRMED | [5074.md](5074.md) |
 | (5091) Hoffmeister | 13.914 | 2P | CONFIRMED | [5091.md](5091.md) |
@@ -312,7 +312,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (9594) main belt (survey) | 2.8866 | 1P | CANDIDATE | [9594.md](9594.md) |
 | (9609) main belt (survey) | 8.079 | 2P | CONFIRMED | [9609.md](9609.md) |
 | (9859) main belt (survey) | 7.3324 | 1P | CONFIRMED | [9859.md](9859.md) |
-| (9891) main belt (survey) | 9.6034 | 1P | CONFIRMED | [9891.md](9891.md) |
+| (9891) main belt (survey) | 9.6034 | 1P | CANDIDATE | [9891.md](9891.md) |
 | (9947) main belt (survey) | 4.9532 | 2P | CONFIRMED | [9947.md](9947.md) |
 | (9955) main belt (survey) | 2.312 | 1P | CONFIRMED | [9955.md](9955.md) |
 | (10017) main belt (survey) | 12.05 | 1P | CONFIRMED | [10017.md](10017.md) |

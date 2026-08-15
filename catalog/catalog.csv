@@ -255,7 +255,7 @@ number,family,P_rot_h,shape,quality_U,status
 46568,main belt (survey),64.4736,2P,2,CONFIRMED
 4973,main belt (survey),28.5253,1P,2,CONFIRMED
 5015,main belt (survey),58.708,1P,2,CONFIRMED
-5024,main belt (survey),26.0468,2P,2,CONFIRMED
+5024,main belt (survey),13.0234,1P,2,CONFIRMED
 5106,main belt (survey),16.7546,2P,1,CANDIDATE
 55103,main belt (survey),4.642,2P,2,CONFIRMED
 5683,main belt (survey),20.318,1P,2,CONFIRMED
@@ -283,7 +283,7 @@ number,family,P_rot_h,shape,quality_U,status
 8530,main belt (survey),3.8208,1P,1,CANDIDATE
 9146,main belt (survey),4.4736,1P,2,CONFIRMED
 94030,main belt (survey),10.758,2P,1,CANDIDATE
-9891,main belt (survey),9.6034,1P,2,CONFIRMED
+9891,main belt (survey),9.6034,1P,1,CANDIDATE
 10112,main belt (survey),5.872,2P,2,CONFIRMED
 10363,main belt (survey),51.802,2P,1,CANDIDATE
 10505,main belt (survey),133.3104,2P,2,CONFIRMED
