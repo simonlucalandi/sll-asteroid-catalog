@@ -46,7 +46,7 @@ number,family,P_rot_h,shape,quality_U,status
 14039,Ursula,5.282,2P,2,CONFIRMED
 29931,Ursula,4.5834,2P,2,CONFIRMED
 3630,Dora,9.33,2P,2,CONFIRMED
-16549,Dora,10.217,2P,1,CANDIDATE
+16549,Dora,10.217,2P,2,CONFIRMED
 10292,Baptistina,2.419,1P,2,CONFIRMED
 12537,Baptistina,11.0125,1P,1,CANDIDATE
 7031,Baptistina,2.948,1P,1,CANDIDATE
@@ -128,7 +128,7 @@ number,family,P_rot_h,shape,quality_U,status
 10164,main belt (survey),3.3126,2P,1,CANDIDATE
 4203,main belt (survey),6.7662,2P,2,CONFIRMED
 16785,main belt (survey),139.885,1P,1,CANDIDATE
-5113,main belt (survey),4.7572,2P,1,CANDIDATE
+5113,main belt (survey),4.7572,2P,2,CONFIRMED
 5600,main belt (survey),3.5056,1P,1,CANDIDATE
 5480,main belt (survey),23.11,2P,2,CONFIRMED
 46992,main belt (survey),53.8038,2P,1,CANDIDATE
@@ -195,10 +195,10 @@ number,family,P_rot_h,shape,quality_U,status
 16513,main belt (survey),12.52,1P,2,CONFIRMED
 3828,main belt (survey),3.3204,2P,2,CONFIRMED
 13163,main belt (survey),7.2636,2P,1,CANDIDATE
-1395,main belt (survey),22.2611,1P,1,CANDIDATE
+1395,main belt (survey),22.2611,1P,2,CONFIRMED
 6336,main belt (survey),2.5932,1P,1,CANDIDATE
 25316,main belt (survey),3.3269,2P,1,CANDIDATE
-3846,main belt (survey),5.1719,1P,1,CANDIDATE
+3846,main belt (survey),5.1719,1P,2,CONFIRMED
 10451,main belt (survey),10.178,2P,2,CONFIRMED
 4118,main belt (survey),8.734,2P,2,CONFIRMED
 5576,main belt (survey),12.094,1P,2,CONFIRMED
@@ -547,12 +547,22 @@ number,family,P_rot_h,shape,quality_U,status
 5860,main belt (survey),4.2882,2P,1,CANDIDATE
 12234,main belt (survey),10.2129,1P,1,CANDIDATE
 6309,main belt (survey),33.0098,1P,1,CANDIDATE
-31644,main belt (survey),48.6414,2P,1,CANDIDATE
+31644,main belt (survey),48.6414,2P,2,CONFIRMED
 59123,Phocaea,3.0194,1P,1,CANDIDATE
 31569,main belt (survey),6.1466,2P,1,CANDIDATE
 3834,main belt (survey),4.1804,2P,1,CANDIDATE
-14999,main belt (survey),9.0275,1P,1,CANDIDATE
+14999,main belt (survey),9.0275,1P,2,CONFIRMED
 49973,Phocaea,104.8298,2P,1,CANDIDATE
 4069,main belt (survey),6.0032,2P,1,CANDIDATE
 7858,main belt (survey),48.7519,1P,2,CONFIRMED
 1255,Npa-ext,38.2758,1P,2,CONFIRMED
+10090,main belt (survey),3.692,2P,2,CONFIRMED
+3631,main belt (survey),22.363,1P,2,CONFIRMED
+4163,main belt (survey),26.352,2P,2,CONFIRMED
+4837,main belt (survey),18.765,1P,2,CONFIRMED
+23444,main belt (survey),8.592,2P,2,CONFIRMED
+25064,main belt (survey),3.246,2P,2,CONFIRMED
+1473,Npa-ext,141.41,2P,1,CANDIDATE
+2705,Npa-ext,150.006,2P,1,CANDIDATE
+27396,main belt (survey),128.487,1P,1,CANDIDATE
+3320,main belt (survey),4.02,2P,1,CANDIDATE

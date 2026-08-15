@@ -183,6 +183,38 @@ evidence columns means DETECTING sectors, and a curve that does not detect the p
 not inflate it. The file is kept on disk because a non-detection at one apparition is still
 information (aspect changes can null the lightcurve of an elongated body seen pole-on).
 
+## 5b-quater. Crowded-field campaign over the full ledger tiers (2026-08-15)
+
+The 5b-ter relaxation was extended from targeted rescues to the ENTIRE |b| 5-15 tier of the
+consumed extraction queues (ledger v16/v17/v18 and the batch lots): 118 crossings, 106
+extracted (2026-08-13/14). Two pipeline changes made the unattended campaign reliable and
+are now permanent: a camera/CCD auto-locate fallback when the queue's predicted chip is
+stale (the "was not observed in sector/camera/ccd" class of failures proved to be mostly
+wrong-chip predictions with real data, not missing data), and per-job wall-clock caps in
+the extraction driver (2h single / 4h chunked) after a hung download idled a worker for 8h.
+
+Adoptions and promotions from this harvest passed a three-way ADVERSARIAL review beyond the
+standard gates (docs/results/adversarial_review_20260815.md in the working repo):
+
+- NULL-CALIBRATED GATE: on each evidence sector, 200 random periods (log-uniform, excluding
+  +-25 per cent of P_phot and 2 P_phot) are pushed through the same gate; if more than ~5
+  per cent pass, the gate has no discriminating power on that curve (red noise) and the
+  object cannot be CONFIRMED from it. This test alone rejected three census-CONFIRMED slow
+  rotators (2125, 3372, 19763), including a 279h claim whose curve passes 22 per cent of
+  random periods.
+- HALF-SPLIT stability, cross-sector spread judged against the peak width dP/P ~ P/baseline
+  (agreement inside the width is NOT independent evidence), and the spectral window at 1/P.
+- The folded-amplitude doubling rule applied adversarially: a census 1P with folded
+  amplitude >= 0.40 mag is refuted, and the object is adopted at 2x the census period
+  (23444, 25064 — the latter also below the ~2.2h spin barrier).
+- FIELD CONTROLS (5b-ter) for any survivor within ~3 per cent of a 24/n or 328.8/n line.
+
+GATE DEFINITION CLARIFIED: the per-sector gate is UNWEIGHTED Lomb-Scargle power (the
+implementation of rescue_sector_verdicts.py). Error-weighted LS can move a marginal sector
+across the 0.10 bar in either direction (three cases in this pass, spread 0.008-0.126 vs
+0.083-0.121); reviews must therefore be re-verified with the canonical tool before any
+catalog change, and two weighted-only promotions were rolled back on exactly this ground.
+
 ## 5c. Field-wide (common-mode) events
 Deep faint excursions in DIFFERENT asteroids coincide in absolute time 2.13x more often than
 chance (5269 cross-object coincidences within 6 h against 2472 expected, over 294 objects and
