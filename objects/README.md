@@ -38,7 +38,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (2553) main belt (survey) | 5.374 | 1P | CONFIRMED | [2553.md](2553.md) |
 | (2601) main belt (survey) | 191.52 | ambiguous | CANDIDATE | [2601.md](2601.md) |
 | (2690) main belt (survey) | 2.66 | 1P | CONFIRMED | [2690.md](2690.md) |
-| (2705) Npa-ext | 150.006 | 2P | CANDIDATE | [2705.md](2705.md) |
+| (2705) Npa-ext | 150.006 | 2P | CONFIRMED | [2705.md](2705.md) |
 | (2711) main belt (survey) | 32.44 | 1P | CONFIRMED | [2711.md](2711.md) |
 | (2724) main belt (survey) | 6.898 | 1P | CONFIRMED | [2724.md](2724.md) |
 | (2736) main belt (survey) | 9.38 | 1P | CONFIRMED | [2736.md](2736.md) |
