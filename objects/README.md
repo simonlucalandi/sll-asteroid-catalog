@@ -22,6 +22,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (2116) main belt (survey) | 3.5381 | 2P | CONFIRMED | [2116.md](2116.md) |
 | (2122) main belt (survey) | 8.9016 | 2P | CONFIRMED | [2122.md](2122.md) |
 | (2124) main belt (survey) | 3.1227 | 2P | CONFIRMED | [2124.md](2124.md) |
+| (2125) main belt (survey) | 107.878 | 2P | CONFIRMED | [2125.md](2125.md) |
 | (2168) main belt (survey) | 7.353 | 2P | CANDIDATE | [2168.md](2168.md) |
 | (2211) main belt (survey) | 227.792 | 2P | CONFIRMED | [2211.md](2211.md) |
 | (2300) Koronis | 4.286 | 2P | CONFIRMED | [2300.md](2300.md) |
