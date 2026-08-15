@@ -11,7 +11,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (1381) main belt (survey) | 5.258 | 2P | CONFIRMED | [1381.md](1381.md) |
 | (1395) main belt (survey) | 22.2611 | 1P | CONFIRMED | [1395.md](1395.md) |
 | (1454) main belt (survey) | 42.2465 | 1P | CANDIDATE | [1454.md](1454.md) |
-| (1473) Npa-ext | 141.41 | 2P | CANDIDATE | [1473.md](1473.md) |
+| (1473) Npa-ext | 138.945 | 2P | CONFIRMED | [1473.md](1473.md) |
 | (1485) main belt (survey) | 17.8756 | 1P | CANDIDATE | [1485.md](1485.md) |
 | (1519) main belt (survey) | 27.35 | 1P | CONFIRMED | [1519.md](1519.md) |
 | (1588) main belt (survey) | 4.606 | 2P | CONFIRMED | [1588.md](1588.md) |
@@ -491,7 +491,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (26347) main belt (survey) | 5.9142 | 2P | CANDIDATE | [26347.md](26347.md) |
 | (26542) main belt (survey) | 13.5153 | 1P | CANDIDATE | [26542.md](26542.md) |
 | (27128) main belt (survey) | 13.0791 | 1P | CANDIDATE | [27128.md](27128.md) |
-| (27396) main belt (survey) | 128.487 | 1P | CANDIDATE | [27396.md](27396.md) |
+| (27396) main belt (survey) | 129.7912 | 1P | CONFIRMED | [27396.md](27396.md) |
 | (27708) main belt (survey) | 98.079 | 2P | CANDIDATE | [27708.md](27708.md) |
 | (27755) main belt (survey) | 11.801 | 1P | CANDIDATE | [27755.md](27755.md) |
 | (27791) main belt (survey) | 6.3926 | 2P | CANDIDATE | [27791.md](27791.md) |
