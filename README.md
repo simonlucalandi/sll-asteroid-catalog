@@ -2,7 +2,7 @@
 
 # TESS-FFI Asteroid Rotation Catalog
 
-**557 main-belt asteroids · 278 secure periods · 51 rotating slower than 100 hours · 2.3 h to 434 h**
+**568 main-belt asteroids · 368 secure periods · 54 rotating slower than 100 hours · 2.3 h to 434 h**
 
 *Every period ships with the evidence it rests on: cycles observed, measured uncertainty, and how the factor-of-two was decided.*
 
@@ -51,16 +51,16 @@ observed for one cycle is not the same measurement as one observed for five.
 A period is only as good as the number of cycles observed and the way the factor-of-two was
 decided, so `catalog/catalog.csv` now carries those quantities as columns (`n_sectors`,
 `n_cycles_best`, `peak_width_frac`, `P_sigma_h`, `doubling`, `decomb`) and any reader can rebuild
-any subset. Applied cumulatively to the 51 objects above 100 h:
+any subset. Applied cumulatively to the 54 objects above 100 h (de-comb verdicts from the calibrated v2 screen, operating range 30-150 h):
 
 | criterion | P > 100 h | P > 200 h |
 |--|--|--|
-| as adopted | 51 | 13 |
-| at least 2 sectors | 35 | 12 |
-| **at least 3 cycles of the adopted period** | **23** | **1** |
-| de-comb not inconclusive | 20 | 1 |
-| period measured to better than 20 per cent | 18 | 1 |
-| factor of two measured, externally confirmed, or not needed | 7 | 1 |
+| as adopted | 54 | 11 |
+| at least 2 sectors | 39 | 11 |
+| **at least 3 cycles of the adopted period** | **27** | **1** |
+| de-comb v2 passed or set-aside, within its operating range | 20 | 1 |
+| period measured to better than 20 per cent | 20 | 1 |
+| factor of two measured, externally confirmed, or not needed | 8 | 1 |
 
 Two rungs moved on 2026-08-08 for a measured reason: the extraction queues had always
 discarded crossings within 15 degrees of the galactic plane, and a ground-truth test put the
@@ -176,7 +176,7 @@ added for exactly that failure. That test, and the reason (46992) is no longer c
 | `catalog/data_dictionary.md` | column definitions |
 | `objects/<number>.md` | per-object evidence sheet: per-sector detections, gates, and the reasoning behind every judgment call ([index](objects/README.md)) |
 | `methodology/METHODOLOGY.md` | how the periods are derived: gates, thresholds, systematics |
-| `methodology/VALIDATION_PLAN.md` | validation of the de-comb systematics method (V1-V7) |
+| `methodology/VALIDATION_PLAN.md` | validation of the de-comb systematics method (V1-V13) |
 | `lightcurves_alcdef/` | light curves in ALCDEF v2.3 format |
 | `plots/<number>.png` | per-object phase fold at the adopted period, sectors phase-aligned |
 
