@@ -2,7 +2,7 @@
 
 # TESS-FFI Asteroid Rotation Catalog
 
-**568 main-belt asteroids · 368 secure periods · 54 rotating slower than 100 hours · 2.3 h to 434 h**
+**567 main-belt asteroids · 368 secure periods · 53 rotating slower than 100 hours · 2.3 h to 434 h**
 
 *Every period ships with the evidence it rests on: cycles observed, measured uncertainty, and how the factor-of-two was decided.*
 
@@ -51,11 +51,11 @@ observed for one cycle is not the same measurement as one observed for five.
 A period is only as good as the number of cycles observed and the way the factor-of-two was
 decided, so `catalog/catalog.csv` now carries those quantities as columns (`n_sectors`,
 `n_cycles_best`, `peak_width_frac`, `P_sigma_h`, `doubling`, `decomb`) and any reader can rebuild
-any subset. Applied cumulatively to the 54 objects above 100 h (de-comb verdicts from the calibrated v2 screen, operating range 30-150 h):
+any subset. Applied cumulatively to the 53 objects above 100 h (de-comb verdicts from the calibrated v2 screen, operating range 30-150 h):
 
 | criterion | P > 100 h | P > 200 h |
 |--|--|--|
-| as adopted | 54 | 11 |
+| as adopted | 53 | 11 |
 | at least 2 sectors | 39 | 11 |
 | **at least 3 cycles of the adopted period** | **27** | **1** |
 | de-comb v2 passed or set-aside, within its operating range | 20 | 1 |
