@@ -581,7 +581,7 @@ One file per catalog object. The AUTO block is a machine-generated evidence shee
 | (86402) main belt (survey) | 6.1022 | 2P | CONFIRMED | [86402.md](86402.md) |
 | (86420) Hungaria | 8.211 | Sq | CONFIRMED | [86420.md](86420.md) |
 | (90866) Hungaria |  | - | KILLED | [90866.md](90866.md) |
-| (92227) Hungaria | 93.12 | 2P | CONFIRMED | [92227.md](92227.md) |
+| (92227) Hungaria | 46.587 | D | CONFIRMED | [92227.md](92227.md) |
 | (94030) main belt (survey) | 10.758 | 2P | CANDIDATE | [94030.md](94030.md) |
 | (97779) Hungaria | 7.0108 | Dd | CANDIDATE | [97779.md](97779.md) |
 | (106622) main belt (survey) | 28.1854 | 2P | CONFIRMED | [106622.md](106622.md) |

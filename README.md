@@ -144,9 +144,9 @@ with the second period reproduced across sectors to 0.3%:
 
 ## A candidate eclipsing binary
 
-**[(46992)](objects/46992.md)** shows the one morphology a single rotating body cannot make: a
-**flat baseline interrupted by narrow, deep eclipses** (0.6-1.6 mag, 0.6-2.7 h) at two phases
-half a cycle apart. 17 of its 20 events pass the photon-statistics test (in-eclipse errors grow
+**[(46992)](objects/46992.md)** shows a morphology that is very difficult for a single rotating
+body to reproduce: a **flat baseline interrupted by narrow, deep eclipses** (0.6-1.6 mag,
+0.6-2.7 h) at two phases half a cycle apart. 17 of its 20 events pass the photon-statistics test (in-eclipse errors grow
 exactly as a real flux drop requires), the events repeat on a strict 26.88 h clock (half the
 53.8 h period, i.e. primary and secondary of a synchronous orbit), and they are absent at an
 earlier epoch, as an eclipse season switching off predicts. No second instrument has seen the

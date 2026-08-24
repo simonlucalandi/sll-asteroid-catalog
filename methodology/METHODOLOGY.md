@@ -40,6 +40,15 @@ The amplitude convention is the WEAKEST rung, not the strongest. The order is:
 
 1. **Measured fold shape** -- odd-harmonic power or unequal minima at the doubled period,
    significant against a block bootstrap. When present, it decides regardless of amplitude.
+   **Per-sector requirement (added 2026-08-22):** the fold-shape comparison must be made in
+   each sector INDEPENDENTLY, never on a pooled multi-apparition fold. When sectors are
+   years apart, the relative phase at the doubled period is effectively arbitrary, and
+   pooling can manufacture (or erase) alternating minima. Case in point: (92227) was
+   wrongly re-doubled to 93.12 h in July 2026 from a pooled fold showing 0.17 mag fake
+   alternation; per-sector even/odd nested Fourier tests (block bootstrap p = 0.89/0.97)
+   showed no odd structure, and the original 46.587 h stands. The doubling ladder does not
+   recurse: the amplitude rule takes P_phot -> 2 x P_phot once; any FURTHER doubling
+   requires per-sector significant odd structure at the quadrupled period.
 2. **Spin-barrier physics** -- a rubble pile larger than ~1 km cannot rotate faster than
    ~2.2 h. A sub-barrier photometric period on a km-sized body is therefore double-peaked
    whatever its amplitude: the single-peaked reading is physically excluded, not merely
@@ -79,14 +88,26 @@ Two families of instrumental signal are addressed explicitly:
 - Momentum-dump / scattered-light comb: TESS reaction-wheel desaturations recur on the
   ~13.7-day orbit, producing a comb of alias periods at 328.8/n h. Periods within ~3% of a
   comb line are flagged and scrutinized.
-- Difference-imaging / de-comb (DIA): for objects that are comb-adjacent, slow (>= 30 h), or
-  rest on a contamination-flagged sector, an eigen-systematics model built from ~200 field
-  stars in the same sector (SVD, top 5 components) is projected out of the target light curve,
-  and the period power is re-measured harmonic-aware. A real rotation signal is preserved
-  (power drop <= 15%); a purely instrumental one collapses (drop >= 50% with a high
-  systematics-model R^2). Slow rotators are a known caveat -- their signal overlaps the
-  systematics band, so an inconclusive de-comb result is deferred to a multi-sector
-  phase-coherence test (real rotation folds to one shape across epochs; systematics do not).
+- De-comb (tess-decomb v2, re-scored 2026-08-23): for objects that are comb-adjacent, slow
+  (>= 30 h), or rest on a contamination-flagged sector, an eigen-systematics basis is built
+  from the full sector pool of field stars (~1600 stars, rows weighted 1/sigma^2 with sigma
+  from the first differences, SVD, top 5 components) and projected out of the cubic-detrended
+  target light curve; the verdict statistic is the RETAINED AMPLITUDE, the ratio of the
+  sinusoid semi-amplitude fitted at the candidate period after and before the projection,
+  quoted as the median over the full-pool basis plus 7 bootstrap resamples of the pool
+  (10-90 band as uncertainty). Object sheets show it as `<verdict>_v2(ret=...[p10-p90],
+  sNN@P)` per sector. The thresholds are calibrated operating points on the V12 ROC of the
+  public tess-decomb repository (568 published periods as controls, 63 comb artefacts; AUC
+  0.632): retained < 0.60 = `reject` (artefact-like; 1.2% of true periods fall here),
+  0.60-0.85 = `flag` (suspect, not a rejection), >= 0.85 = `survived`. The test is an
+  ASYMMETRIC SCREEN: a rejection is reliable, a non-rejection is not evidence of a real period.
+  About a quarter of the comb artefacts are pure spectral-window aliases that no flux-based
+  basis can remove (V13), and parallel-aperture "ghost" regressors add nothing beyond the
+  star basis (V13, pre-registered pilot). The earlier power-drop metric (drop <= 15% kept,
+  >= 50% collapsed) was retracted on 2026-08-18 and no sheet quotes it any more. Slow
+  rotators remain a caveat -- their signal overlaps the systematics band, so a `flag` on a
+  slow rotator is deferred to a multi-sector phase-coherence test (real rotation folds to
+  one shape across epochs; systematics do not).
 - Independent instrument: where available, ZTF ground-based photometry (which shares none of
   TESS's systematics) is used as an independent check. A blind recovery of the TESS period
   over ZTF's multi-year baseline is decisive evidence the period is astrophysical.
