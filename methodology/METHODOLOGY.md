@@ -49,6 +49,25 @@ The amplitude convention is the WEAKEST rung, not the strongest. The order is:
    showed no odd structure, and the original 46.587 h stands. The doubling ladder does not
    recurse: the amplitude rule takes P_phot -> 2 x P_phot once; any FURTHER doubling
    requires per-sector significant odd structure at the quadrupled period.
+   **Mutual-event exception (added 2026-08-27):** for a candidate eclipsing binary the
+   rung works in one direction only. Unequal minima half a phase apart still force a
+   doubled PHOTOMETRIC PATTERN period, because a signal that truly repeats every P must
+   look identical on successive cycles; for minima confirmed to be mutual events, that
+   doubled pattern is also the doubled orbital period. EQUAL minima, however, prove
+   nothing: in the idealized model where the two components have the same uniform
+   surface brightness (the usual equal-albedo idealization), a mutual event removes the
+   light of the projected overlap area whichever body is in front, so primary and
+   secondary events have the same depth for ANY size ratio. Equal depths are therefore
+   predicted under both the P and the 2P reading, and neither break the degeneracy nor
+   constrain the component size ratio. An upper limit on the depth alternation is not
+   evidence for near-twin components, and must not be recorded as MEASURED doubling.
+   Case in point: (46992) carried doubling=MEASURED on exactly this argument from
+   2026-08-01 until the error was found on 2026-08-27; it is now CONVENTION, with the
+   adopted 53.8038 h read as a photometric period and the orbital period left
+   unresolved between 26.88 and 53.77 h. What the depth does constrain is the size
+   ratio through its ABSOLUTE value (a fractional deficit delta needs a projected area
+   ratio of at least delta/(1-delta)), and only when the depth is not inflated by
+   background over-subtraction.
 2. **Spin-barrier physics** -- a rubble pile larger than ~1 km cannot rotate faster than
    ~2.2 h. A sub-barrier photometric period on a km-sized body is therefore double-peaked
    whatever its amplitude: the single-peaked reading is physically excluded, not merely

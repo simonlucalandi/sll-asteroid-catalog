@@ -131,7 +131,7 @@ num,family,P_adopted_h,shape,status,n_sectors,n_cycles_best,peak_width_frac,P_si
 5113,Beltwide5,4.7572,2P,CANDIDATE,1,129.86,0.0042,0.004243,MEASURED,nan,False,False
 5600,Beltwide5,3.5056,1P,CANDIDATE,2,184.42,0.0047,0.007035,NONE(1P),nan,False,False
 5480,Beltwide5,23.11,2P,CONFIRMED,3,24.91,0.0152,0.07472,CONVENTION,survived,False,False
-46992,Beltwide5,53.8038,2P,CANDIDATE,2,10.87,0.0378,0.4319,MEASURED,survived,False,False
+46992,Beltwide5,53.8038,2P,CANDIDATE,2,10.87,0.0378,0.4319,CONVENTION,survived,False,False
 2538,Beltwide5,53.422,2P,CONFIRMED,2,11.41,0.0347,0.3931,CONVENTION,inconclusive,False,False
 5768,Beltwide5,8.14,2P,CONFIRMED,3,74.02,0.0063,0.01089,CONVENTION,survived,False,False
 13081,Beltwide5,2.719,1P,CANDIDATE,4,214.11,0.0058,0.006669,NONE(1P),survived,False,False
