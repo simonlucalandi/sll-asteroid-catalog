@@ -111,6 +111,20 @@ Two families of instrumental signal are addressed explicitly:
 - Independent instrument: where available, ZTF ground-based photometry (which shares none of
   TESS's systematics) is used as an independent check. A blind recovery of the TESS period
   over ZTF's multi-year baseline is decisive evidence the period is astrophysical.
+- Calibrated ZTF admission (added 2026-08-27). The ZTF joint-fit verdict CLASSES alone are
+  not sufficient for admission: in cadence-preserving null realizations (whole observing
+  nights of residuals permuted over the real observation times, so gaps, filters and
+  within-night correlations are preserved) 5-23% of pure-noise datasets still reach the
+  SUPPORT class, and the analytic Lomb-Scargle FAPs are inflated by orders of magnitude
+  (empirical floor of the nulls: 1e-4 to 1e-9, never the nominal 1e-20 and beyond). An
+  object is therefore admitted through this pathway only when (a) its observed continuous
+  statistic (the analytic FAP at the TESS-family period, used purely as a ranking number)
+  is reached by fewer than 5 in 100 null realizations, and (b) signal injections at the
+  proposed period into the same null base are recovered by the full decision rule in more
+  than half of the realizations. A daily-alias ambiguity (comparable power at the +-1
+  cycle/day alias of the half-period) is resolved by bidirectional injections before
+  admission; if the alias is preferred, the object is not admitted at the long period.
+  First admissions under this rule: (15631) and (43173), 2026-08-27.
 
 ## 5b. Chunked extraction and the quarantine (added 2026-08-01)
 A crossing whose pixel stack exceeds memory is re-extracted in N time chunks and the chunks
