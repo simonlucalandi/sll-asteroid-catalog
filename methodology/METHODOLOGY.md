@@ -28,12 +28,68 @@ bright enough at their in-sector epoch and away from the galactic plane to limit
 A rotation light curve usually shows two brightness maxima per rotation (an elongated body),
 so the photometric period is half the rotation period. The rotation period P_rot is adopted
 as follows:
+- **REVISED 2026-08-30, see 3d below.** Odd-harmonic significance at the long period is now
+  the primary criterion; the amplitude cut is retained only as a second, independent trigger.
 - Folded (phase-binned) amplitude > 0.40 mag -> 2P (P_rot = 2 x P_phot). Hard cut.
-- Amplitude < 0.40 mag -> 1P, unless there is clear phase-locked minima asymmetry at the
-  doubled period (two distinct, unequal minima), which forces 2P.
+- Amplitude < 0.40 mag -> 1P ONLY IF the odd-harmonic test of 3d also fails; a significant
+  odd harmonic doubles the period regardless of amplitude.
 - Spin-barrier physics override: a strengthless (rubble-pile) body larger than ~150 m
   cannot rotate faster than ~2.3 h. A sub-2.3 h photometric period on a multi-km body is
   therefore necessarily the 2nd harmonic, and P_rot = 2 x P_phot regardless of amplitude.
+
+### 3d. The amplitude cut was biased, and what replaced it (2026-08-30)
+
+**The evidence.** Rotation periods published in the Minor Planet Bulletin between 2024 and
+2026 became available for comparison (the publicly distributed LCDB has not been revised
+since 2023 October, so three years of ground-based work were invisible to every novelty and
+validation test in this repo). On the 36 catalog entries the new comparison reaches, 16
+periods agree within 2 per cent and 9 disagree by exactly a factor of two. **All nine
+disagreements run the same way, with the independent observer adopting the longer period**,
+which has probability 0.002 under a rule that errs symmetrically. The amplitudes of the
+affected entries are 0.03 to 0.35 mag here and 0.14 to 0.31 mag from the ground, i.e. below
+0.40 in BOTH datasets: the ground observers were not applying an amplitude rule at all, they
+were seeing two distinct extrema in a well-sampled curve.
+
+**Why the amplitude cut could not have caught it.** Amplitude is a proxy for the question
+("is the body elongated enough that one hump per rotation is implausible?"); the odd harmonic
+is a measurement of the question ("do the two halves of the long cycle differ?"). And the
+error is invisible to every other diagnostic, because under-doubling IMPROVES them: folding a
+two-cycle curve onto one cycle averages away the asymmetry and strengthens the even-harmonic
+periodogram peak. No FAP, power, fold-coherence or residual statistic can reveal it.
+
+**The statistic now used.** Two-harmonic Fourier fit at the long period; A1 is the odd
+(asymmetry) term; sigma_A1 from a block bootstrap of the residuals (blocks 1/10 of the span,
+200 resamples); z1 = A1/sigma_A1, combined across sectors by inverse variance.
+**Doubling requires z1 >= 3.0 AND a margin of at least 2 over the same statistic evaluated at
+the non-harmonic multiples 1.7x and 2.3x.** The margin exists because a slow amplitude
+modulation (changing aspect along a sector, trend residual, comb) raises A1 at ANY long
+period; requiring the excess to be specific to 2x removes it. Measured: on the reference
+group of 38 entries whose 1P reading the test confirms, the margin exceeds 2 in **0 of 38**;
+on a second null, A1 at 2x a period an external observer confirms is already correct, no
+object reaches z1 >= 3 in **0 of 17**, while the same statistic at the CORRECT period is
+significant for 12 of 17.
+
+**Result of the sweep on the whole catalog.** 113 of the 196 single-peaked entries fire on
+z1 alone; **67 also clear the margin and were doubled** (40 CONFIRMED, 27 CANDIDATE). A blind
+rerun recovered all five cases the external comparison had established independently, but two
+of those five sit below the margin, so **67 is a LOWER BOUND** and the plausible range runs to
+113. Effect on the slow tail of the confirmed non-Hungaria set: above 100 h 34 -> 37, above
+200 h 5 -> 6. The error runs one way only, so slow counts remain lower limits for this reason
+as well. Ledger: docs/results/corrections_20260830.csv.
+
+**Relationship to the 2026-08-02 odd-harmonic audit (section 3b), which used 8 sigma.**
+The two are not the same statistic and the thresholds are not comparable. The 2026-08-02 test
+measures the combined odd power (k=1,3,5) against a synthetic null in which the even component
+is reinjected and the odd signal is absent, so its sigma counts standard deviations above a
+no-signal null distribution. The present test measures A1 against its own bootstrap spread,
+and because A1 is the magnitude of a two-vector it has a positive floor even with no signal:
+the observed null median is 1.60, so z1 = 3 is roughly two of those floors, not three
+standard deviations above zero. The present test is also more sensitive by design, combining
+sectors by inverse variance where the 2026-08-02 rule required EVERY detecting sector to fire
+independently. It therefore overturns 1P readings that the earlier audit had left standing.
+Both calibrations rest on comparable null sizes (0/60 there, 0/38 and 0/17 here). **A direct
+head-to-head of the two statistics on the same objects has NOT been run and is the obvious
+next check.**
 
 ### 3b. Decision hierarchy for 1P vs 2P (revised 2026-08-01)
 The amplitude convention is the WEAKEST rung, not the strongest. The order is:
@@ -120,6 +176,21 @@ Two families of instrumental signal are addressed explicitly:
   0.632): retained < 0.60 = `reject` (artefact-like; 1.2% of true periods fall here),
   0.60-0.85 = `flag` (suspect, not a rejection), >= 0.85 = `survived`. The test is an
   ASYMMETRIC SCREEN: a rejection is reliable, a non-rejection is not evidence of a real period.
+  **Operating point superseded 2026-08-28 (tess-decomb V15).** Those thresholds are global,
+  and a global threshold does not deliver one false-rejection rate: measured on the 468
+  controls it delivers 0.7% below 55 h, 3.2% between 55 and 150 h and 31% above 150 h. The
+  screen was therefore about ten times too conservative in the band where the comb is
+  physical flux rather than a spectral-window alias, and was issuing verdicts beyond 150 h
+  where the score is ANTI-discriminating (AUC 0.326, controls suppressed more than
+  artefacts because a signal completing barely one cycle is absorbed by the basis). The
+  calibrated replacement sets the threshold per period band at a true fixed false-rejection
+  rate: reject at retained <= 0.908 below 55 h and <= 0.613 between 55 and 150 h (FR 5%),
+  flag up to 0.957 and 0.797 respectively (FR 15%), no verdict above 150 h. Catch inside
+  the domain rises from 5.1% to 27.1% with no change to the estimator, and
+  leave-one-sector-out gives 5.6% out-of-sample false rejection against the 5% nominal.
+  **The catalog's decomb column has NOT been re-scored under the new operating point yet**;
+  it still carries the global-threshold verdicts, which are conservative, so no published
+  period was wrongly rejected by them.
   About a quarter of the comb artefacts are pure spectral-window aliases that no flux-based
   basis can remove (V13), and parallel-aperture "ghost" regressors add nothing beyond the
   star basis (V13, pre-registered pilot). The earlier power-drop metric (drop <= 15% kept,
