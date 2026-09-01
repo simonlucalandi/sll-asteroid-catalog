@@ -87,9 +87,26 @@ the observed null median is 1.60, so z1 = 3 is roughly two of those floors, not 
 standard deviations above zero. The present test is also more sensitive by design, combining
 sectors by inverse variance where the 2026-08-02 rule required EVERY detecting sector to fire
 independently. It therefore overturns 1P readings that the earlier audit had left standing.
-Both calibrations rest on comparable null sizes (0/60 there, 0/38 and 0/17 here). **A direct
-head-to-head of the two statistics on the same objects has NOT been run and is the obvious
-next check.**
+Both calibrations rest on comparable null sizes (0/60 there, 0/38 and 0/17 here).
+
+**HEAD-TO-HEAD RUN 2026-09-01** (docs/results/doubling_headtohead_results.md in the working
+repo). The two statistics AGREE on which objects are different: under the 2026-08-02
+statistic the 67 corrected entries have median 5.70 against 0.84 for the reference group and
+1.02 for the null, a factor of six. They disagree only on where to cut. The 8 sigma bar, with
+its every-sector clause, would have doubled **3 of the 67**, and on the three externally
+confirmed cases among them it gives 7.72, 7.05 and 5.41, so **it would have missed all three
+doublings that an independent observer had established**. Its own trade-off curve shows why:
+moving the threshold from 6 to 8 costs 17 points of catch and buys nothing on the false rate
+(1 of 55 at both). That bar was calibrated on a null alone, without ever measuring catch.
+
+**One real gap in the present rule, found by the same test.** (5024) fires at 14.1 under the
+2026-08-02 statistic and only 1.95 under this one, because its odd power sits in the THIRD
+harmonic (A3 = 0.0213) and not the first (A1 = 0.0045). The present statistic uses K=2 and is
+blind to third-harmonic asymmetry. The correct rule takes the combined odd power k=1,3,5 from
+the older test, the non-harmonic margin from this one, and a threshold calibrated on BOTH
+arms against external truth, which neither had. Since combined odd power is always at least
+A1, that change can only add objects to the 67, not remove them, so the corrections already
+published stand and remain a lower bound.
 
 ### 3b. Decision hierarchy for 1P vs 2P (revised 2026-08-01)
 The amplitude convention is the WEAKEST rung, not the strongest. The order is:
