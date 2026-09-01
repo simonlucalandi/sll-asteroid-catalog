@@ -2,7 +2,7 @@
 
 # TESS-FFI Asteroid Rotation Catalog
 
-**567 main-belt asteroids · 368 secure periods · 53 rotating slower than 100 hours · 2.3 h to 434 h**
+**569 main-belt asteroids · 368 secure periods · 57 rotating slower than 100 hours · 2.3 h to 434 h**
 
 *Every period ships with the evidence it rests on: cycles observed, measured uncertainty, and how the factor-of-two was decided.*
 
@@ -32,32 +32,32 @@ asteroid population is so thinly populated. TESS stares at the same field for 27
 interruption, so a 400-hour rotation is simply 1.6 cycles of continuous coverage.
 
 That is what this catalog is: the slow tail, plus everything else the same survey found on the
-way. **51 objects rotate slower than 100 h and 13 slower than 200 h**, all first determinations. How
+way. **57 objects rotate slower than 100 h and 13 slower than 200 h**, all first determinations. How
 far each of those claims can be pushed is set out in the ladder below, because a long period
 observed for one cycle is not the same measurement as one observed for five.
 
 | | |
 |--|--|
-| objects with an adopted period | **557** (278 CONFIRMED, 278 CANDIDATE, 1 MARGINAL) |
+| objects with an adopted period | **569** (368 CONFIRMED, 200 CANDIDATE, 1 MARGINAL) |
 | first determinations | **348** from the novelty-selected belt-wide and rescue lots |
-| P > 100 h / P > 200 h | **51 / 13** as adopted, **23 / 1** on curves covering at least three cycles (see the ladder below) |
-| slowest well-constrained rotation | **(2211) 227.79 h**, two sectors, 3.6 cycles, doubling measured |
+| P > 100 h / P > 200 h | **57 / 13** as adopted, **25 / 2** on curves covering at least three cycles (see the ladder below) |
+| slowest well-constrained rotation | **(16785) 279.77 h**, two sectors, 4.5 cycles, doubling measured (z1 = 8.5, margin 5.4) |
 | fastest rotation | **2.29 h** (all 49 sub-barrier readings on km-sized bodies were re-audited and doubled, METHODOLOGY 3b) |
 | light curves extracted | 4,436 asteroid-sector crossings over 100 TESS sectors |
-| detections published as rejected | 16, with reasons |
+| detections published as rejected | 17, with reasons |
 
 ### How much each slow-rotation claim rests on
 
 A period is only as good as the number of cycles observed and the way the factor-of-two was
 decided, so `catalog/catalog.csv` now carries those quantities as columns (`n_sectors`,
 `n_cycles_best`, `peak_width_frac`, `P_sigma_h`, `doubling`, `decomb`) and any reader can rebuild
-any subset. Applied cumulatively to the 53 objects above 100 h (de-comb verdicts from the calibrated v2 screen, operating range 30-150 h):
+any subset. Applied cumulatively to the 57 objects above 100 h (de-comb verdicts from the calibrated v2 screen, operating range 30-150 h):
 
 | criterion | P > 100 h | P > 200 h |
 |--|--|--|
-| as adopted | 53 | 11 |
-| at least 2 sectors | 39 | 11 |
-| **at least 3 cycles of the adopted period** | **27** | **1** |
+| as adopted | 57 | 13 |
+| at least 2 sectors | 37 | 12 |
+| **at least 3 cycles of the adopted period** | **25** | **2** |
 | de-comb v2 passed or set-aside, within its operating range | 20 | 1 |
 | period measured to better than 20 per cent | 20 | 1 |
 | factor of two measured, externally confirmed, or not needed | 8 | 1 |
