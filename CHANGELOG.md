@@ -3,7 +3,7 @@
 All released versions are archived on Zenodo under the concept DOI
 [10.5281/zenodo.21446076](https://doi.org/10.5281/zenodo.21446076).
 
-## v1.5.0 (unreleased)
+## v1.5.0 (2026-09-10)
 
 ### Fourteen periods from the unadjudicated ledger stock
 
