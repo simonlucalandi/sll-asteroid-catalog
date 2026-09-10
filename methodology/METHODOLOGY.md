@@ -12,6 +12,53 @@ time series of (time, magnitude, uncertainty). Targets are numbered main-belt as
 with no reliable prior rotation period (LCDB quality U <= 1 or no entry), selected to be
 bright enough at their in-sector epoch and away from the galactic plane to limit crowding.
 
+## 1b. Extraction completeness, measured at pixel level (2026-09-10)
+
+The completeness of the extraction chain itself is now measured, not assumed. Synthetic moving
+sources with a known rotation signal are injected into the real FFI pixel cube immediately
+after `MovingTPF.get_data()` returns, before any photometry (background model, star model,
+aperture, aperture photometry) touches the data. The injected source uses the real TESS PRF
+from `lkprf`, is trailed along the track inside each exposure, carries Poisson noise, and its
+apparent magnitude includes the real r, Delta and phase-angle terms so the HG reduction removes
+them exactly. An empty control extraction on the same track measures the field contribution and
+is subtracted. Design pre-registered before execution.
+
+Measured on TESS sector 46, camera 1, CCD 2: 3 apparent speeds x 3 T magnitudes x 2 rotation
+periods, plus 3 empty controls and 12 diagnostic re-extractions.
+
+| apparent speed (px per 30 min) | recovered flux fraction | rotation period error | folded amplitude error | per-cadence noise |
+|---|---|---|---|---|
+| 0.15 (near a stationary point) | **0.86** | < 0.1% | +9% to -14% | 1.4x |
+| 1.00 (typical main belt) | **0.986** | < 0.01% | within 2.6% | 1.0x (reference) |
+| 2.05 (fast) | 0.993 | < 0.02% | within 2.8% | 1.05x |
+
+Three consequences that this catalog adopts:
+
+1. **At typical apparent speed the chain is sound.** Periods and folded amplitudes are not
+   measurably degraded by the extraction. This covers the large majority of crossings.
+2. **At slow apparent speed the photometry is systematically 12-14 per cent faint**, uniformly
+   in time, because the per-pixel star model is a cubic B-spline with knots every 0.5 days
+   while a source at 0.15 px per 30 min needs 1.53 days to cross the 11x11 window: 11.0 per
+   cent of the source flux ends up inside the background model, against 1.15 per cent at
+   typical speed, in inverse proportion to speed. Widening the knots to 2.0 days recovers two
+   thirds of the loss; the rolling-median background option loses 88 per cent and must never be
+   used on a slow track. Absolute magnitudes from slow-track crossings carry this bias;
+   rotation periods and folded amplitudes do not.
+3. **The odd-harmonic doubling F test is not calibrated.** See section 3b, which replaces the
+   uncalibrated test with a calibrated one and gives its measured operating point.
+
+Scope of these numbers: they come from one sector, one camera, one CCD and one field, with
+three sampled speeds and one noise realisation per cell; the six cells of a track share the same
+field and the same empty control, so their spread is repeatability within a field, not
+reproducibility between fields. The injected PRF is the same family the package uses to build
+the aperture and `flux_fraction`, so the aperture correction is not independently validated.
+Treat 0.86 as a conditional single-field response, not a calibrated completeness correction.
+
+The de-comb projection was checked in the same pass: it preserves the folded amplitude of a
+moving source (median change 1.6 per cent, maximum 3.1) but removes about half of a linear ramp
+across a sector (recovered/injected trend 0.98 without, 0.51 with). No slow slope, and in
+particular no phase curve, should be read off a de-combed light curve.
+
 ## 2. Period detection (per sector)
 - Cleaning: reject points with formal error >= 1.0 mag, then a 3x iterated bright-side clip
   at median - 4*MAD to remove field-star crossings (a co-moving aperture periodically
@@ -109,6 +156,9 @@ A1, that change can only add objects to the 67, not remove them, so the correcti
 published stand and remain a lower bound.
 
 ### 3b. Decision hierarchy for 1P vs 2P (revised 2026-08-01)
+
+> Read together with **3b-bis** below, which recalibrates what counts
+> as a measured doubling and gives the measured sensitivity and specificity of each criterion.
 The amplitude convention is the WEAKEST rung, not the strongest. The order is:
 
 1. **Measured fold shape** -- odd-harmonic power or unequal minima at the doubled period,
@@ -167,6 +217,71 @@ therefore NOT accepted on its own. Requiring odd-harmonic >= 8 sigma with EVERY 
 sector significant gives 0/60 false fires; that is the bar a measured doubling must clear.
 Applied to all 228 single-peaked entries on 2026-08-02: 45 cleared it and were doubled; the
 71 symmetric and 41 sub-threshold cases keep their 1P reading.
+
+### 3b-bis. The calibrated 1P/2P test and its measured operating point (2026-09-10)
+
+This section supersedes the *significance* used by 3b and 3d. The decision hierarchy of 3b
+(external, measured, physics-forced, convention) is unchanged; what changes is what counts
+as measured.
+
+The odd-harmonic F test previously used to decide doubling is **not calibrated**. Its two added
+odd harmonics at 2P are low-frequency sinusoids that absorb red noise, while the F test assumes
+independent residuals. Measured on 174 external labels (see below) the nominal test has
+**specificity 0.290**: it declares a doubling for 44 of 62 objects whose published period equals
+our photometric period. Its nominal p-values must not be quoted.
+
+**The calibrated test.** Same F statistic (no outlier rejection, 1/err weights, one global cubic,
+even harmonics [2,4] against [1,2,3,4] at 2P), but its significance comes from a **block
+bootstrap under the 1P hypothesis**: remove the even-harmonics-only model, permute contiguous
+blocks of **residual and quoted error together** within each sector, restore the model, refit.
+Report p_emp = (k+1)/(B+1) at two block lengths (1 and 2 days) and treat it as a **lower bound**
+on the true p. For a decision at 0.001, use B of at least 20000; with B = 2000 the decision is
+literally "zero or one exceedance".
+
+**External validation.** 298 objects have both an extracted TESS curve and an LCDB 2023 entry
+with a period and U in {3, 3-}; 278 have >= 500 good points; 247 pass a period-stability
+admission (same search at polynomial degree 2, 3 and 4 within 5 per cent, and >= 8 cycles); 174
+get a clean label from the ratio P_LCDB/P1: **112 "doubled"** (within 5 per cent of 2.00) and
+**62 "not doubled"** (within 5 per cent of 1.00). These labels record what the community
+assigned, not physical truth: LCDB itself applies the two-maxima convention, and the
+construction keeps only objects where our search returned the LCDB period or half of it.
+
+| criterion | sensitivity | specificity |
+|---|---|---|
+| nominal F test, p < 1e-3 | 0.964 | **0.290** |
+| calibrated p_emp < 1e-3 at both block lengths | 0.196 | **0.984** |
+| folded amplitude at P1 > 0.40 mag (the project convention) | 0.473 | 0.871 |
+| unequal minima, z = (D - null mean)/null sd > 3 | 0.179 | 0.984 |
+| unequal minima, empirical tail p_D < 1e-3 | 0.089 | **1.000** |
+| **one prominent maximum in the fold at P1, stable in > 90 per cent of bootstraps** | 0.759 | **1.000** |
+
+Three rules follow, and this catalog adopts them.
+
+1. **A doubling is MEASURED only if the calibrated test fires** (p_emp < 0.001 at both block
+   lengths) **or the minima differ by more than 3 sigma above the null mean**. Both are
+   high-purity and low-recall: expect to be able to say "measured" for a small minority.
+2. **Two statistical traps, both found here and both to be avoided.** A non-negative statistic
+   such as |m1 - m2| must never be standardised as D/sd(null): its null has a positive mean, and
+   dividing by the standard deviation alone inflates significance. And the difference between two
+   minima must be defined invariantly under a phase shift (deepest minimum, then the deepest
+   minimum in the phase window 0.25 to 0.75 after it), not as "minimum in the first half against
+   minimum in the second half".
+3. **The amplitude convention is refined.** "Folded amplitude above 0.40 mag implies doubling"
+   fails on 8 of 62 non-doublings, and in all eight for the same reason: the fold at P1 already
+   shows two maxima, so P1 is already the rotation period. The better statement of the same
+   convention is topological: **double only if the fold at P1 has a single prominent maximum**
+   (prominence at least 10 per cent of the peak-to-peak, count stable in more than 90 per cent of
+   block bootstraps). Measured specificity 1.000 against 0.871 for the amplitude form. Where the
+   two disagree, topology wins.
+
+**Declared status of the topological criterion: post-hoc.** It was found by diagnosing the
+amplitude rule's failures on these same 174 labels, and it has no prospective test yet. Its
+performance quoted above is optimistic. It is a quantitative, stabilised statement of the
+doubling convention, not independent physical evidence that the two minima differ.
+
+**Consequence for how periods are published.** Where only the convention speaks, publish both
+aliases (P1 and 2 P1) and mark the doubling as adopted by convention and not confirmed. Reserve
+the word "measured" for objects that pass rule 1.
 
 ## 4. Confirmation across sectors
 - CONFIRMED: two or more sectors independently detect the same period (harmonic-aware, i.e.
@@ -348,7 +463,7 @@ standard gates (docs/results/adversarial_review_20260815.md in the working repo)
   (agreement inside the width is NOT independent evidence), and the spectral window at 1/P.
 - The folded-amplitude doubling rule applied adversarially: a census 1P with folded
   amplitude >= 0.40 mag is refuted, and the object is adopted at 2x the census period
-  (23444, 25064 — the latter also below the ~2.2h spin barrier).
+  (23444, 25064, the latter also below the ~2.2h spin barrier).
 - FIELD CONTROLS (5b-ter) for any survivor within ~3 per cent of a 24/n or 328.8/n line.
 
 GATE DEFINITION CLARIFIED: the per-sector gate is UNWEIGHTED Lomb-Scargle power (the
@@ -366,12 +481,23 @@ disk (~3,200 curves, 97 sectors, 519 bad bins covering 1,557 h) and any event la
 one is rejected. This matters for transient-like features (dips, brightenings); it does not
 affect the rotation periods, which are periodic and survive isolated bad windows.
 
-## 5d. Star proximity
+## 5d. Star proximity (numbers measured 2026-09-10)
 The co-moving aperture passes field stars continuously. A crossing is normally brief, but near
 a STATIONARY POINT the target's apparent motion falls to ~8 TESS pixels/day and it lingers
 beside a star for days, so the PRF wings draw a broad symmetric brightening that mimics an
 astrophysical event. Any transient-like claim is therefore checked against the object's
 ephemeris track and a Gaia DR3 cone search before it is retained.
+
+The size of the effect is now measured rather than asserted (see section 1b). On an empty
+control track at 0.15 px per 30 min, **2.78 per cent of cadences carry more field flux inside
+the aperture than an entire T = 16 source**, peaking at 241 times it, and the integrated field
+flux inside the aperture is 1.69 times the source's own; on a track at 1.00 px per 30 min
+crossing the same field the corresponding figures are **zero cadences** and 0.0011, a ratio of
+about 1500. The project's own 5-sigma outlier rejection discards 4.2 per cent of cadences on
+the slow track against 0.08 per cent on the typical one, which removes the episodes but not the
+systematic deficit of point 2 in section 1b. Note that "how long the star stays in the
+aperture" and "how close the nearest star is" are different quantities: near a stationary point
+the second barely varies along the track, so tests based on proximity alone have little power.
 
 ## 6. Verification and catalog
 Every confirmed/candidate period passes an independent, refutation-first re-analysis

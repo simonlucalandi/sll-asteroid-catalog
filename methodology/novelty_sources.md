@@ -53,11 +53,11 @@ after the last ledger build:
 
 | object | ours (h) | published (h) | source | relation |
 |---|---|---|---|---|
-| (7251) | 4.7866 | 4.9153 | Sergeyev+2025 K2 | 1:1 (-2.6%) — CONFIRMATION, not first |
-| (9609) | 8.0790 | 7.8840 | Sergeyev+2025 K2 | 1:1 (+2.5%) — CONFIRMATION, not first |
-| (4163) | 26.3520 | 26.3266 | Cellino+2024 | 1:1 (+0.1%) — confirmation |
-| (1255) | 38.2758 | 76.6240 | Gowanlock+2024 | 1:2 — our halving, must be declared |
-| (3631) | 22.3630 | 47.8410 | Gowanlock+2024 | 1:2 — our halving, must be declared |
+| (7251) | 4.7866 | 4.9153 | Sergeyev+2025 K2 | 1:1 (-2.6%), CONFIRMATION, not first |
+| (9609) | 8.0790 | 7.8840 | Sergeyev+2025 K2 | 1:1 (+2.5%), CONFIRMATION, not first |
+| (4163) | 26.3520 | 26.3266 | Cellino+2024 | 1:1 (+0.1%), confirmation |
+| (1255) | 38.2758 | 76.6240 | Gowanlock+2024 | 1:2, our halving, must be declared |
+| (3631) | 22.3630 | 47.8410 | Gowanlock+2024 | 1:2, our halving, must be declared |
 | (27396) | 129.7912 | 976.2151 | Cellino+2024 | conflict, must be discussed |
 
 Two further objects sit in the LCDB U=1 grey zone, where "first *reliable*
